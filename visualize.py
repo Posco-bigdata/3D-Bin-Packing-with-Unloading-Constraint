@@ -3,7 +3,7 @@ import json
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d.art3d import Poly3DCollection
 import random
-
+    
 # Load container size from given_data.py
 from given_data import container_size
 

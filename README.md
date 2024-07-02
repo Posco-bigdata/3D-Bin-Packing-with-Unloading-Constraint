@@ -1,1 +1,2 @@
-# 3D-Bin-Packing-with-Unloading-Constraint
+# AI_Project
+Posco Big Data 26th gen
