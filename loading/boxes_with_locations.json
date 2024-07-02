@@ -1,0 +1,542 @@
+{
+    "1": {
+        "spec_id": 5,
+        "width": 41,
+        "length": 31,
+        "height": 28,
+        "volume": 35588,
+        "weight": 8.71,
+        "location": "po1"
+    },
+    "2": {
+        "spec_id": 2,
+        "width": 27,
+        "length": 18,
+        "height": 15,
+        "volume": 7290,
+        "weight": 6.04,
+        "location": "po2"
+    },
+    "3": {
+        "spec_id": 3,
+        "width": 27,
+        "length": 18,
+        "height": 15,
+        "volume": 7290,
+        "weight": 2.93,
+        "location": "po2"
+    },
+    "4": {
+        "spec_id": 5,
+        "width": 41,
+        "length": 31,
+        "height": 28,
+        "volume": 35588,
+        "weight": 8.39,
+        "location": "po2"
+    },
+    "5": {
+        "spec_id": 3,
+        "width": 27,
+        "length": 18,
+        "height": 15,
+        "volume": 7290,
+        "weight": 2.55,
+        "location": "po1"
+    },
+    "6": {
+        "spec_id": 3,
+        "width": 27,
+        "length": 18,
+        "height": 15,
+        "volume": 7290,
+        "weight": 9.32,
+        "location": "po4"
+    },
+    "7": {
+        "spec_id": 1,
+        "width": 22,
+        "length": 19,
+        "height": 9,
+        "volume": 3762,
+        "weight": 8.69,
+        "location": "po4"
+    },
+    "8": {
+        "spec_id": 6,
+        "width": 48,
+        "length": 38,
+        "height": 34,
+        "volume": 62016,
+        "weight": 9.32,
+        "location": "po1"
+    },
+    "9": {
+        "spec_id": 4,
+        "width": 34,
+        "length": 25,
+        "height": 21,
+        "volume": 17850,
+        "weight": 2.41,
+        "location": "po5"
+    },
+    "10": {
+        "spec_id": 2,
+        "width": 27,
+        "length": 18,
+        "height": 15,
+        "volume": 7290,
+        "weight": 4.48,
+        "location": "po2"
+    },
+    "11": {
+        "spec_id": 6,
+        "width": 48,
+        "length": 38,
+        "height": 34,
+        "volume": 62016,
+        "weight": 3.19,
+        "location": "po3"
+    },
+    "12": {
+        "spec_id": 4,
+        "width": 34,
+        "length": 25,
+        "height": 21,
+        "volume": 17850,
+        "weight": 3.26,
+        "location": "po2"
+    },
+    "13": {
+        "spec_id": 4,
+        "width": 34,
+        "length": 25,
+        "height": 21,
+        "volume": 17850,
+        "weight": 9.23,
+        "location": "po4"
+    },
+    "14": {
+        "spec_id": 5,
+        "width": 41,
+        "length": 31,
+        "height": 28,
+        "volume": 35588,
+        "weight": 4.91,
+        "location": "po2"
+    },
+    "15": {
+        "spec_id": 2,
+        "width": 27,
+        "length": 18,
+        "height": 15,
+        "volume": 7290,
+        "weight": 3.32,
+        "location": "po5"
+    },
+    "16": {
+        "spec_id": 7,
+        "width": 54,
+        "length": 39,
+        "height": 34,
+        "volume": 71604,
+        "weight": 7.29,
+        "location": "po5"
+    },
+    "17": {
+        "spec_id": 3,
+        "width": 27,
+        "length": 18,
+        "height": 15,
+        "volume": 7290,
+        "weight": 1.73,
+        "location": "po5"
+    },
+    "18": {
+        "spec_id": 2,
+        "width": 27,
+        "length": 18,
+        "height": 15,
+        "volume": 7290,
+        "weight": 2.8,
+        "location": "po1"
+    },
+    "19": {
+        "spec_id": 5,
+        "width": 41,
+        "length": 31,
+        "height": 28,
+        "volume": 35588,
+        "weight": 7.38,
+        "location": "po3"
+    },
+    "20": {
+        "spec_id": 1,
+        "width": 22,
+        "length": 19,
+        "height": 9,
+        "volume": 3762,
+        "weight": 1.87,
+        "location": "po3"
+    },
+    "21": {
+        "spec_id": 4,
+        "width": 34,
+        "length": 25,
+        "height": 21,
+        "volume": 17850,
+        "weight": 6.48,
+        "location": "po4"
+    },
+    "22": {
+        "spec_id": 6,
+        "width": 48,
+        "length": 38,
+        "height": 34,
+        "volume": 62016,
+        "weight": 3.69,
+        "location": "po1"
+    },
+    "23": {
+        "spec_id": 6,
+        "width": 48,
+        "length": 38,
+        "height": 34,
+        "volume": 62016,
+        "weight": 8.19,
+        "location": "po1"
+    },
+    "24": {
+        "spec_id": 1,
+        "width": 22,
+        "length": 19,
+        "height": 9,
+        "volume": 3762,
+        "weight": 9.68,
+        "location": "po3"
+    },
+    "25": {
+        "spec_id": 2,
+        "width": 27,
+        "length": 18,
+        "height": 15,
+        "volume": 7290,
+        "weight": 1.69,
+        "location": "po5"
+    },
+    "26": {
+        "spec_id": 7,
+        "width": 54,
+        "length": 39,
+        "height": 34,
+        "volume": 71604,
+        "weight": 1.65,
+        "location": "po3"
+    },
+    "27": {
+        "spec_id": 6,
+        "width": 48,
+        "length": 38,
+        "height": 34,
+        "volume": 62016,
+        "weight": 1.79,
+        "location": "po1"
+    },
+    "28": {
+        "spec_id": 5,
+        "width": 41,
+        "length": 31,
+        "height": 28,
+        "volume": 35588,
+        "weight": 7.04,
+        "location": "po1"
+    },
+    "29": {
+        "spec_id": 4,
+        "width": 34,
+        "length": 25,
+        "height": 21,
+        "volume": 17850,
+        "weight": 3.83,
+        "location": "po4"
+    },
+    "30": {
+        "spec_id": 3,
+        "width": 27,
+        "length": 18,
+        "height": 15,
+        "volume": 7290,
+        "weight": 5.48,
+        "location": "po1"
+    },
+    "31": {
+        "spec_id": 4,
+        "width": 34,
+        "length": 25,
+        "height": 21,
+        "volume": 17850,
+        "weight": 7.0,
+        "location": "po4"
+    },
+    "32": {
+        "spec_id": 5,
+        "width": 41,
+        "length": 31,
+        "height": 28,
+        "volume": 35588,
+        "weight": 8.0,
+        "location": "po5"
+    },
+    "33": {
+        "spec_id": 6,
+        "width": 48,
+        "length": 38,
+        "height": 34,
+        "volume": 62016,
+        "weight": 9.0,
+        "location": "po1"
+    },
+    "34": {
+        "spec_id": 7,
+        "width": 54,
+        "length": 39,
+        "height": 34,
+        "volume": 71604,
+        "weight": 10.0,
+        "location": "po2"
+    },
+    "35": {
+        "spec_id": 1,
+        "width": 22,
+        "length": 19,
+        "height": 9,
+        "volume": 3762,
+        "weight": 5.5,
+        "location": "po1"
+    },
+    "36": {
+        "spec_id": 2,
+        "width": 27,
+        "length": 18,
+        "height": 15,
+        "volume": 7290,
+        "weight": 6.0,
+        "location": "po2"
+    },
+    "37": {
+        "spec_id": 3,
+        "width": 27,
+        "length": 18,
+        "height": 15,
+        "volume": 7290,
+        "weight": 3.0,
+        "location": "po3"
+    },
+    "38": {
+        "spec_id": 4,
+        "width": 34,
+        "length": 25,
+        "height": 21,
+        "volume": 17850,
+        "weight": 7.0,
+        "location": "po4"
+    },
+    "39": {
+        "spec_id": 5,
+        "width": 41,
+        "length": 31,
+        "height": 28,
+        "volume": 35588,
+        "weight": 8.0,
+        "location": "po5"
+    },
+    "40": {
+        "spec_id": 6,
+        "width": 48,
+        "length": 38,
+        "height": 34,
+        "volume": 62016,
+        "weight": 9.0,
+        "location": "po1"
+    },
+    "41": {
+        "spec_id": 7,
+        "width": 54,
+        "length": 39,
+        "height": 34,
+        "volume": 71604,
+        "weight": 10.0,
+        "location": "po2"
+    },
+    "42": {
+        "spec_id": 1,
+        "width": 22,
+        "length": 19,
+        "height": 9,
+        "volume": 3762,
+        "weight": 5.5,
+        "location": "po1"
+    },
+    "43": {
+        "spec_id": 2,
+        "width": 27,
+        "length": 18,
+        "height": 15,
+        "volume": 7290,
+        "weight": 6.0,
+        "location": "po2"
+    },
+    "44": {
+        "spec_id": 3,
+        "width": 27,
+        "length": 18,
+        "height": 15,
+        "volume": 7290,
+        "weight": 3.0,
+        "location": "po3"
+    },
+    "45": {
+        "spec_id": 4,
+        "width": 34,
+        "length": 25,
+        "height": 21,
+        "volume": 17850,
+        "weight": 7.0,
+        "location": "po4"
+    },
+    "46": {
+        "spec_id": 5,
+        "width": 41,
+        "length": 31,
+        "height": 28,
+        "volume": 35588,
+        "weight": 8.0,
+        "location": "po5"
+    },
+    "47": {
+        "spec_id": 6,
+        "width": 48,
+        "length": 38,
+        "height": 34,
+        "volume": 62016,
+        "weight": 9.0,
+        "location": "po1"
+    },
+    "48": {
+        "spec_id": 7,
+        "width": 54,
+        "length": 39,
+        "height": 34,
+        "volume": 71604,
+        "weight": 10.0,
+        "location": "po2"
+    },
+    "49": {
+        "spec_id": 1,
+        "width": 22,
+        "length": 19,
+        "height": 9,
+        "volume": 3762,
+        "weight": 5.5,
+        "location": "po1"
+    },
+    "50": {
+        "spec_id": 2,
+        "width": 27,
+        "length": 18,
+        "height": 15,
+        "volume": 7290,
+        "weight": 6.0,
+        "location": "po2"
+    },
+    "51": {
+        "spec_id": 3,
+        "width": 27,
+        "length": 18,
+        "height": 15,
+        "volume": 7290,
+        "weight": 3.0,
+        "location": "po3"
+    },
+    "52": {
+        "spec_id": 4,
+        "width": 34,
+        "length": 25,
+        "height": 21,
+        "volume": 17850,
+        "weight": 7.0,
+        "location": "po4"
+    },
+    "53": {
+        "spec_id": 5,
+        "width": 41,
+        "length": 31,
+        "height": 28,
+        "volume": 35588,
+        "weight": 8.0,
+        "location": "po5"
+    },
+    "54": {
+        "spec_id": 6,
+        "width": 48,
+        "length": 38,
+        "height": 34,
+        "volume": 62016,
+        "weight": 9.0,
+        "location": "po1"
+    },
+    "55": {
+        "spec_id": 7,
+        "width": 54,
+        "length": 39,
+        "height": 34,
+        "volume": 71604,
+        "weight": 10.0,
+        "location": "po2"
+    },
+    "56": {
+        "spec_id": 1,
+        "width": 22,
+        "length": 19,
+        "height": 9,
+        "volume": 3762,
+        "weight": 5.5,
+        "location": "po1"
+    },
+    "57": {
+        "spec_id": 2,
+        "width": 27,
+        "length": 18,
+        "height": 15,
+        "volume": 7290,
+        "weight": 6.0,
+        "location": "po2"
+    },
+    "58": {
+        "spec_id": 3,
+        "width": 27,
+        "length": 18,
+        "height": 15,
+        "volume": 7290,
+        "weight": 3.0,
+        "location": "po3"
+    },
+    "59": {
+        "spec_id": 4,
+        "width": 34,
+        "length": 25,
+        "height": 21,
+        "volume": 17850,
+        "weight": 7.0,
+        "location": "po4"
+    },
+    "60": {
+        "spec_id": 5,
+        "width": 41,
+        "length": 31,
+        "height": 28,
+        "volume": 35588,
+        "weight": 8.0,
+        "location": "po5"
+    }
+}
