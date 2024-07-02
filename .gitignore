@@ -1,10 +1,15 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
 *$py.class
+
+# Do not upload pdf files
+*.pdf
 
 # C extensions
 *.so
+
+# Do not upload .ssh files
+.ssh/
 
 # Distribution / packaging
 .Python
