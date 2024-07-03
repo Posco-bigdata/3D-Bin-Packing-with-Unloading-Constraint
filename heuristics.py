@@ -31,6 +31,8 @@ class PackingAlgorithm:
         self.width = int(width)
         self.length = int(length)
         self.height = int(height)
+        self.large_section_width = int(self.width * 0.7)
+        self.small_section_width = self.width - self.large_section_width
         self.best_packed_items = []
         self.best_utilization = 0
 
@@ -88,12 +90,24 @@ class PackingAlgorithm:
 
     def find_position(self, orientation, packed_items):
         item_width, item_length, item_height = orientation
+        
+        # Try placing in the larger section first
+        position = self.find_position_in_section(orientation, packed_items, 0, self.large_section_width)
+        if position:
+            return position
+        
+        # If it doesn't fit in the larger section, try the smaller section
+        return self.find_position_in_section(orientation, packed_items, self.large_section_width, self.width)
+
+    def find_position_in_section(self, orientation, packed_items, start_x, end_x):
+        item_width, item_length, item_height = orientation
         for y in range(self.length - item_length, item_length - 1, -1):  # Start from back
-            for x in range(self.width - item_width + 1):  # Start from left
+            for x in range(start_x, end_x - item_width + 1):  # Start from left of the section
                 for z in range(self.height):  # Start from bottom
                     if self.can_place_item(x, y, z, orientation, packed_items):
                         return (x, y, z)
         return None
+
 
     def is_better_position(self, new_pos, current_best):
         if not current_best:
