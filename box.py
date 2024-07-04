@@ -31,6 +31,7 @@ spec_id_map = {
 
 # Randomly generate locations
 locations = ["po1", "po2", "po3", "po4", "po5"]
+scenario_number = input("시나리오 번호를 입력하세요: ")
 
 # Generate the JSON data with random weights and locations
 boxes_data = {}
@@ -50,7 +51,10 @@ for box_type, (width, length, height, quantity) in box_specs.items():
         }
         boxes_data[counter] = box_data
         counter += 1
+filename = f'./generated_boxes_scenario_{scenario_number}.json'
 
 # Save the generated data to a JSON file
-with open('./generated_boxes.json', 'w') as f:
+with open(filename, 'w') as f:
     json.dump(boxes_data, f, ensure_ascii=False, indent=4)
+
+print(f"데이터가 {filename}에 저장되었습니다.")

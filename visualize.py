@@ -8,7 +8,7 @@ import matplotlib.animation as animation
 from given_data import container_size
 
 # Load packed items from the JSON file
-with open('packed_items.json', 'r') as f:
+with open('packed_items2.json', 'r') as f:
     packed_items = json.load(f)
 
 # Sort packed items by Load Order
@@ -87,8 +87,11 @@ def update(frame):
 fig = plt.figure(figsize=(10, 8))
 ax = fig.add_subplot(111, projection='3d')
 
-# Create the animation
-anim = animation.FuncAnimation(fig, update, frames=len(packed_items), init_func=init, blit=False, repeat=False)
+# Create the animation with a 1-second interval between frames
+anim = animation.FuncAnimation(fig, update, frames=len(packed_items), init_func=init, blit=False, repeat=False, interval=4000)
+
+# Save the animation as a GIF file
+anim.save('packing_animation.gif', writer='pillow', fps=0.001)
 
 # Display the animation
 plt.show()

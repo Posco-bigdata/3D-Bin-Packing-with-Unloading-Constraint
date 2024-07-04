@@ -34,7 +34,7 @@ class PackingAlgorithm:
         self.left_items = []
         self.best_utilization = 0
 
-    def pack_items_with_permutations(self, items, num_iterations=10):
+    def pack_items_with_permutations(self, items, num_iterations=1):
         for i in range(num_iterations):
             # Sort items by PO number (descending) and then by volume (descending)
             items_sorted = sorted(items, key=lambda item: (-int(item.location[2:]), -item.volume))
