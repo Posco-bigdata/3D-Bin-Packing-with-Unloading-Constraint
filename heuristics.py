@@ -1,6 +1,5 @@
 from given_data import container_size, data
-import random
-import json
+import json 
 
 class Item:
     def __init__(self, id, width, length, height, weight, location):
@@ -16,10 +15,7 @@ class Item:
         return [
             (self.width, self.length, self.height),
             (self.width, self.height, self.length),
-            (self.length, self.width, self.height),
-            (self.length, self.height, self.width),
-            (self.height, self.width, self.length),
-            (self.height, self.length, self.width)
+            (self.length, self.width, self.height)
         ]
 
 # Convert data to a list of Item objects
@@ -34,24 +30,30 @@ class PackingAlgorithm:
         self.large_section_width = int(self.width * 0.7)
         self.small_section_width = self.width - self.large_section_width
         self.best_packed_items = []
+        self.best_unplaced_items = []
+        self.left_items = []
         self.best_utilization = 0
 
-    def pack_items_with_permutations(self, items, num_iterations=1):
+    def pack_items_with_permutations(self, items, num_iterations=10):
         for i in range(num_iterations):
             # Sort items by PO number (descending) and then by volume (descending)
             items_sorted = sorted(items, key=lambda item: (-int(item.location[2:]), -item.volume))
             
-            packed_items = self.pack_items_by_po(items_sorted)
+            packed_items, unpacked_items = self.pack_items_by_po(items_sorted)
             utilization = self.calculate_capacity_utilization(packed_items)
 
             print(f"Iteration {i+1}/{num_iterations}, Utilization: {utilization:.2%}")
 
             if utilization > self.best_utilization:
                 self.best_packed_items = packed_items
+                self.best_unplaced_items = unpacked_items  # Store the best unplaced items
                 self.best_utilization = utilization
+
+
 
     def pack_items_by_po(self, sorted_items):
         packed_items = []
+        unplaced_items = []
         load_order = 0
         current_po = None
 
@@ -85,8 +87,9 @@ class PackingAlgorithm:
             
             if not placed:
                 print(f"Unable to place item {item.id} from {item.location}")
+                unplaced_items.append(item)
 
-        return packed_items
+        return packed_items, unplaced_items
 
     def find_position(self, orientation, packed_items):
         item_width, item_length, item_height = orientation
@@ -164,16 +167,28 @@ class PackingAlgorithm:
 def main():
     container = PackingAlgorithm(container_size[0], container_size[1], container_size[2])
     container.pack_items_with_permutations(items)
-
-    print("Best Packed Items:")
+    print("Best Packed Iems:")
     for packed_item in container.best_packed_items:
         print(f"Item ID: {packed_item['id']}, Position: {packed_item['position']}, "
               f"Orientation: {packed_item['orientation']}, Location: {packed_item['location']}, "
               f"Load Order: {packed_item['load_order']}, Weight: {packed_item['weight']}")
- 
+
     # Save packed items to a JSON file
     with open('packed_items.json', 'w') as f:
         json.dump(container.best_packed_items, f, indent=4)
+    unplaced_items_data = [
+    {
+        "id": item.id,
+        "width": item.width,
+        "length": item.length,
+        "height": item.height,
+        "weight": item.weight,
+        "location": item.location
+    }
+    for item in container.best_unplaced_items
+    ]
+    with open('unplaced_items.json', 'w') as f:
+        json.dump(unplaced_items_data, f, indent=4)
 
     # Print the best capacity utilization
     print(f"Best Capacity Utilization: {container.best_utilization:.2%}")

@@ -1,0 +1,7012 @@
+[
+    {
+        "step": "Processing location: po1",
+        "items": [
+            {
+                "action": "Temporarily unload",
+                "item_id": 62,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    31
+                ],
+                "unload_order": 1
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 64,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    62
+                ],
+                "unload_order": 2
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 51,
+                "location": "po3",
+                "position": [
+                    95,
+                    138,
+                    42
+                ],
+                "unload_order": 3
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 52,
+                "location": "po3",
+                "position": [
+                    95,
+                    138,
+                    63
+                ],
+                "unload_order": 4
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 88,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    48
+                ],
+                "unload_order": 5
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 38,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    62
+                ],
+                "unload_order": 6
+            },
+            {
+                "action": "Unload",
+                "item_id": 6,
+                "location": "po1",
+                "position": [
+                    95,
+                    106,
+                    61
+                ],
+                "unload_order": 7
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 71,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    34
+                ],
+                "unload_order": 8
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 77,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    68
+                ],
+                "unload_order": 9
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 50,
+                "location": "po2",
+                "position": [
+                    95,
+                    104,
+                    40
+                ],
+                "unload_order": 10
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 5,
+                "location": "po4",
+                "position": [
+                    38,
+                    103,
+                    38
+                ],
+                "unload_order": 11
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 19,
+                "location": "po2",
+                "position": [
+                    38,
+                    93,
+                    38
+                ],
+                "unload_order": 12
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 22,
+                "location": "po2",
+                "position": [
+                    38,
+                    93,
+                    63
+                ],
+                "unload_order": 13
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 30,
+                "location": "po2",
+                "position": [
+                    0,
+                    89,
+                    54
+                ],
+                "unload_order": 14
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 33,
+                "location": "po2",
+                "position": [
+                    0,
+                    89,
+                    72
+                ],
+                "unload_order": 15
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 61,
+                "location": "po2",
+                "position": [
+                    95,
+                    62,
+                    34
+                ],
+                "unload_order": 16
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 66,
+                "location": "po2",
+                "position": [
+                    95,
+                    62,
+                    62
+                ],
+                "unload_order": 17
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 68,
+                "location": "po2",
+                "position": [
+                    52,
+                    61,
+                    31
+                ],
+                "unload_order": 18
+            },
+            {
+                "action": "Unload",
+                "item_id": 57,
+                "location": "po1",
+                "position": [
+                    52,
+                    61,
+                    62
+                ],
+                "unload_order": 19
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 20
+            },
+            {
+                "action": "Unload",
+                "item_id": 65,
+                "location": "po1",
+                "position": [
+                    52,
+                    33,
+                    31
+                ],
+                "unload_order": 21
+            },
+            {
+                "action": "Unload",
+                "item_id": 13,
+                "location": "po1",
+                "position": [
+                    63,
+                    163,
+                    57
+                ],
+                "unload_order": 22
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 40,
+                "location": "po5",
+                "position": [
+                    0,
+                    165,
+                    93
+                ],
+                "unload_order": 23
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 28,
+                "location": "po4",
+                "position": [
+                    0,
+                    155,
+                    93
+                ],
+                "unload_order": 24
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 64,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    62
+                ],
+                "unload_order": 25
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 52,
+                "location": "po3",
+                "position": [
+                    95,
+                    138,
+                    63
+                ],
+                "unload_order": 26
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 45,
+                "location": "po2",
+                "position": [
+                    95,
+                    138,
+                    84
+                ],
+                "unload_order": 27
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 88,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    48
+                ],
+                "unload_order": 28
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 38,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    62
+                ],
+                "unload_order": 29
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 39,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    80
+                ],
+                "unload_order": 30
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 77,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    68
+                ],
+                "unload_order": 31
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 22,
+                "location": "po2",
+                "position": [
+                    38,
+                    93,
+                    63
+                ],
+                "unload_order": 32
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 25,
+                "location": "po2",
+                "position": [
+                    38,
+                    93,
+                    88
+                ],
+                "unload_order": 33
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 33,
+                "location": "po2",
+                "position": [
+                    0,
+                    89,
+                    72
+                ],
+                "unload_order": 34
+            },
+            {
+                "action": "Unload",
+                "item_id": 32,
+                "location": "po1",
+                "position": [
+                    0,
+                    89,
+                    90
+                ],
+                "unload_order": 35
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 66,
+                "location": "po2",
+                "position": [
+                    95,
+                    62,
+                    62
+                ],
+                "unload_order": 36
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 67,
+                "location": "po2",
+                "position": [
+                    95,
+                    62,
+                    90
+                ],
+                "unload_order": 37
+            },
+            {
+                "action": "Unload",
+                "item_id": 59,
+                "location": "po1",
+                "position": [
+                    52,
+                    61,
+                    93
+                ],
+                "unload_order": 38
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 39
+            },
+            {
+                "action": "Unload",
+                "item_id": 15,
+                "location": "po1",
+                "position": [
+                    63,
+                    163,
+                    76
+                ],
+                "unload_order": 40
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 2,
+                "location": "po2",
+                "position": [
+                    0,
+                    166,
+                    111
+                ],
+                "unload_order": 41
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 28,
+                "location": "po4",
+                "position": [
+                    0,
+                    155,
+                    93
+                ],
+                "unload_order": 42
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 44,
+                "location": "po4",
+                "position": [
+                    41,
+                    142,
+                    96
+                ],
+                "unload_order": 43
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 45,
+                "location": "po2",
+                "position": [
+                    95,
+                    138,
+                    84
+                ],
+                "unload_order": 44
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 48,
+                "location": "po2",
+                "position": [
+                    95,
+                    138,
+                    105
+                ],
+                "unload_order": 45
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 31,
+                "location": "po4",
+                "position": [
+                    75,
+                    136,
+                    96
+                ],
+                "unload_order": 46
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 35,
+                "location": "po4",
+                "position": [
+                    75,
+                    136,
+                    111
+                ],
+                "unload_order": 47
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 46,
+                "location": "po4",
+                "position": [
+                    0,
+                    131,
+                    102
+                ],
+                "unload_order": 48
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 36,
+                "location": "po4",
+                "position": [
+                    41,
+                    127,
+                    96
+                ],
+                "unload_order": 49
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 88,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    48
+                ],
+                "unload_order": 50
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 47,
+                "location": "po4",
+                "position": [
+                    0,
+                    110,
+                    102
+                ],
+                "unload_order": 51
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 39,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    80
+                ],
+                "unload_order": 52
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 4,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    98
+                ],
+                "unload_order": 53
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 77,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    68
+                ],
+                "unload_order": 54
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 25,
+                "location": "po2",
+                "position": [
+                    38,
+                    93,
+                    88
+                ],
+                "unload_order": 55
+            },
+            {
+                "action": "Unload",
+                "item_id": 3,
+                "location": "po1",
+                "position": [
+                    0,
+                    89,
+                    108
+                ],
+                "unload_order": 56
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 67,
+                "location": "po2",
+                "position": [
+                    95,
+                    62,
+                    90
+                ],
+                "unload_order": 57
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 53,
+                "location": "po3",
+                "position": [
+                    0,
+                    61,
+                    96
+                ],
+                "unload_order": 58
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 59
+            },
+            {
+                "action": "Unload",
+                "item_id": 16,
+                "location": "po1",
+                "position": [
+                    63,
+                    163,
+                    95
+                ],
+                "unload_order": 60
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 38,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    62
+                ],
+                "unload_order": 61
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 39,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    80
+                ],
+                "unload_order": 62
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 71,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    34
+                ],
+                "unload_order": 63
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 77,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    68
+                ],
+                "unload_order": 64
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 5,
+                "location": "po4",
+                "position": [
+                    38,
+                    103,
+                    38
+                ],
+                "unload_order": 65
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 19,
+                "location": "po2",
+                "position": [
+                    38,
+                    93,
+                    38
+                ],
+                "unload_order": 66
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 22,
+                "location": "po2",
+                "position": [
+                    38,
+                    93,
+                    63
+                ],
+                "unload_order": 67
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 30,
+                "location": "po2",
+                "position": [
+                    0,
+                    89,
+                    54
+                ],
+                "unload_order": 68
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 33,
+                "location": "po2",
+                "position": [
+                    0,
+                    89,
+                    72
+                ],
+                "unload_order": 69
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 61,
+                "location": "po2",
+                "position": [
+                    95,
+                    62,
+                    34
+                ],
+                "unload_order": 70
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 66,
+                "location": "po2",
+                "position": [
+                    95,
+                    62,
+                    62
+                ],
+                "unload_order": 71
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 68,
+                "location": "po2",
+                "position": [
+                    52,
+                    61,
+                    31
+                ],
+                "unload_order": 72
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 73
+            },
+            {
+                "action": "Unload",
+                "item_id": 6,
+                "location": "po1",
+                "position": [
+                    95,
+                    106,
+                    61
+                ],
+                "unload_order": 74
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 67,
+                "location": "po2",
+                "position": [
+                    95,
+                    62,
+                    90
+                ],
+                "unload_order": 75
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 53,
+                "location": "po3",
+                "position": [
+                    0,
+                    61,
+                    96
+                ],
+                "unload_order": 76
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 77
+            },
+            {
+                "action": "Unload",
+                "item_id": 32,
+                "location": "po1",
+                "position": [
+                    0,
+                    89,
+                    90
+                ],
+                "unload_order": 78
+            },
+            {
+                "action": "Unload",
+                "item_id": 23,
+                "location": "po1",
+                "position": [
+                    95,
+                    68,
+                    118
+                ],
+                "unload_order": 79
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 67,
+                "location": "po2",
+                "position": [
+                    95,
+                    62,
+                    90
+                ],
+                "unload_order": 80
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 53,
+                "location": "po3",
+                "position": [
+                    0,
+                    61,
+                    96
+                ],
+                "unload_order": 81
+            },
+            {
+                "action": "Unload",
+                "item_id": 3,
+                "location": "po1",
+                "position": [
+                    0,
+                    89,
+                    108
+                ],
+                "unload_order": 82
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 53,
+                "location": "po3",
+                "position": [
+                    0,
+                    61,
+                    96
+                ],
+                "unload_order": 83
+            },
+            {
+                "action": "Unload",
+                "item_id": 23,
+                "location": "po1",
+                "position": [
+                    95,
+                    68,
+                    118
+                ],
+                "unload_order": 84
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 67,
+                "location": "po2",
+                "position": [
+                    95,
+                    62,
+                    90
+                ],
+                "unload_order": 85
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 86
+            },
+            {
+                "action": "Unload",
+                "item_id": 57,
+                "location": "po1",
+                "position": [
+                    52,
+                    61,
+                    62
+                ],
+                "unload_order": 87
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 53,
+                "location": "po3",
+                "position": [
+                    0,
+                    61,
+                    96
+                ],
+                "unload_order": 88
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 89
+            },
+            {
+                "action": "Unload",
+                "item_id": 59,
+                "location": "po1",
+                "position": [
+                    52,
+                    61,
+                    93
+                ],
+                "unload_order": 90
+            },
+            {
+                "action": "Unload",
+                "item_id": 60,
+                "location": "po1",
+                "position": [
+                    52,
+                    33,
+                    0
+                ],
+                "unload_order": 91
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 92
+            },
+            {
+                "action": "Unload",
+                "item_id": 65,
+                "location": "po1",
+                "position": [
+                    52,
+                    33,
+                    31
+                ],
+                "unload_order": 93
+            },
+            {
+                "action": "Reload",
+                "item_id": 62,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    31
+                ],
+                "unload_order": 94
+            },
+            {
+                "action": "Reload",
+                "item_id": 64,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    62
+                ],
+                "unload_order": 95
+            },
+            {
+                "action": "Reload",
+                "item_id": 51,
+                "location": "po3",
+                "position": [
+                    95,
+                    138,
+                    42
+                ],
+                "unload_order": 96
+            },
+            {
+                "action": "Reload",
+                "item_id": 52,
+                "location": "po3",
+                "position": [
+                    95,
+                    138,
+                    63
+                ],
+                "unload_order": 97
+            },
+            {
+                "action": "Reload",
+                "item_id": 88,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    48
+                ],
+                "unload_order": 98
+            },
+            {
+                "action": "Reload",
+                "item_id": 38,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    62
+                ],
+                "unload_order": 99
+            },
+            {
+                "action": "Reload",
+                "item_id": 71,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    34
+                ],
+                "unload_order": 100
+            },
+            {
+                "action": "Reload",
+                "item_id": 77,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    68
+                ],
+                "unload_order": 101
+            },
+            {
+                "action": "Reload",
+                "item_id": 50,
+                "location": "po2",
+                "position": [
+                    95,
+                    104,
+                    40
+                ],
+                "unload_order": 102
+            },
+            {
+                "action": "Reload",
+                "item_id": 5,
+                "location": "po4",
+                "position": [
+                    38,
+                    103,
+                    38
+                ],
+                "unload_order": 103
+            },
+            {
+                "action": "Reload",
+                "item_id": 19,
+                "location": "po2",
+                "position": [
+                    38,
+                    93,
+                    38
+                ],
+                "unload_order": 104
+            },
+            {
+                "action": "Reload",
+                "item_id": 22,
+                "location": "po2",
+                "position": [
+                    38,
+                    93,
+                    63
+                ],
+                "unload_order": 105
+            },
+            {
+                "action": "Reload",
+                "item_id": 30,
+                "location": "po2",
+                "position": [
+                    0,
+                    89,
+                    54
+                ],
+                "unload_order": 106
+            },
+            {
+                "action": "Reload",
+                "item_id": 33,
+                "location": "po2",
+                "position": [
+                    0,
+                    89,
+                    72
+                ],
+                "unload_order": 107
+            },
+            {
+                "action": "Reload",
+                "item_id": 61,
+                "location": "po2",
+                "position": [
+                    95,
+                    62,
+                    34
+                ],
+                "unload_order": 108
+            },
+            {
+                "action": "Reload",
+                "item_id": 66,
+                "location": "po2",
+                "position": [
+                    95,
+                    62,
+                    62
+                ],
+                "unload_order": 109
+            },
+            {
+                "action": "Reload",
+                "item_id": 68,
+                "location": "po2",
+                "position": [
+                    52,
+                    61,
+                    31
+                ],
+                "unload_order": 110
+            },
+            {
+                "action": "Reload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 111
+            },
+            {
+                "action": "Reload",
+                "item_id": 40,
+                "location": "po5",
+                "position": [
+                    0,
+                    165,
+                    93
+                ],
+                "unload_order": 112
+            },
+            {
+                "action": "Reload",
+                "item_id": 28,
+                "location": "po4",
+                "position": [
+                    0,
+                    155,
+                    93
+                ],
+                "unload_order": 113
+            },
+            {
+                "action": "Reload",
+                "item_id": 64,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    62
+                ],
+                "unload_order": 114
+            },
+            {
+                "action": "Reload",
+                "item_id": 52,
+                "location": "po3",
+                "position": [
+                    95,
+                    138,
+                    63
+                ],
+                "unload_order": 115
+            },
+            {
+                "action": "Reload",
+                "item_id": 45,
+                "location": "po2",
+                "position": [
+                    95,
+                    138,
+                    84
+                ],
+                "unload_order": 116
+            },
+            {
+                "action": "Reload",
+                "item_id": 88,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    48
+                ],
+                "unload_order": 117
+            },
+            {
+                "action": "Reload",
+                "item_id": 38,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    62
+                ],
+                "unload_order": 118
+            },
+            {
+                "action": "Reload",
+                "item_id": 39,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    80
+                ],
+                "unload_order": 119
+            },
+            {
+                "action": "Reload",
+                "item_id": 77,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    68
+                ],
+                "unload_order": 120
+            },
+            {
+                "action": "Reload",
+                "item_id": 22,
+                "location": "po2",
+                "position": [
+                    38,
+                    93,
+                    63
+                ],
+                "unload_order": 121
+            },
+            {
+                "action": "Reload",
+                "item_id": 25,
+                "location": "po2",
+                "position": [
+                    38,
+                    93,
+                    88
+                ],
+                "unload_order": 122
+            },
+            {
+                "action": "Reload",
+                "item_id": 33,
+                "location": "po2",
+                "position": [
+                    0,
+                    89,
+                    72
+                ],
+                "unload_order": 123
+            },
+            {
+                "action": "Reload",
+                "item_id": 66,
+                "location": "po2",
+                "position": [
+                    95,
+                    62,
+                    62
+                ],
+                "unload_order": 124
+            },
+            {
+                "action": "Reload",
+                "item_id": 67,
+                "location": "po2",
+                "position": [
+                    95,
+                    62,
+                    90
+                ],
+                "unload_order": 125
+            },
+            {
+                "action": "Reload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 126
+            },
+            {
+                "action": "Reload",
+                "item_id": 2,
+                "location": "po2",
+                "position": [
+                    0,
+                    166,
+                    111
+                ],
+                "unload_order": 127
+            },
+            {
+                "action": "Reload",
+                "item_id": 28,
+                "location": "po4",
+                "position": [
+                    0,
+                    155,
+                    93
+                ],
+                "unload_order": 128
+            },
+            {
+                "action": "Reload",
+                "item_id": 44,
+                "location": "po4",
+                "position": [
+                    41,
+                    142,
+                    96
+                ],
+                "unload_order": 129
+            },
+            {
+                "action": "Reload",
+                "item_id": 45,
+                "location": "po2",
+                "position": [
+                    95,
+                    138,
+                    84
+                ],
+                "unload_order": 130
+            },
+            {
+                "action": "Reload",
+                "item_id": 48,
+                "location": "po2",
+                "position": [
+                    95,
+                    138,
+                    105
+                ],
+                "unload_order": 131
+            },
+            {
+                "action": "Reload",
+                "item_id": 31,
+                "location": "po4",
+                "position": [
+                    75,
+                    136,
+                    96
+                ],
+                "unload_order": 132
+            },
+            {
+                "action": "Reload",
+                "item_id": 35,
+                "location": "po4",
+                "position": [
+                    75,
+                    136,
+                    111
+                ],
+                "unload_order": 133
+            },
+            {
+                "action": "Reload",
+                "item_id": 46,
+                "location": "po4",
+                "position": [
+                    0,
+                    131,
+                    102
+                ],
+                "unload_order": 134
+            },
+            {
+                "action": "Reload",
+                "item_id": 36,
+                "location": "po4",
+                "position": [
+                    41,
+                    127,
+                    96
+                ],
+                "unload_order": 135
+            },
+            {
+                "action": "Reload",
+                "item_id": 88,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    48
+                ],
+                "unload_order": 136
+            },
+            {
+                "action": "Reload",
+                "item_id": 47,
+                "location": "po4",
+                "position": [
+                    0,
+                    110,
+                    102
+                ],
+                "unload_order": 137
+            },
+            {
+                "action": "Reload",
+                "item_id": 39,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    80
+                ],
+                "unload_order": 138
+            },
+            {
+                "action": "Reload",
+                "item_id": 4,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    98
+                ],
+                "unload_order": 139
+            },
+            {
+                "action": "Reload",
+                "item_id": 77,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    68
+                ],
+                "unload_order": 140
+            },
+            {
+                "action": "Reload",
+                "item_id": 25,
+                "location": "po2",
+                "position": [
+                    38,
+                    93,
+                    88
+                ],
+                "unload_order": 141
+            },
+            {
+                "action": "Reload",
+                "item_id": 67,
+                "location": "po2",
+                "position": [
+                    95,
+                    62,
+                    90
+                ],
+                "unload_order": 142
+            },
+            {
+                "action": "Reload",
+                "item_id": 53,
+                "location": "po3",
+                "position": [
+                    0,
+                    61,
+                    96
+                ],
+                "unload_order": 143
+            },
+            {
+                "action": "Reload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 144
+            },
+            {
+                "action": "Reload",
+                "item_id": 38,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    62
+                ],
+                "unload_order": 145
+            },
+            {
+                "action": "Reload",
+                "item_id": 39,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    80
+                ],
+                "unload_order": 146
+            },
+            {
+                "action": "Reload",
+                "item_id": 71,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    34
+                ],
+                "unload_order": 147
+            },
+            {
+                "action": "Reload",
+                "item_id": 77,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    68
+                ],
+                "unload_order": 148
+            },
+            {
+                "action": "Reload",
+                "item_id": 5,
+                "location": "po4",
+                "position": [
+                    38,
+                    103,
+                    38
+                ],
+                "unload_order": 149
+            },
+            {
+                "action": "Reload",
+                "item_id": 19,
+                "location": "po2",
+                "position": [
+                    38,
+                    93,
+                    38
+                ],
+                "unload_order": 150
+            },
+            {
+                "action": "Reload",
+                "item_id": 22,
+                "location": "po2",
+                "position": [
+                    38,
+                    93,
+                    63
+                ],
+                "unload_order": 151
+            },
+            {
+                "action": "Reload",
+                "item_id": 30,
+                "location": "po2",
+                "position": [
+                    0,
+                    89,
+                    54
+                ],
+                "unload_order": 152
+            },
+            {
+                "action": "Reload",
+                "item_id": 33,
+                "location": "po2",
+                "position": [
+                    0,
+                    89,
+                    72
+                ],
+                "unload_order": 153
+            },
+            {
+                "action": "Reload",
+                "item_id": 61,
+                "location": "po2",
+                "position": [
+                    95,
+                    62,
+                    34
+                ],
+                "unload_order": 154
+            },
+            {
+                "action": "Reload",
+                "item_id": 66,
+                "location": "po2",
+                "position": [
+                    95,
+                    62,
+                    62
+                ],
+                "unload_order": 155
+            },
+            {
+                "action": "Reload",
+                "item_id": 68,
+                "location": "po2",
+                "position": [
+                    52,
+                    61,
+                    31
+                ],
+                "unload_order": 156
+            },
+            {
+                "action": "Reload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 157
+            },
+            {
+                "action": "Reload",
+                "item_id": 67,
+                "location": "po2",
+                "position": [
+                    95,
+                    62,
+                    90
+                ],
+                "unload_order": 158
+            },
+            {
+                "action": "Reload",
+                "item_id": 53,
+                "location": "po3",
+                "position": [
+                    0,
+                    61,
+                    96
+                ],
+                "unload_order": 159
+            },
+            {
+                "action": "Reload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 160
+            },
+            {
+                "action": "Reload",
+                "item_id": 67,
+                "location": "po2",
+                "position": [
+                    95,
+                    62,
+                    90
+                ],
+                "unload_order": 161
+            },
+            {
+                "action": "Reload",
+                "item_id": 53,
+                "location": "po3",
+                "position": [
+                    0,
+                    61,
+                    96
+                ],
+                "unload_order": 162
+            },
+            {
+                "action": "Reload",
+                "item_id": 53,
+                "location": "po3",
+                "position": [
+                    0,
+                    61,
+                    96
+                ],
+                "unload_order": 163
+            },
+            {
+                "action": "Reload",
+                "item_id": 67,
+                "location": "po2",
+                "position": [
+                    95,
+                    62,
+                    90
+                ],
+                "unload_order": 164
+            },
+            {
+                "action": "Reload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 165
+            },
+            {
+                "action": "Reload",
+                "item_id": 53,
+                "location": "po3",
+                "position": [
+                    0,
+                    61,
+                    96
+                ],
+                "unload_order": 166
+            },
+            {
+                "action": "Reload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 167
+            },
+            {
+                "action": "Reload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 168
+            }
+        ]
+    },
+    {
+        "step": "Processing location: po2",
+        "items": [
+            {
+                "action": "Unload",
+                "item_id": 2,
+                "location": "po2",
+                "position": [
+                    0,
+                    166,
+                    111
+                ],
+                "unload_order": 169
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 8,
+                "location": "po3",
+                "position": [
+                    41,
+                    163,
+                    95
+                ],
+                "unload_order": 170
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 28,
+                "location": "po4",
+                "position": [
+                    0,
+                    155,
+                    93
+                ],
+                "unload_order": 171
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 44,
+                "location": "po4",
+                "position": [
+                    41,
+                    142,
+                    96
+                ],
+                "unload_order": 172
+            },
+            {
+                "action": "Unload",
+                "item_id": 48,
+                "location": "po2",
+                "position": [
+                    95,
+                    138,
+                    105
+                ],
+                "unload_order": 173
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 35,
+                "location": "po4",
+                "position": [
+                    75,
+                    136,
+                    111
+                ],
+                "unload_order": 174
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 46,
+                "location": "po4",
+                "position": [
+                    0,
+                    131,
+                    102
+                ],
+                "unload_order": 175
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 36,
+                "location": "po4",
+                "position": [
+                    41,
+                    127,
+                    96
+                ],
+                "unload_order": 176
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 47,
+                "location": "po4",
+                "position": [
+                    0,
+                    110,
+                    102
+                ],
+                "unload_order": 177
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 4,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    98
+                ],
+                "unload_order": 178
+            },
+            {
+                "action": "Unload",
+                "item_id": 25,
+                "location": "po2",
+                "position": [
+                    38,
+                    93,
+                    88
+                ],
+                "unload_order": 179
+            },
+            {
+                "action": "Unload",
+                "item_id": 67,
+                "location": "po2",
+                "position": [
+                    95,
+                    62,
+                    90
+                ],
+                "unload_order": 180
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 53,
+                "location": "po3",
+                "position": [
+                    0,
+                    61,
+                    96
+                ],
+                "unload_order": 181
+            },
+            {
+                "action": "Unload",
+                "item_id": 1,
+                "location": "po2",
+                "position": [
+                    0,
+                    173,
+                    111
+                ],
+                "unload_order": 182
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 8,
+                "location": "po3",
+                "position": [
+                    41,
+                    163,
+                    95
+                ],
+                "unload_order": 183
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 28,
+                "location": "po4",
+                "position": [
+                    0,
+                    155,
+                    93
+                ],
+                "unload_order": 184
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 44,
+                "location": "po4",
+                "position": [
+                    41,
+                    142,
+                    96
+                ],
+                "unload_order": 185
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 35,
+                "location": "po4",
+                "position": [
+                    75,
+                    136,
+                    111
+                ],
+                "unload_order": 186
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 46,
+                "location": "po4",
+                "position": [
+                    0,
+                    131,
+                    102
+                ],
+                "unload_order": 187
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 36,
+                "location": "po4",
+                "position": [
+                    41,
+                    127,
+                    96
+                ],
+                "unload_order": 188
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 47,
+                "location": "po4",
+                "position": [
+                    0,
+                    110,
+                    102
+                ],
+                "unload_order": 189
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 4,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    98
+                ],
+                "unload_order": 190
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 53,
+                "location": "po3",
+                "position": [
+                    0,
+                    61,
+                    96
+                ],
+                "unload_order": 191
+            },
+            {
+                "action": "Unload",
+                "item_id": 2,
+                "location": "po2",
+                "position": [
+                    0,
+                    166,
+                    111
+                ],
+                "unload_order": 192
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 40,
+                "location": "po5",
+                "position": [
+                    0,
+                    165,
+                    93
+                ],
+                "unload_order": 193
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 8,
+                "location": "po3",
+                "position": [
+                    41,
+                    163,
+                    95
+                ],
+                "unload_order": 194
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 28,
+                "location": "po4",
+                "position": [
+                    0,
+                    155,
+                    93
+                ],
+                "unload_order": 195
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 44,
+                "location": "po4",
+                "position": [
+                    41,
+                    142,
+                    96
+                ],
+                "unload_order": 196
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 31,
+                "location": "po4",
+                "position": [
+                    75,
+                    136,
+                    96
+                ],
+                "unload_order": 197
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 46,
+                "location": "po4",
+                "position": [
+                    0,
+                    131,
+                    102
+                ],
+                "unload_order": 198
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 36,
+                "location": "po4",
+                "position": [
+                    41,
+                    127,
+                    96
+                ],
+                "unload_order": 199
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 88,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    48
+                ],
+                "unload_order": 200
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 47,
+                "location": "po4",
+                "position": [
+                    0,
+                    110,
+                    102
+                ],
+                "unload_order": 201
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 39,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    80
+                ],
+                "unload_order": 202
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 4,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    98
+                ],
+                "unload_order": 203
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 77,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    68
+                ],
+                "unload_order": 204
+            },
+            {
+                "action": "Unload",
+                "item_id": 22,
+                "location": "po2",
+                "position": [
+                    38,
+                    93,
+                    63
+                ],
+                "unload_order": 205
+            },
+            {
+                "action": "Unload",
+                "item_id": 33,
+                "location": "po2",
+                "position": [
+                    0,
+                    89,
+                    72
+                ],
+                "unload_order": 206
+            },
+            {
+                "action": "Unload",
+                "item_id": 66,
+                "location": "po2",
+                "position": [
+                    95,
+                    62,
+                    62
+                ],
+                "unload_order": 207
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 53,
+                "location": "po3",
+                "position": [
+                    0,
+                    61,
+                    96
+                ],
+                "unload_order": 208
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 209
+            },
+            {
+                "action": "Unload",
+                "item_id": 45,
+                "location": "po2",
+                "position": [
+                    95,
+                    138,
+                    84
+                ],
+                "unload_order": 210
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 31,
+                "location": "po4",
+                "position": [
+                    75,
+                    136,
+                    96
+                ],
+                "unload_order": 211
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 35,
+                "location": "po4",
+                "position": [
+                    75,
+                    136,
+                    111
+                ],
+                "unload_order": 212
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 46,
+                "location": "po4",
+                "position": [
+                    0,
+                    131,
+                    102
+                ],
+                "unload_order": 213
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 36,
+                "location": "po4",
+                "position": [
+                    41,
+                    127,
+                    96
+                ],
+                "unload_order": 214
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 47,
+                "location": "po4",
+                "position": [
+                    0,
+                    110,
+                    102
+                ],
+                "unload_order": 215
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 4,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    98
+                ],
+                "unload_order": 216
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 53,
+                "location": "po3",
+                "position": [
+                    0,
+                    61,
+                    96
+                ],
+                "unload_order": 217
+            },
+            {
+                "action": "Unload",
+                "item_id": 48,
+                "location": "po2",
+                "position": [
+                    95,
+                    138,
+                    105
+                ],
+                "unload_order": 218
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 88,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    48
+                ],
+                "unload_order": 219
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 5,
+                "location": "po4",
+                "position": [
+                    38,
+                    103,
+                    38
+                ],
+                "unload_order": 220
+            },
+            {
+                "action": "Unload",
+                "item_id": 19,
+                "location": "po2",
+                "position": [
+                    38,
+                    93,
+                    38
+                ],
+                "unload_order": 221
+            },
+            {
+                "action": "Unload",
+                "item_id": 29,
+                "location": "po2",
+                "position": [
+                    0,
+                    89,
+                    36
+                ],
+                "unload_order": 222
+            },
+            {
+                "action": "Unload",
+                "item_id": 30,
+                "location": "po2",
+                "position": [
+                    0,
+                    89,
+                    54
+                ],
+                "unload_order": 223
+            },
+            {
+                "action": "Unload",
+                "item_id": 61,
+                "location": "po2",
+                "position": [
+                    95,
+                    62,
+                    34
+                ],
+                "unload_order": 224
+            },
+            {
+                "action": "Unload",
+                "item_id": 68,
+                "location": "po2",
+                "position": [
+                    52,
+                    61,
+                    31
+                ],
+                "unload_order": 225
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 81,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    0
+                ],
+                "unload_order": 226
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 227
+            },
+            {
+                "action": "Unload",
+                "item_id": 50,
+                "location": "po2",
+                "position": [
+                    95,
+                    104,
+                    40
+                ],
+                "unload_order": 228
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 81,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    0
+                ],
+                "unload_order": 229
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 230
+            },
+            {
+                "action": "Unload",
+                "item_id": 19,
+                "location": "po2",
+                "position": [
+                    38,
+                    93,
+                    38
+                ],
+                "unload_order": 231
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 232
+            },
+            {
+                "action": "Unload",
+                "item_id": 22,
+                "location": "po2",
+                "position": [
+                    38,
+                    93,
+                    63
+                ],
+                "unload_order": 233
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 53,
+                "location": "po3",
+                "position": [
+                    0,
+                    61,
+                    96
+                ],
+                "unload_order": 234
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 235
+            },
+            {
+                "action": "Unload",
+                "item_id": 25,
+                "location": "po2",
+                "position": [
+                    38,
+                    93,
+                    88
+                ],
+                "unload_order": 236
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 5,
+                "location": "po4",
+                "position": [
+                    38,
+                    103,
+                    38
+                ],
+                "unload_order": 237
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 81,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    0
+                ],
+                "unload_order": 238
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 239
+            },
+            {
+                "action": "Unload",
+                "item_id": 29,
+                "location": "po2",
+                "position": [
+                    0,
+                    89,
+                    36
+                ],
+                "unload_order": 240
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 241
+            },
+            {
+                "action": "Unload",
+                "item_id": 30,
+                "location": "po2",
+                "position": [
+                    0,
+                    89,
+                    54
+                ],
+                "unload_order": 242
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 243
+            },
+            {
+                "action": "Unload",
+                "item_id": 33,
+                "location": "po2",
+                "position": [
+                    0,
+                    89,
+                    72
+                ],
+                "unload_order": 244
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 81,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    0
+                ],
+                "unload_order": 245
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 246
+            },
+            {
+                "action": "Unload",
+                "item_id": 61,
+                "location": "po2",
+                "position": [
+                    95,
+                    62,
+                    34
+                ],
+                "unload_order": 247
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 248
+            },
+            {
+                "action": "Unload",
+                "item_id": 66,
+                "location": "po2",
+                "position": [
+                    95,
+                    62,
+                    62
+                ],
+                "unload_order": 249
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 53,
+                "location": "po3",
+                "position": [
+                    0,
+                    61,
+                    96
+                ],
+                "unload_order": 250
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 251
+            },
+            {
+                "action": "Unload",
+                "item_id": 67,
+                "location": "po2",
+                "position": [
+                    95,
+                    62,
+                    90
+                ],
+                "unload_order": 252
+            },
+            {
+                "action": "Unload",
+                "item_id": 74,
+                "location": "po2",
+                "position": [
+                    95,
+                    55,
+                    0
+                ],
+                "unload_order": 253
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 81,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    0
+                ],
+                "unload_order": 254
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 255
+            },
+            {
+                "action": "Unload",
+                "item_id": 68,
+                "location": "po2",
+                "position": [
+                    52,
+                    61,
+                    31
+                ],
+                "unload_order": 256
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 37,
+                "location": "po3",
+                "position": [
+                    0,
+                    89,
+                    18
+                ],
+                "unload_order": 257
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 81,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    0
+                ],
+                "unload_order": 258
+            },
+            {
+                "action": "Unload",
+                "item_id": 74,
+                "location": "po2",
+                "position": [
+                    95,
+                    55,
+                    0
+                ],
+                "unload_order": 259
+            },
+            {
+                "action": "Reload",
+                "item_id": 8,
+                "location": "po3",
+                "position": [
+                    41,
+                    163,
+                    95
+                ],
+                "unload_order": 260
+            },
+            {
+                "action": "Reload",
+                "item_id": 28,
+                "location": "po4",
+                "position": [
+                    0,
+                    155,
+                    93
+                ],
+                "unload_order": 261
+            },
+            {
+                "action": "Reload",
+                "item_id": 44,
+                "location": "po4",
+                "position": [
+                    41,
+                    142,
+                    96
+                ],
+                "unload_order": 262
+            },
+            {
+                "action": "Reload",
+                "item_id": 35,
+                "location": "po4",
+                "position": [
+                    75,
+                    136,
+                    111
+                ],
+                "unload_order": 263
+            },
+            {
+                "action": "Reload",
+                "item_id": 46,
+                "location": "po4",
+                "position": [
+                    0,
+                    131,
+                    102
+                ],
+                "unload_order": 264
+            },
+            {
+                "action": "Reload",
+                "item_id": 36,
+                "location": "po4",
+                "position": [
+                    41,
+                    127,
+                    96
+                ],
+                "unload_order": 265
+            },
+            {
+                "action": "Reload",
+                "item_id": 47,
+                "location": "po4",
+                "position": [
+                    0,
+                    110,
+                    102
+                ],
+                "unload_order": 266
+            },
+            {
+                "action": "Reload",
+                "item_id": 4,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    98
+                ],
+                "unload_order": 267
+            },
+            {
+                "action": "Reload",
+                "item_id": 53,
+                "location": "po3",
+                "position": [
+                    0,
+                    61,
+                    96
+                ],
+                "unload_order": 268
+            },
+            {
+                "action": "Reload",
+                "item_id": 8,
+                "location": "po3",
+                "position": [
+                    41,
+                    163,
+                    95
+                ],
+                "unload_order": 269
+            },
+            {
+                "action": "Reload",
+                "item_id": 28,
+                "location": "po4",
+                "position": [
+                    0,
+                    155,
+                    93
+                ],
+                "unload_order": 270
+            },
+            {
+                "action": "Reload",
+                "item_id": 44,
+                "location": "po4",
+                "position": [
+                    41,
+                    142,
+                    96
+                ],
+                "unload_order": 271
+            },
+            {
+                "action": "Reload",
+                "item_id": 35,
+                "location": "po4",
+                "position": [
+                    75,
+                    136,
+                    111
+                ],
+                "unload_order": 272
+            },
+            {
+                "action": "Reload",
+                "item_id": 46,
+                "location": "po4",
+                "position": [
+                    0,
+                    131,
+                    102
+                ],
+                "unload_order": 273
+            },
+            {
+                "action": "Reload",
+                "item_id": 36,
+                "location": "po4",
+                "position": [
+                    41,
+                    127,
+                    96
+                ],
+                "unload_order": 274
+            },
+            {
+                "action": "Reload",
+                "item_id": 47,
+                "location": "po4",
+                "position": [
+                    0,
+                    110,
+                    102
+                ],
+                "unload_order": 275
+            },
+            {
+                "action": "Reload",
+                "item_id": 4,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    98
+                ],
+                "unload_order": 276
+            },
+            {
+                "action": "Reload",
+                "item_id": 53,
+                "location": "po3",
+                "position": [
+                    0,
+                    61,
+                    96
+                ],
+                "unload_order": 277
+            },
+            {
+                "action": "Reload",
+                "item_id": 40,
+                "location": "po5",
+                "position": [
+                    0,
+                    165,
+                    93
+                ],
+                "unload_order": 278
+            },
+            {
+                "action": "Reload",
+                "item_id": 8,
+                "location": "po3",
+                "position": [
+                    41,
+                    163,
+                    95
+                ],
+                "unload_order": 279
+            },
+            {
+                "action": "Reload",
+                "item_id": 28,
+                "location": "po4",
+                "position": [
+                    0,
+                    155,
+                    93
+                ],
+                "unload_order": 280
+            },
+            {
+                "action": "Reload",
+                "item_id": 44,
+                "location": "po4",
+                "position": [
+                    41,
+                    142,
+                    96
+                ],
+                "unload_order": 281
+            },
+            {
+                "action": "Reload",
+                "item_id": 31,
+                "location": "po4",
+                "position": [
+                    75,
+                    136,
+                    96
+                ],
+                "unload_order": 282
+            },
+            {
+                "action": "Reload",
+                "item_id": 46,
+                "location": "po4",
+                "position": [
+                    0,
+                    131,
+                    102
+                ],
+                "unload_order": 283
+            },
+            {
+                "action": "Reload",
+                "item_id": 36,
+                "location": "po4",
+                "position": [
+                    41,
+                    127,
+                    96
+                ],
+                "unload_order": 284
+            },
+            {
+                "action": "Reload",
+                "item_id": 88,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    48
+                ],
+                "unload_order": 285
+            },
+            {
+                "action": "Reload",
+                "item_id": 47,
+                "location": "po4",
+                "position": [
+                    0,
+                    110,
+                    102
+                ],
+                "unload_order": 286
+            },
+            {
+                "action": "Reload",
+                "item_id": 39,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    80
+                ],
+                "unload_order": 287
+            },
+            {
+                "action": "Reload",
+                "item_id": 4,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    98
+                ],
+                "unload_order": 288
+            },
+            {
+                "action": "Reload",
+                "item_id": 77,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    68
+                ],
+                "unload_order": 289
+            },
+            {
+                "action": "Reload",
+                "item_id": 53,
+                "location": "po3",
+                "position": [
+                    0,
+                    61,
+                    96
+                ],
+                "unload_order": 290
+            },
+            {
+                "action": "Reload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 291
+            },
+            {
+                "action": "Reload",
+                "item_id": 31,
+                "location": "po4",
+                "position": [
+                    75,
+                    136,
+                    96
+                ],
+                "unload_order": 292
+            },
+            {
+                "action": "Reload",
+                "item_id": 35,
+                "location": "po4",
+                "position": [
+                    75,
+                    136,
+                    111
+                ],
+                "unload_order": 293
+            },
+            {
+                "action": "Reload",
+                "item_id": 46,
+                "location": "po4",
+                "position": [
+                    0,
+                    131,
+                    102
+                ],
+                "unload_order": 294
+            },
+            {
+                "action": "Reload",
+                "item_id": 36,
+                "location": "po4",
+                "position": [
+                    41,
+                    127,
+                    96
+                ],
+                "unload_order": 295
+            },
+            {
+                "action": "Reload",
+                "item_id": 47,
+                "location": "po4",
+                "position": [
+                    0,
+                    110,
+                    102
+                ],
+                "unload_order": 296
+            },
+            {
+                "action": "Reload",
+                "item_id": 4,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    98
+                ],
+                "unload_order": 297
+            },
+            {
+                "action": "Reload",
+                "item_id": 53,
+                "location": "po3",
+                "position": [
+                    0,
+                    61,
+                    96
+                ],
+                "unload_order": 298
+            },
+            {
+                "action": "Reload",
+                "item_id": 88,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    48
+                ],
+                "unload_order": 299
+            },
+            {
+                "action": "Reload",
+                "item_id": 5,
+                "location": "po4",
+                "position": [
+                    38,
+                    103,
+                    38
+                ],
+                "unload_order": 300
+            },
+            {
+                "action": "Reload",
+                "item_id": 81,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    0
+                ],
+                "unload_order": 301
+            },
+            {
+                "action": "Reload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 302
+            },
+            {
+                "action": "Reload",
+                "item_id": 81,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    0
+                ],
+                "unload_order": 303
+            },
+            {
+                "action": "Reload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 304
+            },
+            {
+                "action": "Reload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 305
+            },
+            {
+                "action": "Reload",
+                "item_id": 53,
+                "location": "po3",
+                "position": [
+                    0,
+                    61,
+                    96
+                ],
+                "unload_order": 306
+            },
+            {
+                "action": "Reload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 307
+            },
+            {
+                "action": "Reload",
+                "item_id": 5,
+                "location": "po4",
+                "position": [
+                    38,
+                    103,
+                    38
+                ],
+                "unload_order": 308
+            },
+            {
+                "action": "Reload",
+                "item_id": 81,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    0
+                ],
+                "unload_order": 309
+            },
+            {
+                "action": "Reload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 310
+            },
+            {
+                "action": "Reload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 311
+            },
+            {
+                "action": "Reload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 312
+            },
+            {
+                "action": "Reload",
+                "item_id": 81,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    0
+                ],
+                "unload_order": 313
+            },
+            {
+                "action": "Reload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 314
+            },
+            {
+                "action": "Reload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 315
+            },
+            {
+                "action": "Reload",
+                "item_id": 53,
+                "location": "po3",
+                "position": [
+                    0,
+                    61,
+                    96
+                ],
+                "unload_order": 316
+            },
+            {
+                "action": "Reload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 317
+            },
+            {
+                "action": "Reload",
+                "item_id": 81,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    0
+                ],
+                "unload_order": 318
+            },
+            {
+                "action": "Reload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 319
+            },
+            {
+                "action": "Reload",
+                "item_id": 37,
+                "location": "po3",
+                "position": [
+                    0,
+                    89,
+                    18
+                ],
+                "unload_order": 320
+            },
+            {
+                "action": "Reload",
+                "item_id": 81,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    0
+                ],
+                "unload_order": 321
+            }
+        ]
+    },
+    {
+        "step": "Processing location: po3",
+        "items": [
+            {
+                "action": "Temporarily unload",
+                "item_id": 75,
+                "location": "po5",
+                "position": [
+                    52,
+                    172,
+                    68
+                ],
+                "unload_order": 322
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 40,
+                "location": "po5",
+                "position": [
+                    0,
+                    165,
+                    93
+                ],
+                "unload_order": 323
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 10,
+                "location": "po4",
+                "position": [
+                    41,
+                    163,
+                    57
+                ],
+                "unload_order": 324
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 17,
+                "location": "po4",
+                "position": [
+                    41,
+                    163,
+                    76
+                ],
+                "unload_order": 325
+            },
+            {
+                "action": "Unload",
+                "item_id": 8,
+                "location": "po3",
+                "position": [
+                    41,
+                    163,
+                    95
+                ],
+                "unload_order": 326
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 28,
+                "location": "po4",
+                "position": [
+                    0,
+                    155,
+                    93
+                ],
+                "unload_order": 327
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 64,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    62
+                ],
+                "unload_order": 328
+            },
+            {
+                "action": "Unload",
+                "item_id": 52,
+                "location": "po3",
+                "position": [
+                    95,
+                    138,
+                    63
+                ],
+                "unload_order": 329
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 88,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    48
+                ],
+                "unload_order": 330
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 38,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    62
+                ],
+                "unload_order": 331
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 39,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    80
+                ],
+                "unload_order": 332
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 77,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    68
+                ],
+                "unload_order": 333
+            },
+            {
+                "action": "Unload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 334
+            },
+            {
+                "action": "Unload",
+                "item_id": 58,
+                "location": "po3",
+                "position": [
+                    95,
+                    179,
+                    68
+                ],
+                "unload_order": 335
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 43,
+                "location": "po5",
+                "position": [
+                    52,
+                    199,
+                    102
+                ],
+                "unload_order": 336
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 49,
+                "location": "po5",
+                "position": [
+                    52,
+                    178,
+                    102
+                ],
+                "unload_order": 337
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 75,
+                "location": "po5",
+                "position": [
+                    52,
+                    172,
+                    68
+                ],
+                "unload_order": 338
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 40,
+                "location": "po5",
+                "position": [
+                    0,
+                    165,
+                    93
+                ],
+                "unload_order": 339
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 28,
+                "location": "po4",
+                "position": [
+                    0,
+                    155,
+                    93
+                ],
+                "unload_order": 340
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 44,
+                "location": "po4",
+                "position": [
+                    41,
+                    142,
+                    96
+                ],
+                "unload_order": 341
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 31,
+                "location": "po4",
+                "position": [
+                    75,
+                    136,
+                    96
+                ],
+                "unload_order": 342
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 35,
+                "location": "po4",
+                "position": [
+                    75,
+                    136,
+                    111
+                ],
+                "unload_order": 343
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 46,
+                "location": "po4",
+                "position": [
+                    0,
+                    131,
+                    102
+                ],
+                "unload_order": 344
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 36,
+                "location": "po4",
+                "position": [
+                    41,
+                    127,
+                    96
+                ],
+                "unload_order": 345
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 47,
+                "location": "po4",
+                "position": [
+                    0,
+                    110,
+                    102
+                ],
+                "unload_order": 346
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 39,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    80
+                ],
+                "unload_order": 347
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 4,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    98
+                ],
+                "unload_order": 348
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 77,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    68
+                ],
+                "unload_order": 349
+            },
+            {
+                "action": "Unload",
+                "item_id": 53,
+                "location": "po3",
+                "position": [
+                    0,
+                    61,
+                    96
+                ],
+                "unload_order": 350
+            },
+            {
+                "action": "Unload",
+                "item_id": 63,
+                "location": "po3",
+                "position": [
+                    95,
+                    179,
+                    96
+                ],
+                "unload_order": 351
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 7,
+                "location": "po5",
+                "position": [
+                    41,
+                    163,
+                    0
+                ],
+                "unload_order": 352
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 9,
+                "location": "po5",
+                "position": [
+                    41,
+                    163,
+                    19
+                ],
+                "unload_order": 353
+            },
+            {
+                "action": "Unload",
+                "item_id": 12,
+                "location": "po3",
+                "position": [
+                    63,
+                    163,
+                    0
+                ],
+                "unload_order": 354
+            },
+            {
+                "action": "Unload",
+                "item_id": 14,
+                "location": "po3",
+                "position": [
+                    63,
+                    163,
+                    19
+                ],
+                "unload_order": 355
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 56,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    0
+                ],
+                "unload_order": 356
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 62,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    31
+                ],
+                "unload_order": 357
+            },
+            {
+                "action": "Unload",
+                "item_id": 41,
+                "location": "po3",
+                "position": [
+                    95,
+                    138,
+                    0
+                ],
+                "unload_order": 358
+            },
+            {
+                "action": "Unload",
+                "item_id": 42,
+                "location": "po3",
+                "position": [
+                    95,
+                    138,
+                    21
+                ],
+                "unload_order": 359
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 85,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    0
+                ],
+                "unload_order": 360
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 70,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    0
+                ],
+                "unload_order": 361
+            },
+            {
+                "action": "Unload",
+                "item_id": 20,
+                "location": "po3",
+                "position": [
+                    95,
+                    103,
+                    0
+                ],
+                "unload_order": 362
+            },
+            {
+                "action": "Unload",
+                "item_id": 21,
+                "location": "po3",
+                "position": [
+                    95,
+                    103,
+                    10
+                ],
+                "unload_order": 363
+            },
+            {
+                "action": "Unload",
+                "item_id": 26,
+                "location": "po3",
+                "position": [
+                    95,
+                    103,
+                    20
+                ],
+                "unload_order": 364
+            },
+            {
+                "action": "Unload",
+                "item_id": 27,
+                "location": "po3",
+                "position": [
+                    95,
+                    103,
+                    30
+                ],
+                "unload_order": 365
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 78,
+                "location": "po4",
+                "position": [
+                    38,
+                    89,
+                    0
+                ],
+                "unload_order": 366
+            },
+            {
+                "action": "Unload",
+                "item_id": 34,
+                "location": "po3",
+                "position": [
+                    0,
+                    89,
+                    0
+                ],
+                "unload_order": 367
+            },
+            {
+                "action": "Unload",
+                "item_id": 37,
+                "location": "po3",
+                "position": [
+                    0,
+                    89,
+                    18
+                ],
+                "unload_order": 368
+            },
+            {
+                "action": "Unload",
+                "item_id": 54,
+                "location": "po3",
+                "position": [
+                    52,
+                    61,
+                    0
+                ],
+                "unload_order": 369
+            },
+            {
+                "action": "Unload",
+                "item_id": 81,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    0
+                ],
+                "unload_order": 370
+            },
+            {
+                "action": "Unload",
+                "item_id": 69,
+                "location": "po3",
+                "position": [
+                    95,
+                    172,
+                    0
+                ],
+                "unload_order": 371
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 86,
+                "location": "po5",
+                "position": [
+                    0,
+                    180,
+                    48
+                ],
+                "unload_order": 372
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 9,
+                "location": "po5",
+                "position": [
+                    41,
+                    163,
+                    19
+                ],
+                "unload_order": 373
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 11,
+                "location": "po5",
+                "position": [
+                    41,
+                    163,
+                    38
+                ],
+                "unload_order": 374
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 10,
+                "location": "po4",
+                "position": [
+                    41,
+                    163,
+                    57
+                ],
+                "unload_order": 375
+            },
+            {
+                "action": "Unload",
+                "item_id": 18,
+                "location": "po3",
+                "position": [
+                    63,
+                    163,
+                    38
+                ],
+                "unload_order": 376
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 62,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    31
+                ],
+                "unload_order": 377
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 64,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    62
+                ],
+                "unload_order": 378
+            },
+            {
+                "action": "Unload",
+                "item_id": 51,
+                "location": "po3",
+                "position": [
+                    95,
+                    138,
+                    42
+                ],
+                "unload_order": 379
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 85,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    0
+                ],
+                "unload_order": 380
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 88,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    48
+                ],
+                "unload_order": 381
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 38,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    62
+                ],
+                "unload_order": 382
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 71,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    34
+                ],
+                "unload_order": 383
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 5,
+                "location": "po4",
+                "position": [
+                    38,
+                    103,
+                    38
+                ],
+                "unload_order": 384
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 78,
+                "location": "po4",
+                "position": [
+                    38,
+                    89,
+                    0
+                ],
+                "unload_order": 385
+            },
+            {
+                "action": "Unload",
+                "item_id": 76,
+                "location": "po3",
+                "position": [
+                    95,
+                    172,
+                    34
+                ],
+                "unload_order": 386
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 28,
+                "location": "po4",
+                "position": [
+                    0,
+                    155,
+                    93
+                ],
+                "unload_order": 387
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 44,
+                "location": "po4",
+                "position": [
+                    41,
+                    142,
+                    96
+                ],
+                "unload_order": 388
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 31,
+                "location": "po4",
+                "position": [
+                    75,
+                    136,
+                    96
+                ],
+                "unload_order": 389
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 35,
+                "location": "po4",
+                "position": [
+                    75,
+                    136,
+                    111
+                ],
+                "unload_order": 390
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 46,
+                "location": "po4",
+                "position": [
+                    0,
+                    131,
+                    102
+                ],
+                "unload_order": 391
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 36,
+                "location": "po4",
+                "position": [
+                    41,
+                    127,
+                    96
+                ],
+                "unload_order": 392
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 88,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    48
+                ],
+                "unload_order": 393
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 47,
+                "location": "po4",
+                "position": [
+                    0,
+                    110,
+                    102
+                ],
+                "unload_order": 394
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 39,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    80
+                ],
+                "unload_order": 395
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 4,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    98
+                ],
+                "unload_order": 396
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 77,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    68
+                ],
+                "unload_order": 397
+            },
+            {
+                "action": "Unload",
+                "item_id": 8,
+                "location": "po3",
+                "position": [
+                    41,
+                    163,
+                    95
+                ],
+                "unload_order": 398
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 56,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    0
+                ],
+                "unload_order": 399
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 85,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    0
+                ],
+                "unload_order": 400
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 70,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    0
+                ],
+                "unload_order": 401
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 78,
+                "location": "po4",
+                "position": [
+                    38,
+                    89,
+                    0
+                ],
+                "unload_order": 402
+            },
+            {
+                "action": "Unload",
+                "item_id": 12,
+                "location": "po3",
+                "position": [
+                    63,
+                    163,
+                    0
+                ],
+                "unload_order": 403
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 56,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    0
+                ],
+                "unload_order": 404
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 62,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    31
+                ],
+                "unload_order": 405
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 85,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    0
+                ],
+                "unload_order": 406
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 70,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    0
+                ],
+                "unload_order": 407
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 71,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    34
+                ],
+                "unload_order": 408
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 78,
+                "location": "po4",
+                "position": [
+                    38,
+                    89,
+                    0
+                ],
+                "unload_order": 409
+            },
+            {
+                "action": "Unload",
+                "item_id": 14,
+                "location": "po3",
+                "position": [
+                    63,
+                    163,
+                    19
+                ],
+                "unload_order": 410
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 62,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    31
+                ],
+                "unload_order": 411
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 85,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    0
+                ],
+                "unload_order": 412
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 88,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    48
+                ],
+                "unload_order": 413
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 71,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    34
+                ],
+                "unload_order": 414
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 5,
+                "location": "po4",
+                "position": [
+                    38,
+                    103,
+                    38
+                ],
+                "unload_order": 415
+            },
+            {
+                "action": "Unload",
+                "item_id": 18,
+                "location": "po3",
+                "position": [
+                    63,
+                    163,
+                    38
+                ],
+                "unload_order": 416
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 9,
+                "location": "po5",
+                "position": [
+                    41,
+                    163,
+                    19
+                ],
+                "unload_order": 417
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 85,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    0
+                ],
+                "unload_order": 418
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 70,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    0
+                ],
+                "unload_order": 419
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 78,
+                "location": "po4",
+                "position": [
+                    38,
+                    89,
+                    0
+                ],
+                "unload_order": 420
+            },
+            {
+                "action": "Unload",
+                "item_id": 41,
+                "location": "po3",
+                "position": [
+                    95,
+                    138,
+                    0
+                ],
+                "unload_order": 421
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 11,
+                "location": "po5",
+                "position": [
+                    41,
+                    163,
+                    38
+                ],
+                "unload_order": 422
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 62,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    31
+                ],
+                "unload_order": 423
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 85,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    0
+                ],
+                "unload_order": 424
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 70,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    0
+                ],
+                "unload_order": 425
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 71,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    34
+                ],
+                "unload_order": 426
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 5,
+                "location": "po4",
+                "position": [
+                    38,
+                    103,
+                    38
+                ],
+                "unload_order": 427
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 78,
+                "location": "po4",
+                "position": [
+                    38,
+                    89,
+                    0
+                ],
+                "unload_order": 428
+            },
+            {
+                "action": "Unload",
+                "item_id": 42,
+                "location": "po3",
+                "position": [
+                    95,
+                    138,
+                    21
+                ],
+                "unload_order": 429
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 10,
+                "location": "po4",
+                "position": [
+                    41,
+                    163,
+                    57
+                ],
+                "unload_order": 430
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 64,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    62
+                ],
+                "unload_order": 431
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 85,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    0
+                ],
+                "unload_order": 432
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 88,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    48
+                ],
+                "unload_order": 433
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 38,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    62
+                ],
+                "unload_order": 434
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 71,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    34
+                ],
+                "unload_order": 435
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 5,
+                "location": "po4",
+                "position": [
+                    38,
+                    103,
+                    38
+                ],
+                "unload_order": 436
+            },
+            {
+                "action": "Unload",
+                "item_id": 51,
+                "location": "po3",
+                "position": [
+                    95,
+                    138,
+                    42
+                ],
+                "unload_order": 437
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 17,
+                "location": "po4",
+                "position": [
+                    41,
+                    163,
+                    76
+                ],
+                "unload_order": 438
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 88,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    48
+                ],
+                "unload_order": 439
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 38,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    62
+                ],
+                "unload_order": 440
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 39,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    80
+                ],
+                "unload_order": 441
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 71,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    34
+                ],
+                "unload_order": 442
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 77,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    68
+                ],
+                "unload_order": 443
+            },
+            {
+                "action": "Unload",
+                "item_id": 52,
+                "location": "po3",
+                "position": [
+                    95,
+                    138,
+                    63
+                ],
+                "unload_order": 444
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 78,
+                "location": "po4",
+                "position": [
+                    38,
+                    89,
+                    0
+                ],
+                "unload_order": 445
+            },
+            {
+                "action": "Unload",
+                "item_id": 20,
+                "location": "po3",
+                "position": [
+                    95,
+                    103,
+                    0
+                ],
+                "unload_order": 446
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 78,
+                "location": "po4",
+                "position": [
+                    38,
+                    89,
+                    0
+                ],
+                "unload_order": 447
+            },
+            {
+                "action": "Unload",
+                "item_id": 21,
+                "location": "po3",
+                "position": [
+                    95,
+                    103,
+                    10
+                ],
+                "unload_order": 448
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 78,
+                "location": "po4",
+                "position": [
+                    38,
+                    89,
+                    0
+                ],
+                "unload_order": 449
+            },
+            {
+                "action": "Unload",
+                "item_id": 26,
+                "location": "po3",
+                "position": [
+                    95,
+                    103,
+                    20
+                ],
+                "unload_order": 450
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 71,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    34
+                ],
+                "unload_order": 451
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 5,
+                "location": "po4",
+                "position": [
+                    38,
+                    103,
+                    38
+                ],
+                "unload_order": 452
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 78,
+                "location": "po4",
+                "position": [
+                    38,
+                    89,
+                    0
+                ],
+                "unload_order": 453
+            },
+            {
+                "action": "Unload",
+                "item_id": 27,
+                "location": "po3",
+                "position": [
+                    95,
+                    103,
+                    30
+                ],
+                "unload_order": 454
+            },
+            {
+                "action": "Unload",
+                "item_id": 34,
+                "location": "po3",
+                "position": [
+                    0,
+                    89,
+                    0
+                ],
+                "unload_order": 455
+            },
+            {
+                "action": "Unload",
+                "item_id": 37,
+                "location": "po3",
+                "position": [
+                    0,
+                    89,
+                    18
+                ],
+                "unload_order": 456
+            },
+            {
+                "action": "Unload",
+                "item_id": 53,
+                "location": "po3",
+                "position": [
+                    0,
+                    61,
+                    96
+                ],
+                "unload_order": 457
+            },
+            {
+                "action": "Unload",
+                "item_id": 54,
+                "location": "po3",
+                "position": [
+                    52,
+                    61,
+                    0
+                ],
+                "unload_order": 458
+            },
+            {
+                "action": "Unload",
+                "item_id": 81,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    0
+                ],
+                "unload_order": 459
+            },
+            {
+                "action": "Unload",
+                "item_id": 82,
+                "location": "po3",
+                "position": [
+                    0,
+                    49,
+                    48
+                ],
+                "unload_order": 460
+            },
+            {
+                "action": "Reload",
+                "item_id": 75,
+                "location": "po5",
+                "position": [
+                    52,
+                    172,
+                    68
+                ],
+                "unload_order": 461
+            },
+            {
+                "action": "Reload",
+                "item_id": 40,
+                "location": "po5",
+                "position": [
+                    0,
+                    165,
+                    93
+                ],
+                "unload_order": 462
+            },
+            {
+                "action": "Reload",
+                "item_id": 10,
+                "location": "po4",
+                "position": [
+                    41,
+                    163,
+                    57
+                ],
+                "unload_order": 463
+            },
+            {
+                "action": "Reload",
+                "item_id": 17,
+                "location": "po4",
+                "position": [
+                    41,
+                    163,
+                    76
+                ],
+                "unload_order": 464
+            },
+            {
+                "action": "Reload",
+                "item_id": 28,
+                "location": "po4",
+                "position": [
+                    0,
+                    155,
+                    93
+                ],
+                "unload_order": 465
+            },
+            {
+                "action": "Reload",
+                "item_id": 64,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    62
+                ],
+                "unload_order": 466
+            },
+            {
+                "action": "Reload",
+                "item_id": 88,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    48
+                ],
+                "unload_order": 467
+            },
+            {
+                "action": "Reload",
+                "item_id": 38,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    62
+                ],
+                "unload_order": 468
+            },
+            {
+                "action": "Reload",
+                "item_id": 39,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    80
+                ],
+                "unload_order": 469
+            },
+            {
+                "action": "Reload",
+                "item_id": 77,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    68
+                ],
+                "unload_order": 470
+            },
+            {
+                "action": "Reload",
+                "item_id": 43,
+                "location": "po5",
+                "position": [
+                    52,
+                    199,
+                    102
+                ],
+                "unload_order": 471
+            },
+            {
+                "action": "Reload",
+                "item_id": 49,
+                "location": "po5",
+                "position": [
+                    52,
+                    178,
+                    102
+                ],
+                "unload_order": 472
+            },
+            {
+                "action": "Reload",
+                "item_id": 75,
+                "location": "po5",
+                "position": [
+                    52,
+                    172,
+                    68
+                ],
+                "unload_order": 473
+            },
+            {
+                "action": "Reload",
+                "item_id": 40,
+                "location": "po5",
+                "position": [
+                    0,
+                    165,
+                    93
+                ],
+                "unload_order": 474
+            },
+            {
+                "action": "Reload",
+                "item_id": 28,
+                "location": "po4",
+                "position": [
+                    0,
+                    155,
+                    93
+                ],
+                "unload_order": 475
+            },
+            {
+                "action": "Reload",
+                "item_id": 44,
+                "location": "po4",
+                "position": [
+                    41,
+                    142,
+                    96
+                ],
+                "unload_order": 476
+            },
+            {
+                "action": "Reload",
+                "item_id": 31,
+                "location": "po4",
+                "position": [
+                    75,
+                    136,
+                    96
+                ],
+                "unload_order": 477
+            },
+            {
+                "action": "Reload",
+                "item_id": 35,
+                "location": "po4",
+                "position": [
+                    75,
+                    136,
+                    111
+                ],
+                "unload_order": 478
+            },
+            {
+                "action": "Reload",
+                "item_id": 46,
+                "location": "po4",
+                "position": [
+                    0,
+                    131,
+                    102
+                ],
+                "unload_order": 479
+            },
+            {
+                "action": "Reload",
+                "item_id": 36,
+                "location": "po4",
+                "position": [
+                    41,
+                    127,
+                    96
+                ],
+                "unload_order": 480
+            },
+            {
+                "action": "Reload",
+                "item_id": 47,
+                "location": "po4",
+                "position": [
+                    0,
+                    110,
+                    102
+                ],
+                "unload_order": 481
+            },
+            {
+                "action": "Reload",
+                "item_id": 39,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    80
+                ],
+                "unload_order": 482
+            },
+            {
+                "action": "Reload",
+                "item_id": 4,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    98
+                ],
+                "unload_order": 483
+            },
+            {
+                "action": "Reload",
+                "item_id": 77,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    68
+                ],
+                "unload_order": 484
+            },
+            {
+                "action": "Reload",
+                "item_id": 7,
+                "location": "po5",
+                "position": [
+                    41,
+                    163,
+                    0
+                ],
+                "unload_order": 485
+            },
+            {
+                "action": "Reload",
+                "item_id": 9,
+                "location": "po5",
+                "position": [
+                    41,
+                    163,
+                    19
+                ],
+                "unload_order": 486
+            },
+            {
+                "action": "Reload",
+                "item_id": 56,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    0
+                ],
+                "unload_order": 487
+            },
+            {
+                "action": "Reload",
+                "item_id": 62,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    31
+                ],
+                "unload_order": 488
+            },
+            {
+                "action": "Reload",
+                "item_id": 85,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    0
+                ],
+                "unload_order": 489
+            },
+            {
+                "action": "Reload",
+                "item_id": 70,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    0
+                ],
+                "unload_order": 490
+            },
+            {
+                "action": "Reload",
+                "item_id": 78,
+                "location": "po4",
+                "position": [
+                    38,
+                    89,
+                    0
+                ],
+                "unload_order": 491
+            },
+            {
+                "action": "Reload",
+                "item_id": 86,
+                "location": "po5",
+                "position": [
+                    0,
+                    180,
+                    48
+                ],
+                "unload_order": 492
+            },
+            {
+                "action": "Reload",
+                "item_id": 9,
+                "location": "po5",
+                "position": [
+                    41,
+                    163,
+                    19
+                ],
+                "unload_order": 493
+            },
+            {
+                "action": "Reload",
+                "item_id": 11,
+                "location": "po5",
+                "position": [
+                    41,
+                    163,
+                    38
+                ],
+                "unload_order": 494
+            },
+            {
+                "action": "Reload",
+                "item_id": 10,
+                "location": "po4",
+                "position": [
+                    41,
+                    163,
+                    57
+                ],
+                "unload_order": 495
+            },
+            {
+                "action": "Reload",
+                "item_id": 62,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    31
+                ],
+                "unload_order": 496
+            },
+            {
+                "action": "Reload",
+                "item_id": 64,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    62
+                ],
+                "unload_order": 497
+            },
+            {
+                "action": "Reload",
+                "item_id": 85,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    0
+                ],
+                "unload_order": 498
+            },
+            {
+                "action": "Reload",
+                "item_id": 88,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    48
+                ],
+                "unload_order": 499
+            },
+            {
+                "action": "Reload",
+                "item_id": 38,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    62
+                ],
+                "unload_order": 500
+            },
+            {
+                "action": "Reload",
+                "item_id": 71,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    34
+                ],
+                "unload_order": 501
+            },
+            {
+                "action": "Reload",
+                "item_id": 5,
+                "location": "po4",
+                "position": [
+                    38,
+                    103,
+                    38
+                ],
+                "unload_order": 502
+            },
+            {
+                "action": "Reload",
+                "item_id": 78,
+                "location": "po4",
+                "position": [
+                    38,
+                    89,
+                    0
+                ],
+                "unload_order": 503
+            },
+            {
+                "action": "Reload",
+                "item_id": 28,
+                "location": "po4",
+                "position": [
+                    0,
+                    155,
+                    93
+                ],
+                "unload_order": 504
+            },
+            {
+                "action": "Reload",
+                "item_id": 44,
+                "location": "po4",
+                "position": [
+                    41,
+                    142,
+                    96
+                ],
+                "unload_order": 505
+            },
+            {
+                "action": "Reload",
+                "item_id": 31,
+                "location": "po4",
+                "position": [
+                    75,
+                    136,
+                    96
+                ],
+                "unload_order": 506
+            },
+            {
+                "action": "Reload",
+                "item_id": 35,
+                "location": "po4",
+                "position": [
+                    75,
+                    136,
+                    111
+                ],
+                "unload_order": 507
+            },
+            {
+                "action": "Reload",
+                "item_id": 46,
+                "location": "po4",
+                "position": [
+                    0,
+                    131,
+                    102
+                ],
+                "unload_order": 508
+            },
+            {
+                "action": "Reload",
+                "item_id": 36,
+                "location": "po4",
+                "position": [
+                    41,
+                    127,
+                    96
+                ],
+                "unload_order": 509
+            },
+            {
+                "action": "Reload",
+                "item_id": 88,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    48
+                ],
+                "unload_order": 510
+            },
+            {
+                "action": "Reload",
+                "item_id": 47,
+                "location": "po4",
+                "position": [
+                    0,
+                    110,
+                    102
+                ],
+                "unload_order": 511
+            },
+            {
+                "action": "Reload",
+                "item_id": 39,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    80
+                ],
+                "unload_order": 512
+            },
+            {
+                "action": "Reload",
+                "item_id": 4,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    98
+                ],
+                "unload_order": 513
+            },
+            {
+                "action": "Reload",
+                "item_id": 77,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    68
+                ],
+                "unload_order": 514
+            },
+            {
+                "action": "Reload",
+                "item_id": 56,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    0
+                ],
+                "unload_order": 515
+            },
+            {
+                "action": "Reload",
+                "item_id": 85,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    0
+                ],
+                "unload_order": 516
+            },
+            {
+                "action": "Reload",
+                "item_id": 70,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    0
+                ],
+                "unload_order": 517
+            },
+            {
+                "action": "Reload",
+                "item_id": 78,
+                "location": "po4",
+                "position": [
+                    38,
+                    89,
+                    0
+                ],
+                "unload_order": 518
+            },
+            {
+                "action": "Reload",
+                "item_id": 56,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    0
+                ],
+                "unload_order": 519
+            },
+            {
+                "action": "Reload",
+                "item_id": 62,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    31
+                ],
+                "unload_order": 520
+            },
+            {
+                "action": "Reload",
+                "item_id": 85,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    0
+                ],
+                "unload_order": 521
+            },
+            {
+                "action": "Reload",
+                "item_id": 70,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    0
+                ],
+                "unload_order": 522
+            },
+            {
+                "action": "Reload",
+                "item_id": 71,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    34
+                ],
+                "unload_order": 523
+            },
+            {
+                "action": "Reload",
+                "item_id": 78,
+                "location": "po4",
+                "position": [
+                    38,
+                    89,
+                    0
+                ],
+                "unload_order": 524
+            },
+            {
+                "action": "Reload",
+                "item_id": 62,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    31
+                ],
+                "unload_order": 525
+            },
+            {
+                "action": "Reload",
+                "item_id": 85,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    0
+                ],
+                "unload_order": 526
+            },
+            {
+                "action": "Reload",
+                "item_id": 88,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    48
+                ],
+                "unload_order": 527
+            },
+            {
+                "action": "Reload",
+                "item_id": 71,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    34
+                ],
+                "unload_order": 528
+            },
+            {
+                "action": "Reload",
+                "item_id": 5,
+                "location": "po4",
+                "position": [
+                    38,
+                    103,
+                    38
+                ],
+                "unload_order": 529
+            },
+            {
+                "action": "Reload",
+                "item_id": 9,
+                "location": "po5",
+                "position": [
+                    41,
+                    163,
+                    19
+                ],
+                "unload_order": 530
+            },
+            {
+                "action": "Reload",
+                "item_id": 85,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    0
+                ],
+                "unload_order": 531
+            },
+            {
+                "action": "Reload",
+                "item_id": 70,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    0
+                ],
+                "unload_order": 532
+            },
+            {
+                "action": "Reload",
+                "item_id": 78,
+                "location": "po4",
+                "position": [
+                    38,
+                    89,
+                    0
+                ],
+                "unload_order": 533
+            },
+            {
+                "action": "Reload",
+                "item_id": 11,
+                "location": "po5",
+                "position": [
+                    41,
+                    163,
+                    38
+                ],
+                "unload_order": 534
+            },
+            {
+                "action": "Reload",
+                "item_id": 62,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    31
+                ],
+                "unload_order": 535
+            },
+            {
+                "action": "Reload",
+                "item_id": 85,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    0
+                ],
+                "unload_order": 536
+            },
+            {
+                "action": "Reload",
+                "item_id": 70,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    0
+                ],
+                "unload_order": 537
+            },
+            {
+                "action": "Reload",
+                "item_id": 71,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    34
+                ],
+                "unload_order": 538
+            },
+            {
+                "action": "Reload",
+                "item_id": 5,
+                "location": "po4",
+                "position": [
+                    38,
+                    103,
+                    38
+                ],
+                "unload_order": 539
+            },
+            {
+                "action": "Reload",
+                "item_id": 78,
+                "location": "po4",
+                "position": [
+                    38,
+                    89,
+                    0
+                ],
+                "unload_order": 540
+            },
+            {
+                "action": "Reload",
+                "item_id": 10,
+                "location": "po4",
+                "position": [
+                    41,
+                    163,
+                    57
+                ],
+                "unload_order": 541
+            },
+            {
+                "action": "Reload",
+                "item_id": 64,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    62
+                ],
+                "unload_order": 542
+            },
+            {
+                "action": "Reload",
+                "item_id": 85,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    0
+                ],
+                "unload_order": 543
+            },
+            {
+                "action": "Reload",
+                "item_id": 88,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    48
+                ],
+                "unload_order": 544
+            },
+            {
+                "action": "Reload",
+                "item_id": 38,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    62
+                ],
+                "unload_order": 545
+            },
+            {
+                "action": "Reload",
+                "item_id": 71,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    34
+                ],
+                "unload_order": 546
+            },
+            {
+                "action": "Reload",
+                "item_id": 5,
+                "location": "po4",
+                "position": [
+                    38,
+                    103,
+                    38
+                ],
+                "unload_order": 547
+            },
+            {
+                "action": "Reload",
+                "item_id": 17,
+                "location": "po4",
+                "position": [
+                    41,
+                    163,
+                    76
+                ],
+                "unload_order": 548
+            },
+            {
+                "action": "Reload",
+                "item_id": 88,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    48
+                ],
+                "unload_order": 549
+            },
+            {
+                "action": "Reload",
+                "item_id": 38,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    62
+                ],
+                "unload_order": 550
+            },
+            {
+                "action": "Reload",
+                "item_id": 39,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    80
+                ],
+                "unload_order": 551
+            },
+            {
+                "action": "Reload",
+                "item_id": 71,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    34
+                ],
+                "unload_order": 552
+            },
+            {
+                "action": "Reload",
+                "item_id": 77,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    68
+                ],
+                "unload_order": 553
+            },
+            {
+                "action": "Reload",
+                "item_id": 78,
+                "location": "po4",
+                "position": [
+                    38,
+                    89,
+                    0
+                ],
+                "unload_order": 554
+            },
+            {
+                "action": "Reload",
+                "item_id": 78,
+                "location": "po4",
+                "position": [
+                    38,
+                    89,
+                    0
+                ],
+                "unload_order": 555
+            },
+            {
+                "action": "Reload",
+                "item_id": 78,
+                "location": "po4",
+                "position": [
+                    38,
+                    89,
+                    0
+                ],
+                "unload_order": 556
+            },
+            {
+                "action": "Reload",
+                "item_id": 71,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    34
+                ],
+                "unload_order": 557
+            },
+            {
+                "action": "Reload",
+                "item_id": 5,
+                "location": "po4",
+                "position": [
+                    38,
+                    103,
+                    38
+                ],
+                "unload_order": 558
+            },
+            {
+                "action": "Reload",
+                "item_id": 78,
+                "location": "po4",
+                "position": [
+                    38,
+                    89,
+                    0
+                ],
+                "unload_order": 559
+            }
+        ]
+    },
+    {
+        "step": "Processing location: po4",
+        "items": [
+            {
+                "action": "Temporarily unload",
+                "item_id": 62,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    31
+                ],
+                "unload_order": 560
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 64,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    62
+                ],
+                "unload_order": 561
+            },
+            {
+                "action": "Unload",
+                "item_id": 88,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    48
+                ],
+                "unload_order": 562
+            },
+            {
+                "action": "Unload",
+                "item_id": 38,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    62
+                ],
+                "unload_order": 563
+            },
+            {
+                "action": "Unload",
+                "item_id": 71,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    34
+                ],
+                "unload_order": 564
+            },
+            {
+                "action": "Unload",
+                "item_id": 77,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    68
+                ],
+                "unload_order": 565
+            },
+            {
+                "action": "Unload",
+                "item_id": 5,
+                "location": "po4",
+                "position": [
+                    38,
+                    103,
+                    38
+                ],
+                "unload_order": 566
+            },
+            {
+                "action": "Unload",
+                "item_id": 10,
+                "location": "po4",
+                "position": [
+                    41,
+                    163,
+                    57
+                ],
+                "unload_order": 567
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 40,
+                "location": "po5",
+                "position": [
+                    0,
+                    165,
+                    93
+                ],
+                "unload_order": 568
+            },
+            {
+                "action": "Unload",
+                "item_id": 28,
+                "location": "po4",
+                "position": [
+                    0,
+                    155,
+                    93
+                ],
+                "unload_order": 569
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 64,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    62
+                ],
+                "unload_order": 570
+            },
+            {
+                "action": "Unload",
+                "item_id": 39,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    80
+                ],
+                "unload_order": 571
+            },
+            {
+                "action": "Unload",
+                "item_id": 17,
+                "location": "po4",
+                "position": [
+                    41,
+                    163,
+                    76
+                ],
+                "unload_order": 572
+            },
+            {
+                "action": "Unload",
+                "item_id": 44,
+                "location": "po4",
+                "position": [
+                    41,
+                    142,
+                    96
+                ],
+                "unload_order": 573
+            },
+            {
+                "action": "Unload",
+                "item_id": 31,
+                "location": "po4",
+                "position": [
+                    75,
+                    136,
+                    96
+                ],
+                "unload_order": 574
+            },
+            {
+                "action": "Unload",
+                "item_id": 35,
+                "location": "po4",
+                "position": [
+                    75,
+                    136,
+                    111
+                ],
+                "unload_order": 575
+            },
+            {
+                "action": "Unload",
+                "item_id": 46,
+                "location": "po4",
+                "position": [
+                    0,
+                    131,
+                    102
+                ],
+                "unload_order": 576
+            },
+            {
+                "action": "Unload",
+                "item_id": 36,
+                "location": "po4",
+                "position": [
+                    41,
+                    127,
+                    96
+                ],
+                "unload_order": 577
+            },
+            {
+                "action": "Unload",
+                "item_id": 47,
+                "location": "po4",
+                "position": [
+                    0,
+                    110,
+                    102
+                ],
+                "unload_order": 578
+            },
+            {
+                "action": "Unload",
+                "item_id": 4,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    98
+                ],
+                "unload_order": 579
+            },
+            {
+                "action": "Unload",
+                "item_id": 28,
+                "location": "po4",
+                "position": [
+                    0,
+                    155,
+                    93
+                ],
+                "unload_order": 580
+            },
+            {
+                "action": "Unload",
+                "item_id": 44,
+                "location": "po4",
+                "position": [
+                    41,
+                    142,
+                    96
+                ],
+                "unload_order": 581
+            },
+            {
+                "action": "Unload",
+                "item_id": 31,
+                "location": "po4",
+                "position": [
+                    75,
+                    136,
+                    96
+                ],
+                "unload_order": 582
+            },
+            {
+                "action": "Unload",
+                "item_id": 35,
+                "location": "po4",
+                "position": [
+                    75,
+                    136,
+                    111
+                ],
+                "unload_order": 583
+            },
+            {
+                "action": "Unload",
+                "item_id": 46,
+                "location": "po4",
+                "position": [
+                    0,
+                    131,
+                    102
+                ],
+                "unload_order": 584
+            },
+            {
+                "action": "Unload",
+                "item_id": 36,
+                "location": "po4",
+                "position": [
+                    41,
+                    127,
+                    96
+                ],
+                "unload_order": 585
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 62,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    31
+                ],
+                "unload_order": 586
+            },
+            {
+                "action": "Unload",
+                "item_id": 70,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    0
+                ],
+                "unload_order": 587
+            },
+            {
+                "action": "Unload",
+                "item_id": 78,
+                "location": "po4",
+                "position": [
+                    38,
+                    89,
+                    0
+                ],
+                "unload_order": 588
+            },
+            {
+                "action": "Unload",
+                "item_id": 85,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    0
+                ],
+                "unload_order": 589
+            },
+            {
+                "action": "Temporarily unload",
+                "item_id": 64,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    62
+                ],
+                "unload_order": 590
+            },
+            {
+                "action": "Unload",
+                "item_id": 88,
+                "location": "po4",
+                "position": [
+                    41,
+                    123,
+                    48
+                ],
+                "unload_order": 591
+            },
+            {
+                "action": "Unload",
+                "item_id": 47,
+                "location": "po4",
+                "position": [
+                    0,
+                    110,
+                    102
+                ],
+                "unload_order": 592
+            },
+            {
+                "action": "Unload",
+                "item_id": 38,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    62
+                ],
+                "unload_order": 593
+            },
+            {
+                "action": "Unload",
+                "item_id": 39,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    80
+                ],
+                "unload_order": 594
+            },
+            {
+                "action": "Unload",
+                "item_id": 4,
+                "location": "po4",
+                "position": [
+                    38,
+                    108,
+                    98
+                ],
+                "unload_order": 595
+            },
+            {
+                "action": "Unload",
+                "item_id": 70,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    0
+                ],
+                "unload_order": 596
+            },
+            {
+                "action": "Unload",
+                "item_id": 71,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    34
+                ],
+                "unload_order": 597
+            },
+            {
+                "action": "Unload",
+                "item_id": 77,
+                "location": "po4",
+                "position": [
+                    0,
+                    104,
+                    68
+                ],
+                "unload_order": 598
+            },
+            {
+                "action": "Unload",
+                "item_id": 5,
+                "location": "po4",
+                "position": [
+                    38,
+                    103,
+                    38
+                ],
+                "unload_order": 599
+            },
+            {
+                "action": "Unload",
+                "item_id": 78,
+                "location": "po4",
+                "position": [
+                    38,
+                    89,
+                    0
+                ],
+                "unload_order": 600
+            },
+            {
+                "action": "Reload",
+                "item_id": 62,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    31
+                ],
+                "unload_order": 601
+            },
+            {
+                "action": "Reload",
+                "item_id": 64,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    62
+                ],
+                "unload_order": 602
+            },
+            {
+                "action": "Reload",
+                "item_id": 40,
+                "location": "po5",
+                "position": [
+                    0,
+                    165,
+                    93
+                ],
+                "unload_order": 603
+            },
+            {
+                "action": "Reload",
+                "item_id": 64,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    62
+                ],
+                "unload_order": 604
+            },
+            {
+                "action": "Reload",
+                "item_id": 62,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    31
+                ],
+                "unload_order": 605
+            },
+            {
+                "action": "Reload",
+                "item_id": 64,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    62
+                ],
+                "unload_order": 606
+            }
+        ]
+    },
+    {
+        "step": "Processing location: po5",
+        "items": [
+            {
+                "action": "Unload",
+                "item_id": 55,
+                "location": "po5",
+                "position": [
+                    0,
+                    192,
+                    96
+                ],
+                "unload_order": 607
+            },
+            {
+                "action": "Unload",
+                "item_id": 24,
+                "location": "po5",
+                "position": [
+                    0,
+                    182,
+                    96
+                ],
+                "unload_order": 608
+            },
+            {
+                "action": "Unload",
+                "item_id": 49,
+                "location": "po5",
+                "position": [
+                    52,
+                    178,
+                    102
+                ],
+                "unload_order": 609
+            },
+            {
+                "action": "Unload",
+                "item_id": 40,
+                "location": "po5",
+                "position": [
+                    0,
+                    165,
+                    93
+                ],
+                "unload_order": 610
+            },
+            {
+                "action": "Unload",
+                "item_id": 43,
+                "location": "po5",
+                "position": [
+                    52,
+                    199,
+                    102
+                ],
+                "unload_order": 611
+            },
+            {
+                "action": "Unload",
+                "item_id": 75,
+                "location": "po5",
+                "position": [
+                    52,
+                    172,
+                    68
+                ],
+                "unload_order": 612
+            },
+            {
+                "action": "Unload",
+                "item_id": 55,
+                "location": "po5",
+                "position": [
+                    0,
+                    192,
+                    96
+                ],
+                "unload_order": 613
+            },
+            {
+                "action": "Unload",
+                "item_id": 24,
+                "location": "po5",
+                "position": [
+                    0,
+                    182,
+                    96
+                ],
+                "unload_order": 614
+            },
+            {
+                "action": "Unload",
+                "item_id": 72,
+                "location": "po5",
+                "position": [
+                    52,
+                    172,
+                    0
+                ],
+                "unload_order": 615
+            },
+            {
+                "action": "Unload",
+                "item_id": 73,
+                "location": "po5",
+                "position": [
+                    52,
+                    172,
+                    34
+                ],
+                "unload_order": 616
+            },
+            {
+                "action": "Unload",
+                "item_id": 7,
+                "location": "po5",
+                "position": [
+                    41,
+                    163,
+                    0
+                ],
+                "unload_order": 617
+            },
+            {
+                "action": "Unload",
+                "item_id": 9,
+                "location": "po5",
+                "position": [
+                    41,
+                    163,
+                    19
+                ],
+                "unload_order": 618
+            },
+            {
+                "action": "Unload",
+                "item_id": 11,
+                "location": "po5",
+                "position": [
+                    41,
+                    163,
+                    38
+                ],
+                "unload_order": 619
+            },
+            {
+                "action": "Unload",
+                "item_id": 56,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    0
+                ],
+                "unload_order": 620
+            },
+            {
+                "action": "Unload",
+                "item_id": 62,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    31
+                ],
+                "unload_order": 621
+            },
+            {
+                "action": "Unload",
+                "item_id": 80,
+                "location": "po5",
+                "position": [
+                    0,
+                    180,
+                    0
+                ],
+                "unload_order": 622
+            },
+            {
+                "action": "Unload",
+                "item_id": 64,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    62
+                ],
+                "unload_order": 623
+            },
+            {
+                "action": "Unload",
+                "item_id": 86,
+                "location": "po5",
+                "position": [
+                    0,
+                    180,
+                    48
+                ],
+                "unload_order": 624
+            },
+            {
+                "action": "Unload",
+                "item_id": 49,
+                "location": "po5",
+                "position": [
+                    52,
+                    178,
+                    102
+                ],
+                "unload_order": 625
+            },
+            {
+                "action": "Unload",
+                "item_id": 72,
+                "location": "po5",
+                "position": [
+                    52,
+                    172,
+                    0
+                ],
+                "unload_order": 626
+            },
+            {
+                "action": "Unload",
+                "item_id": 73,
+                "location": "po5",
+                "position": [
+                    52,
+                    172,
+                    34
+                ],
+                "unload_order": 627
+            },
+            {
+                "action": "Unload",
+                "item_id": 75,
+                "location": "po5",
+                "position": [
+                    52,
+                    172,
+                    68
+                ],
+                "unload_order": 628
+            },
+            {
+                "action": "Unload",
+                "item_id": 40,
+                "location": "po5",
+                "position": [
+                    0,
+                    165,
+                    93
+                ],
+                "unload_order": 629
+            },
+            {
+                "action": "Unload",
+                "item_id": 7,
+                "location": "po5",
+                "position": [
+                    41,
+                    163,
+                    0
+                ],
+                "unload_order": 630
+            },
+            {
+                "action": "Unload",
+                "item_id": 9,
+                "location": "po5",
+                "position": [
+                    41,
+                    163,
+                    19
+                ],
+                "unload_order": 631
+            },
+            {
+                "action": "Unload",
+                "item_id": 11,
+                "location": "po5",
+                "position": [
+                    41,
+                    163,
+                    38
+                ],
+                "unload_order": 632
+            },
+            {
+                "action": "Unload",
+                "item_id": 56,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    0
+                ],
+                "unload_order": 633
+            },
+            {
+                "action": "Unload",
+                "item_id": 62,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    31
+                ],
+                "unload_order": 634
+            },
+            {
+                "action": "Unload",
+                "item_id": 64,
+                "location": "po5",
+                "position": [
+                    0,
+                    152,
+                    62
+                ],
+                "unload_order": 635
+            }
+        ]
+    }
+]

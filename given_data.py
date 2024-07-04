@@ -3,8 +3,8 @@
 import json
 import random
 import numpy as np
-container_size = [170,275,160]
-container_size = np.array(container_size) *0.6
+container_size = [170,250,160]
+container_size = np.array(container_size) *0.8
  
-with open('./boxes_with_locations.json', 'r') as file:
+with open('./generated_boxes.json', 'r') as file:
     data = json.load(file)
