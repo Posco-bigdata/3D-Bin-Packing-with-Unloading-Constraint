@@ -1,0 +1,26 @@
+[
+    {
+        "id": 79,
+        "width": 52,
+        "length": 48,
+        "height": 40,
+        "weight": 7.39,
+        "location": "po3"
+    },
+    {
+        "id": 86,
+        "width": 52,
+        "length": 48,
+        "height": 40,
+        "weight": 1.46,
+        "location": "po3"
+    },
+    {
+        "id": 76,
+        "width": 48,
+        "length": 38,
+        "height": 34,
+        "weight": 3.53,
+        "location": "po1"
+    }
+]

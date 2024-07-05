@@ -1,0 +1,279 @@
+{
+    "container_size": [
+        136.0,
+        220.0,
+        128.0
+    ],
+    "items": {
+        "47": {
+            "spec_id": 7,
+            "width": 34.0,
+            "length": 25.0,
+            "height": 21.0,
+            "volume": 17850.0,
+            "weight": 1.91,
+            "location": "po2"
+        },
+        "33": {
+            "spec_id": 6,
+            "width": 27.0,
+            "length": 18.0,
+            "height": 15.0,
+            "volume": 7290.0,
+            "weight": 8.98,
+            "location": "po4"
+        },
+        "73": {
+            "spec_id": 9,
+            "width": 48.0,
+            "length": 38.0,
+            "height": 34.0,
+            "volume": 62016.0,
+            "weight": 1.14,
+            "location": "po4"
+        },
+        "72": {
+            "spec_id": 9,
+            "width": 48.0,
+            "length": 38.0,
+            "height": 34.0,
+            "volume": 62016.0,
+            "weight": 6.94,
+            "location": "po2"
+        },
+        "13": {
+            "spec_id": 4,
+            "width": 22.0,
+            "length": 19.0,
+            "height": 9.0,
+            "volume": 3762.0,
+            "weight": 4.83,
+            "location": "po2"
+        },
+        "88": {
+            "spec_id": 10,
+            "width": 52.0,
+            "length": 48.0,
+            "height": 40.0,
+            "volume": 99840.0,
+            "weight": 2.84,
+            "location": "po5"
+        },
+        "81": {
+            "spec_id": 10,
+            "width": 52.0,
+            "length": 48.0,
+            "height": 40.0,
+            "volume": 99840.0,
+            "weight": 5.43,
+            "location": "po4"
+        },
+        "9": {
+            "spec_id": 4,
+            "width": 22.0,
+            "length": 19.0,
+            "height": 9.0,
+            "volume": 3762.0,
+            "weight": 7.58,
+            "location": "po4"
+        },
+        "17": {
+            "spec_id": 4,
+            "width": 22.0,
+            "length": 19.0,
+            "height": 9.0,
+            "volume": 3762.0,
+            "weight": 9.07,
+            "location": "po1"
+        },
+        "63": {
+            "spec_id": 8,
+            "width": 41.0,
+            "length": 31.0,
+            "height": 28.0,
+            "volume": 35588.0,
+            "weight": 2.66,
+            "location": "po4"
+        },
+        "22": {
+            "spec_id": 5,
+            "width": 35.0,
+            "length": 25.0,
+            "height": 10.0,
+            "volume": 8750.0,
+            "weight": 5.93,
+            "location": "po1"
+        },
+        "39": {
+            "spec_id": 6,
+            "width": 27.0,
+            "length": 18.0,
+            "height": 15.0,
+            "volume": 7290.0,
+            "weight": 3.89,
+            "location": "po1"
+        },
+        "31": {
+            "spec_id": 6,
+            "width": 27.0,
+            "length": 18.0,
+            "height": 15.0,
+            "volume": 7290.0,
+            "weight": 8.53,
+            "location": "po4"
+        },
+        "32": {
+            "spec_id": 6,
+            "width": 27.0,
+            "length": 18.0,
+            "height": 15.0,
+            "volume": 7290.0,
+            "weight": 8.73,
+            "location": "po1"
+        },
+        "64": {
+            "spec_id": 8,
+            "width": 41.0,
+            "length": 31.0,
+            "height": 28.0,
+            "volume": 35588.0,
+            "weight": 4.75,
+            "location": "po3"
+        },
+        "84": {
+            "spec_id": 10,
+            "width": 52.0,
+            "length": 48.0,
+            "height": 40.0,
+            "volume": 99840.0,
+            "weight": 2.6,
+            "location": "po4"
+        },
+        "53": {
+            "spec_id": 8,
+            "width": 41.0,
+            "length": 31.0,
+            "height": 28.0,
+            "volume": 35588.0,
+            "weight": 6.76,
+            "location": "po1"
+        },
+        "69": {
+            "spec_id": 9,
+            "width": 48.0,
+            "length": 38.0,
+            "height": 34.0,
+            "volume": 62016.0,
+            "weight": 4.04,
+            "location": "po2"
+        },
+        "38": {
+            "spec_id": 6,
+            "width": 27.0,
+            "length": 18.0,
+            "height": 15.0,
+            "volume": 7290.0,
+            "weight": 8.28,
+            "location": "po1"
+        },
+        "85": {
+            "spec_id": 10,
+            "width": 52.0,
+            "length": 48.0,
+            "height": 40.0,
+            "volume": 99840.0,
+            "weight": 6.62,
+            "location": "po5"
+        },
+        "10": {
+            "spec_id": 4,
+            "width": 22.0,
+            "length": 19.0,
+            "height": 9.0,
+            "volume": 3762.0,
+            "weight": 6.34,
+            "location": "po1"
+        },
+        "60": {
+            "spec_id": 8,
+            "width": 41.0,
+            "length": 31.0,
+            "height": 28.0,
+            "volume": 35588.0,
+            "weight": 3.39,
+            "location": "po2"
+        },
+        "11": {
+            "spec_id": 4,
+            "width": 22.0,
+            "length": 19.0,
+            "height": 9.0,
+            "volume": 3762.0,
+            "weight": 3.9,
+            "location": "po2"
+        },
+        "46": {
+            "spec_id": 7,
+            "width": 34.0,
+            "length": 25.0,
+            "height": 21.0,
+            "volume": 17850.0,
+            "weight": 5.36,
+            "location": "po4"
+        },
+        "14": {
+            "spec_id": 4,
+            "width": 22.0,
+            "length": 19.0,
+            "height": 9.0,
+            "volume": 3762.0,
+            "weight": 2.31,
+            "location": "po3"
+        },
+        "6": {
+            "spec_id": 3,
+            "width": 32.0,
+            "length": 24.0,
+            "height": 20.0,
+            "volume": 15360.0,
+            "weight": 8.0,
+            "location": "po4"
+        },
+        "40": {
+            "spec_id": 6,
+            "width": 27.0,
+            "length": 18.0,
+            "height": 15.0,
+            "volume": 7290.0,
+            "weight": 1.41,
+            "location": "po3"
+        },
+        "19": {
+            "spec_id": 5,
+            "width": 35.0,
+            "length": 25.0,
+            "height": 10.0,
+            "volume": 8750.0,
+            "weight": 1.97,
+            "location": "po2"
+        },
+        "87": {
+            "spec_id": 10,
+            "width": 52.0,
+            "length": 48.0,
+            "height": 40.0,
+            "volume": 99840.0,
+            "weight": 3.57,
+            "location": "po4"
+        },
+        "2": {
+            "spec_id": 1,
+            "width": 18.0,
+            "length": 16.0,
+            "height": 7.0,
+            "volume": 2016.0,
+            "weight": 5.05,
+            "location": "po5"
+        }
+    }
+}

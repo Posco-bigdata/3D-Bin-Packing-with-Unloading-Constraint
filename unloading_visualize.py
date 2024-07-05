@@ -5,11 +5,12 @@ import matplotlib.animation as animation
 from given_data import container_size
 
 # Load the packed items
-with open('packed_items.json', 'r') as f:
+scenario_number = int(input("Enter the scenario number: "))
+with open(f'./scenario/packed_items_scenario_{scenario_number}.json', 'r') as f:
     packed_items = json.load(f)
 
 # Load the unloading operations
-with open('unloading_operations.json', 'r') as f:
+with open(f'./scenario/unloading_operations_scenario_{scenario_number}.json', 'r') as f:
     operations = json.load(f)
 
 # Create a figure and 3D axis
@@ -29,25 +30,12 @@ ax.set_zlabel('Height')
 # Colors for different locations
 location_colors = {'po1': 'red', 'po2': 'blue', 'po3': 'green', 'po4': 'yellow', 'po5': 'purple'}
 
-# Sort packed items by load_order in reverse
-packed_items.sort(key=lambda x: x['load_order'], reverse=True)
-
 # Dictionary to store item positions
 item_positions = {item['id']: item for item in packed_items}
 
-def get_sorted_operations(operations):
-    all_items = []
-    for step in operations:
-        location_items = [item for item in step['items'] if item['action'] != 'Reload']
-        location_items.sort(key=lambda x: x['unload_order'], reverse=True)
-        all_items.extend(location_items)
-        reloads = [item for item in step['items'] if item['action'] == 'Reload']
-        all_items.extend(reloads)
-    return all_items
+# Set to keep track of temporarily removed items
+temporarily_removed = set()
 
-sorted_operations = get_sorted_operations(operations)
-
-# Function to update the plot
 def update(frame):
     ax.clear()
     ax.set_xlim(0, container_size[0])
@@ -62,37 +50,46 @@ def update(frame):
         for i in range(frame + 1):
             item = packed_items[i]
             color = location_colors.get(item['location'], 'gray')
-            ax.bar3d(item['position'][0], item['position'][1], item['position'][2], 
-                     item['orientation'][0], item['orientation'][1], item['orientation'][2], 
+            ax.bar3d(item['position'][0], item['position'][1], item['position'][2],
+                     item['orientation'][0], item['orientation'][1], item['orientation'][2],
                      color=color, alpha=0.8)
         ax.set_title(f"Packing items: {frame + 1}/{len(packed_items)}")
     else:
         # Unloading visualization
         op_index = frame - len(packed_items)
-        current_location = sorted_operations[op_index]['location']
-        ax.set_title(f"Unloading at {current_location}")
+        step_index = 0
+        item_index = 0
+        for i, step in enumerate(operations):
+            if op_index < len(step['items']):
+                step_index = i
+                item_index = op_index
+                break
+            op_index -= len(step['items'])
         
-        for i in range(op_index + 1):
-            item = sorted_operations[i]
-            item_id = item['item_id']
-            action = item['action']
-            
-            if action in ['Unload', 'Temporarily unload']:
-                if item_id in item_positions:
-                    del item_positions[item_id]
-            elif action == 'Reload':
-                item_positions[item_id] = next(x for x in packed_items if x['id'] == item_id)
+        current_step = operations[step_index]
+        current_location = current_step['step'].split(': ')[1]
+        current_item = current_step['items'][item_index]
         
-        for item in item_positions.values():
-            color = location_colors.get(item['location'], 'gray')
-            ax.bar3d(item['position'][0], item['position'][1], item['position'][2], 
-                     item['orientation'][0], item['orientation'][1], item['orientation'][2], 
-                     color=color, alpha=0.8)
-
+        ax.set_title(f"Unloading at {current_location}: {current_item['action']} item {current_item['item_id']}")
+        
+        if current_item['action'] == 'Unload':
+            if current_item['item_id'] in item_positions:
+                del item_positions[current_item['item_id']]
+            temporarily_removed.clear()  # Clear the set when a new item is unloaded
+        elif current_item['action'] == 'Blocked by':
+            temporarily_removed.add(current_item['item_id'])
+        
+        for item_id, item in item_positions.items():
+            if item_id not in temporarily_removed:
+                color = location_colors.get(item['location'], 'gray')
+                ax.bar3d(item['position'][0], item['position'][1], item['position'][2],
+                         item['orientation'][0], item['orientation'][1], item['orientation'][2],
+                         color=color, alpha=0.8)
+    
     return ax
 
 # Create the animation
-total_frames = len(packed_items) + len(sorted_operations)
+total_frames = len(packed_items) + sum(len(step['items']) for step in operations)
 anim = animation.FuncAnimation(fig, update, frames=total_frames, interval=100, blit=False, repeat=False)
 
 # Show the plot
