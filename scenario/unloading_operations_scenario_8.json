@@ -1,0 +1,49 @@
+[
+    {
+        "step": "Processing location: po1",
+        "items": []
+    },
+    {
+        "step": "Processing location: po2",
+        "items": []
+    },
+    {
+        "step": "Processing location: po3",
+        "items": []
+    },
+    {
+        "step": "Processing location: po4",
+        "items": []
+    },
+    {
+        "step": "Processing location: po5",
+        "items": [
+            {
+                "action": "Unload",
+                "item_id": 80,
+                "location": "po5",
+                "position": [
+                    -1,
+                    42,
+                    0
+                ],
+                "unload_order": 1,
+                "unloading_cost": 0,
+                "unloading_time": 0.26666666666666666
+            },
+            {
+                "action": "Unload",
+                "item_id": 83,
+                "location": "po5",
+                "position": [
+                    -1,
+                    2,
+                    0
+                ],
+                "unload_order": 2,
+                "unloading_cost": 0,
+                "unloading_time": 0.26666666666666666
+            }
+        ]
+    }
+]

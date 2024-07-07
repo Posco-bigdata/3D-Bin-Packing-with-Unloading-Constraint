@@ -1,4 +1,4 @@
-from given_data import container_size, data
+from main_data import container_size, data
 import json 
 
 class Item:
@@ -94,12 +94,17 @@ class PackingAlgorithm:
     def find_position(self, orientation, packed_items):
         item_width, item_length, item_height = orientation
         
-        # Try placing in the larger section first
+        # 큰 섹션에서 먼저 시도
         position = self.find_position_in_section(orientation, packed_items, 0, self.large_section_width)
         if position:
             return position
         
-        # If it doesn't fit in the larger section, try the smaller section
+        # 큰 섹션과 작은 섹션 사이의 공간에서 시도
+        position = self.find_position_in_section(orientation, packed_items, self.large_section_width - item_width, self.large_section_width + item_width)
+        if position:
+            return position
+        
+        # 작은 섹션에서 시도
         return self.find_position_in_section(orientation, packed_items, self.large_section_width, self.width)
 
     def find_position_in_section(self, orientation, packed_items, start_x, end_x):
@@ -109,7 +114,7 @@ class PackingAlgorithm:
 
         for z in range(self.height):
             for y in range(self.length - item_length, -1, -1):
-                for x in range(start_x, end_x - item_width + 1):
+                for x in range(start_x, min(end_x, self.width) - item_width + 1):
                     if self.can_place_item(x, y, z, orientation, packed_items):
                         contact_area = self.calculate_contact_area(x, y, z, orientation, packed_items)
                         if contact_area > max_contact_area:
@@ -155,7 +160,7 @@ class PackingAlgorithm:
             return True
         else:
             supported_area = self.calculate_support_area(x, y, z, orientation, packed_items)
-            return supported_area / (item_width * item_length) >= 0.7
+            return supported_area / (item_width * item_length) >= 0.8
 
         return True
 
@@ -226,29 +231,32 @@ class PackingAlgorithm:
         return total_volume / container_volume
 
 def main():
+    scenario_number = int(input("Enter the scenario number: "))
     container = PackingAlgorithm(container_size[0], container_size[1], container_size[2])
     container.pack_items_with_permutations(items)
-    print("Best Packed Iems:")
+    
+    print("Best Packed Items:")
     for packed_item in container.best_packed_items:
         print(f"Item ID: {packed_item['id']}, Position: {packed_item['position']}, "
               f"Orientation: {packed_item['orientation']}, Location: {packed_item['location']}, "
               f"Load Order: {packed_item['load_order']}, Weight: {packed_item['weight']}")
 
     # Save packed items to a JSON file
-    with open('packed_items.json', 'w') as f:
+    with open(f'./scenario/packed_items_scenario_{scenario_number}.json', 'w') as f:
         json.dump(container.best_packed_items, f, indent=4)
+    
     unplaced_items_data = [
-    {
-        "id": item.id,
-        "width": item.width,
-        "length": item.length,
-        "height": item.height,
-        "weight": item.weight,
-        "location": item.location
-    }
-    for item in container.best_unplaced_items
+        {
+            "id": item.id,
+            "width": item.width,
+            "length": item.length,
+            "height": item.height,
+            "weight": item.weight,
+            "location": item.location
+        }
+        for item in container.best_unplaced_items
     ]
-    with open('unplaced_items.json', 'w') as f:
+    with open(f'./scenario/unplaced_items_scenario_{scenario_number}.json', 'w') as f:
         json.dump(unplaced_items_data, f, indent=4)
 
     # Print the best capacity utilization
@@ -256,4 +264,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

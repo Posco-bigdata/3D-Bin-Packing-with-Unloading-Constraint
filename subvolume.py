@@ -1,4 +1,4 @@
-from given_data import container_size, data
+from main_data import create_scenario
 import json 
 
 class Item:
@@ -18,9 +18,6 @@ class Item:
             (self.length, self.width, self.height)
         ]
 
-# Convert data to a list of Item objects
-items = [Item(int(key), value['width'], value['length'], value['height'], value['weight'], value['location'])
-         for key, value in data.items()]
 
 class PackingAlgorithm:
     def __init__(self, width, length, height):
@@ -160,10 +157,15 @@ class PackingAlgorithm:
         container_volume = self.width * self.length * self.height
         return total_volume / container_volume
 
+
 def main():
     scenario_number = int(input("Enter the scenario number: "))
+    container_size, items = create_scenario(scenario_number)
+    
     container = PackingAlgorithm(container_size[0], container_size[1], container_size[2])
-    container.pack_items_with_permutations(items)
+    item_objects = [Item(int(key), value['width'], value['length'], value['height'], value['weight'], value['location'])
+                    for key, value in items.items()]
+    container.pack_items_with_permutations(item_objects)
 
     print("Best Packed Items:")
     for packed_item in container.best_packed_items:
@@ -172,7 +174,7 @@ def main():
               f"Load Order: {packed_item['load_order']}, Weight: {packed_item['weight']}")
  
     # Save packed items to a JSON file
-    with open(f'./scenario/packed_items_scenario_{scenario_number}.json', 'w') as f:
+    with open(f'./scenario/subvolume_packed_items_scenario_{scenario_number}.json', 'w') as f:
         json.dump(container.best_packed_items, f, indent=4)
 
     unplaced_items_data = [
@@ -186,7 +188,7 @@ def main():
         }
         for item in container.best_unplaced_items
     ]
-    with open(f'./scenario/unplaced_items_scenario_{scenario_number}.json', 'w') as f:
+    with open(f'./scenario/subvolume_unplaced_items_scenario_{scenario_number}.json', 'w') as f:
         json.dump(unplaced_items_data, f, indent=4)
 
     # Print the best capacity utilization

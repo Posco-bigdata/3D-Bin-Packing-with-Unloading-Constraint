@@ -1,0 +1,34 @@
+[
+    {
+        "id": 80,
+        "position": [
+            -1,
+            42,
+            0
+        ],
+        "orientation": [
+            52,
+            40,
+            48
+        ],
+        "location": "po5",
+        "load_order": 1,
+        "weight": 6.72
+    },
+    {
+        "id": 83,
+        "position": [
+            -1,
+            2,
+            0
+        ],
+        "orientation": [
+            52,
+            40,
+            48
+        ],
+        "location": "po5",
+        "load_order": 2,
+        "weight": 3.75
+    }
+]

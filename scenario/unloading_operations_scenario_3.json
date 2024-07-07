@@ -78,7 +78,8 @@
                     68
                 ],
                 "unload_order": 1,
-                "unloading_cost": 6
+                "unloading_cost": 6,
+                "unloading_time": 0.9444444444444444
             },
             {
                 "action": "Reload blocking item",
@@ -156,7 +157,8 @@
                     87
                 ],
                 "unload_order": 2,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 1.1222222222222222
             },
             {
                 "action": "Unload blocking item",
@@ -179,7 +181,8 @@
                     62
                 ],
                 "unload_order": 3,
-                "unloading_cost": 1
+                "unloading_cost": 1,
+                "unloading_time": 0.8611111111111112
             },
             {
                 "action": "Reload blocking item",
@@ -235,7 +238,8 @@
                     102
                 ],
                 "unload_order": 4,
-                "unloading_cost": 3
+                "unloading_cost": 3,
+                "unloading_time": 1.2722222222222221
             },
             {
                 "action": "Reload blocking item",
@@ -324,7 +328,8 @@
                     102
                 ],
                 "unload_order": 5,
-                "unloading_cost": 4
+                "unloading_cost": 4,
+                "unloading_time": 1.2722222222222221
             },
             {
                 "action": "Reload blocking item",
@@ -446,7 +451,8 @@
                     56
                 ],
                 "unload_order": 6,
-                "unloading_cost": 6
+                "unloading_cost": 6,
+                "unloading_time": 0.7388888888888889
             },
             {
                 "action": "Reload blocking item",
@@ -612,7 +618,8 @@
                     77
                 ],
                 "unload_order": 7,
-                "unloading_cost": 8
+                "unloading_cost": 8,
+                "unloading_time": 0.9722222222222222
             },
             {
                 "action": "Reload blocking item",
@@ -789,7 +796,8 @@
                     98
                 ],
                 "unload_order": 8,
-                "unloading_cost": 7
+                "unloading_cost": 7,
+                "unloading_time": 1.2055555555555555
             },
             {
                 "action": "Reload blocking item",
@@ -955,7 +963,8 @@
                     68
                 ],
                 "unload_order": 9,
-                "unloading_cost": 7
+                "unloading_cost": 7,
+                "unloading_time": 0.8944444444444445
             },
             {
                 "action": "Reload blocking item",
@@ -1044,7 +1053,8 @@
                     118
                 ],
                 "unload_order": 10,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 1.3666666666666667
             },
             {
                 "action": "Unload",
@@ -1056,7 +1066,8 @@
                     111
                 ],
                 "unload_order": 11,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 1.3166666666666667
             },
             {
                 "action": "Unload blocking item",
@@ -1134,7 +1145,8 @@
                     77
                 ],
                 "unload_order": 12,
-                "unloading_cost": 6
+                "unloading_cost": 6,
+                "unloading_time": 0.9555555555555556
             },
             {
                 "action": "Reload blocking item",
@@ -1278,7 +1290,8 @@
                     78
                 ],
                 "unload_order": 13,
-                "unloading_cost": 6
+                "unloading_cost": 6,
+                "unloading_time": 0.95
             },
             {
                 "action": "Reload blocking item",
@@ -1378,7 +1391,8 @@
                     59
                 ],
                 "unload_order": 14,
-                "unloading_cost": 2
+                "unloading_cost": 2,
+                "unloading_time": 0.7611111111111111
             },
             {
                 "action": "Reload blocking item",
@@ -1522,7 +1536,8 @@
                     28
                 ],
                 "unload_order": 15,
-                "unloading_cost": 10
+                "unloading_cost": 10,
+                "unloading_time": 0.4166666666666667
             },
             {
                 "action": "Reload blocking item",
@@ -1666,7 +1681,8 @@
                     48
                 ],
                 "unload_order": 16,
-                "unloading_cost": 2
+                "unloading_cost": 2,
+                "unloading_time": 0.5833333333333334
             },
             {
                 "action": "Reload blocking item",
@@ -1744,7 +1760,8 @@
                     57
                 ],
                 "unload_order": 17,
-                "unloading_cost": 4
+                "unloading_cost": 4,
+                "unloading_time": 0.6833333333333333
             },
             {
                 "action": "Reload blocking item",
@@ -1904,7 +1921,8 @@
                     0
                 ],
                 "unload_order": 18,
-                "unloading_cost": 9
+                "unloading_cost": 9,
+                "unloading_time": 0.18888888888888888
             },
             {
                 "action": "Reload blocking item",
@@ -2103,7 +2121,8 @@
                     34
                 ],
                 "unload_order": 19,
-                "unloading_cost": 8
+                "unloading_cost": 8,
+                "unloading_time": 0.5666666666666667
             },
             {
                 "action": "Reload blocking item",
@@ -2203,7 +2222,8 @@
                     31
                 ],
                 "unload_order": 20,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 0.5
             },
             {
                 "action": "Unload blocking item",
@@ -2248,7 +2268,8 @@
                     0
                 ],
                 "unload_order": 21,
-                "unloading_cost": 3
+                "unloading_cost": 3,
+                "unloading_time": 0.15555555555555556
             },
             {
                 "action": "Reload blocking item",
@@ -2293,7 +2314,8 @@
                     59
                 ],
                 "unload_order": 22,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 0.8111111111111111
             },
             {
                 "action": "Unload blocking item",
@@ -2415,7 +2437,8 @@
                     28
                 ],
                 "unload_order": 23,
-                "unloading_cost": 10
+                "unloading_cost": 10,
+                "unloading_time": 0.4666666666666667
             },
             {
                 "action": "Reload blocking item",
@@ -2537,7 +2560,8 @@
                     81
                 ],
                 "unload_order": 24,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 1.038888888888889
             },
             {
                 "action": "Unload blocking item",
@@ -2648,7 +2672,8 @@
                     73
                 ],
                 "unload_order": 25,
-                "unloading_cost": 9
+                "unloading_cost": 9,
+                "unloading_time": 0.95
             },
             {
                 "action": "Reload blocking item",
@@ -2770,7 +2795,8 @@
                     106
                 ],
                 "unload_order": 26,
-                "unloading_cost": 1
+                "unloading_cost": 1,
+                "unloading_time": 1.2944444444444445
             },
             {
                 "action": "Reload blocking item",
@@ -2793,7 +2819,8 @@
                     111
                 ],
                 "unload_order": 27,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 1.288888888888889
             },
             {
                 "action": "Unload blocking item",
@@ -2827,7 +2854,8 @@
                     98
                 ],
                 "unload_order": 28,
-                "unloading_cost": 2
+                "unloading_cost": 2,
+                "unloading_time": 1.1444444444444444
             },
             {
                 "action": "Reload blocking item",
@@ -2894,7 +2922,8 @@
                     108
                 ],
                 "unload_order": 29,
-                "unloading_cost": 3
+                "unloading_cost": 3,
+                "unloading_time": 1.2555555555555555
             },
             {
                 "action": "Reload blocking item",
@@ -2950,7 +2979,8 @@
                     57
                 ],
                 "unload_order": 30,
-                "unloading_cost": 1
+                "unloading_cost": 1,
+                "unloading_time": 0.7166666666666667
             },
             {
                 "action": "Reload blocking item",
@@ -2984,7 +3014,8 @@
                     72
                 ],
                 "unload_order": 31,
-                "unloading_cost": 1
+                "unloading_cost": 1,
+                "unloading_time": 0.8833333333333333
             },
             {
                 "action": "Reload blocking item",
@@ -3018,7 +3049,8 @@
                     87
                 ],
                 "unload_order": 32,
-                "unloading_cost": 1
+                "unloading_cost": 1,
+                "unloading_time": 1.05
             },
             {
                 "action": "Reload blocking item",
@@ -3085,7 +3117,8 @@
                     96
                 ],
                 "unload_order": 33,
-                "unloading_cost": 4
+                "unloading_cost": 4,
+                "unloading_time": 1.1722222222222223
             },
             {
                 "action": "Reload blocking item",
@@ -3185,7 +3218,8 @@
                     33
                 ],
                 "unload_order": 34,
-                "unloading_cost": 4
+                "unloading_cost": 4,
+                "unloading_time": 0.4722222222222222
             },
             {
                 "action": "Reload blocking item",
@@ -3279,7 +3313,8 @@
                     0
                 ],
                 "unload_order": 35,
-                "unloading_cost": 3
+                "unloading_cost": 3,
+                "unloading_time": 0.2222222222222222
             },
             {
                 "action": "Reload blocking item",
@@ -3368,7 +3403,8 @@
                     40
                 ],
                 "unload_order": 36,
-                "unloading_cost": 4
+                "unloading_cost": 4,
+                "unloading_time": 0.7111111111111111
             },
             {
                 "action": "Reload blocking item",
@@ -3424,7 +3460,8 @@
                     88
                 ],
                 "unload_order": 37,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 1.1666666666666667
             },
             {
                 "action": "Unload",
@@ -3436,7 +3473,8 @@
                     80
                 ],
                 "unload_order": 38,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 1.0611111111111111
             },
             {
                 "action": "Unload",
@@ -3448,7 +3486,8 @@
                     0
                 ],
                 "unload_order": 39,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 0.17222222222222222
             },
             {
                 "action": "Unload",
@@ -3460,7 +3499,8 @@
                     0
                 ],
                 "unload_order": 40,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 0.17222222222222222
             },
             {
                 "action": "Unload blocking item",
@@ -3483,7 +3523,8 @@
                     31
                 ],
                 "unload_order": 41,
-                "unloading_cost": 1
+                "unloading_cost": 1,
+                "unloading_time": 0.5166666666666667
             },
             {
                 "action": "Reload blocking item",
@@ -3517,7 +3558,8 @@
                     56
                 ],
                 "unload_order": 42,
-                "unloading_cost": 1
+                "unloading_cost": 1,
+                "unloading_time": 0.7611111111111111
             },
             {
                 "action": "Reload blocking item",
@@ -3540,7 +3582,8 @@
                     102
                 ],
                 "unload_order": 43,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 1.1888888888888889
             },
             {
                 "action": "Unload",
@@ -3552,7 +3595,8 @@
                     112
                 ],
                 "unload_order": 44,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 1.3
             },
             {
                 "action": "Unload",
@@ -3564,7 +3608,8 @@
                     102
                 ],
                 "unload_order": 45,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 1.1888888888888889
             },
             {
                 "action": "Unload",
@@ -3576,7 +3621,8 @@
                     112
                 ],
                 "unload_order": 46,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 1.3
             },
             {
                 "action": "Unload blocking item",
@@ -3599,7 +3645,8 @@
                     42
                 ],
                 "unload_order": 47,
-                "unloading_cost": 1
+                "unloading_cost": 1,
+                "unloading_time": 0.55
             },
             {
                 "action": "Reload blocking item",
@@ -3633,7 +3680,8 @@
                     63
                 ],
                 "unload_order": 48,
-                "unloading_cost": 1
+                "unloading_cost": 1,
+                "unloading_time": 0.7833333333333333
             },
             {
                 "action": "Reload blocking item",
@@ -3678,7 +3726,8 @@
                     48
                 ],
                 "unload_order": 49,
-                "unloading_cost": 2
+                "unloading_cost": 2,
+                "unloading_time": 0.6388888888888888
             },
             {
                 "action": "Reload blocking item",
@@ -3712,7 +3761,8 @@
                     96
                 ],
                 "unload_order": 50,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 1.1722222222222223
             }
         ]
     },
@@ -3828,7 +3878,8 @@
                     0
                 ],
                 "unload_order": 51,
-                "unloading_cost": 9
+                "unloading_cost": 9,
+                "unloading_time": 0.26666666666666666
             },
             {
                 "action": "Reload blocking item",
@@ -3961,7 +4012,8 @@
                     48
                 ],
                 "unload_order": 52,
-                "unloading_cost": 2
+                "unloading_cost": 2,
+                "unloading_time": 0.8
             },
             {
                 "action": "Reload blocking item",
@@ -4072,7 +4124,8 @@
                     0
                 ],
                 "unload_order": 53,
-                "unloading_cost": 7
+                "unloading_cost": 7,
+                "unloading_time": 0.26666666666666666
             },
             {
                 "action": "Reload blocking item",
@@ -4205,7 +4258,8 @@
                     48
                 ],
                 "unload_order": 54,
-                "unloading_cost": 4
+                "unloading_cost": 4,
+                "unloading_time": 0.8
             },
             {
                 "action": "Reload blocking item",
@@ -4261,7 +4315,8 @@
                     86
                 ],
                 "unload_order": 55,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 1.1666666666666667
             },
             {
                 "action": "Unload",
@@ -4273,7 +4328,8 @@
                     88
                 ],
                 "unload_order": 56,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 1.1666666666666667
             },
             {
                 "action": "Unload blocking item",
@@ -4351,7 +4407,8 @@
                     0
                 ],
                 "unload_order": 57,
-                "unloading_cost": 6
+                "unloading_cost": 6,
+                "unloading_time": 0.18888888888888888
             },
             {
                 "action": "Reload blocking item",
@@ -4462,7 +4519,8 @@
                     34
                 ],
                 "unload_order": 58,
-                "unloading_cost": 3
+                "unloading_cost": 3,
+                "unloading_time": 0.5666666666666667
             },
             {
                 "action": "Reload blocking item",
@@ -4518,7 +4576,8 @@
                     68
                 ],
                 "unload_order": 59,
-                "unloading_cost": 1
+                "unloading_cost": 1,
+                "unloading_time": 0.9444444444444444
             },
             {
                 "action": "Reload blocking item",
@@ -4541,7 +4600,8 @@
                     96
                 ],
                 "unload_order": 60,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 1.2222222222222223
             },
             {
                 "action": "Unload blocking item",
@@ -4586,7 +4646,8 @@
                     0
                 ],
                 "unload_order": 61,
-                "unloading_cost": 3
+                "unloading_cost": 3,
+                "unloading_time": 0.15555555555555556
             },
             {
                 "action": "Reload blocking item",
@@ -4686,7 +4747,8 @@
                     28
                 ],
                 "unload_order": 62,
-                "unloading_cost": 5
+                "unloading_cost": 5,
+                "unloading_time": 0.48333333333333334
             },
             {
                 "action": "Reload blocking item",
@@ -4775,7 +4837,8 @@
                     48
                 ],
                 "unload_order": 63,
-                "unloading_cost": 2
+                "unloading_cost": 2,
+                "unloading_time": 0.6722222222222223
             },
             {
                 "action": "Reload blocking item",
@@ -4809,7 +4872,8 @@
                     59
                 ],
                 "unload_order": 64,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 0.7722222222222223
             },
             {
                 "action": "Unload",
@@ -4821,7 +4885,8 @@
                     96
                 ],
                 "unload_order": 65,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 1.1777777777777778
             },
             {
                 "action": "Unload",
@@ -4833,7 +4898,8 @@
                     96
                 ],
                 "unload_order": 66,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 1.1777777777777778
             },
             {
                 "action": "Unload",
@@ -4845,7 +4911,8 @@
                     96
                 ],
                 "unload_order": 67,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 1.2055555555555555
             },
             {
                 "action": "Unload",
@@ -4857,7 +4924,8 @@
                     0
                 ],
                 "unload_order": 68,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 0.1
             },
             {
                 "action": "Unload blocking item",
@@ -4891,7 +4959,8 @@
                     18
                 ],
                 "unload_order": 69,
-                "unloading_cost": 2
+                "unloading_cost": 2,
+                "unloading_time": 0.2833333333333333
             },
             {
                 "action": "Reload blocking item",
@@ -4925,7 +4994,8 @@
                     48
                 ],
                 "unload_order": 70,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 0.6166666666666667
             },
             {
                 "action": "Unload",
@@ -4937,7 +5007,8 @@
                     59
                 ],
                 "unload_order": 71,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 0.7555555555555555
             },
             {
                 "action": "Unload",
@@ -4949,7 +5020,8 @@
                     116
                 ],
                 "unload_order": 72,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 1.3388888888888888
             },
             {
                 "action": "Unload blocking item",
@@ -4983,7 +5055,8 @@
                     27
                 ],
                 "unload_order": 73,
-                "unloading_cost": 2
+                "unloading_cost": 2,
+                "unloading_time": 0.35
             },
             {
                 "action": "Reload blocking item",
@@ -5017,7 +5090,8 @@
                     33
                 ],
                 "unload_order": 74,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 0.4166666666666667
             }
         ]
     },
@@ -5034,7 +5108,8 @@
                     0
                 ],
                 "unload_order": 75,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 0.26666666666666666
             },
             {
                 "action": "Unload blocking item",
@@ -5057,7 +5132,8 @@
                     0
                 ],
                 "unload_order": 76,
-                "unloading_cost": 1
+                "unloading_cost": 1,
+                "unloading_time": 0.26666666666666666
             },
             {
                 "action": "Reload blocking item",
@@ -5080,7 +5156,8 @@
                     48
                 ],
                 "unload_order": 77,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 0.7555555555555555
             },
             {
                 "action": "Unload blocking item",
@@ -5125,7 +5202,8 @@
                     0
                 ],
                 "unload_order": 78,
-                "unloading_cost": 3
+                "unloading_cost": 3,
+                "unloading_time": 0.26666666666666666
             },
             {
                 "action": "Reload blocking item",
@@ -5170,7 +5248,8 @@
                     48
                 ],
                 "unload_order": 79,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 0.7444444444444445
             },
             {
                 "action": "Unload",
@@ -5182,7 +5261,8 @@
                     0
                 ],
                 "unload_order": 80,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 0.17222222222222222
             },
             {
                 "action": "Unload",
@@ -5194,7 +5274,8 @@
                     0
                 ],
                 "unload_order": 81,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 0.17222222222222222
             },
             {
                 "action": "Unload",
@@ -5206,7 +5287,8 @@
                     31
                 ],
                 "unload_order": 82,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 0.5
             },
             {
                 "action": "Unload",
@@ -5218,7 +5300,8 @@
                     31
                 ],
                 "unload_order": 83,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 0.48333333333333334
             },
             {
                 "action": "Unload",
@@ -5230,7 +5313,8 @@
                     0
                 ],
                 "unload_order": 84,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 0.1
             },
             {
                 "action": "Unload",
@@ -5242,7 +5326,8 @@
                     0
                 ],
                 "unload_order": 85,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 0.1
             },
             {
                 "action": "Unload",
@@ -5254,7 +5339,8 @@
                     18
                 ],
                 "unload_order": 86,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 0.25
             },
             {
                 "action": "Unload",
@@ -5266,7 +5352,8 @@
                     0
                 ],
                 "unload_order": 87,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 0.08888888888888889
             },
             {
                 "action": "Unload",
@@ -5278,7 +5365,8 @@
                     0
                 ],
                 "unload_order": 88,
-                "unloading_cost": 0
+                "unloading_cost": 0,
+                "unloading_time": 0.08888888888888889
             }
         ]
     }

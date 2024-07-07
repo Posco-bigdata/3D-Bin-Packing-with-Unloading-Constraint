@@ -1,23 +1,38 @@
 import json
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d.art3d import Poly3DCollection
-import random
 import matplotlib.animation as animation
+from main_data import create_scenario
 
-# Load container size from given_data.py
-from given_data import container_size
-
-# Load packed items from the JSON file
+# Get user input for scenario number and packing method
 scenario_number = int(input("Enter the scenario number: "))
-with open(f"./scenario/packed_items_scenario_{scenario_number}.json", 'r') as f:
+packing_method = input("Choose packing method (heuristic/subvolume): ").lower()
+
+# Get container size from create_scenario function
+container_size, _ = create_scenario(scenario_number)
+
+# Load packed items from the JSON file based on the chosen method
+if packing_method == 'heuristic':
+    file_path = f"./scenario/packed_items_scenario_{scenario_number}_original.json"
+elif packing_method == 'subvolume':
+    file_path = f"./scenario/subvolume_packed_items_scenario_{scenario_number}.json"
+else:
+    raise ValueError("Invalid packing method. Choose 'heuristic' or 'subvolume'.")
+
+with open(file_path, 'r') as f:
     packed_items = json.load(f)
 
 # Sort packed items by Load Order
 packed_items.sort(key=lambda x: x['load_order'])
 
-# Generate random colors for each location
-locations = list(set(item['location'] for item in packed_items))
-random_colors = {location: [random.random(), random.random(), random.random()] for location in locations}
+# Define color map for locations
+colors = {
+    'po1': (1.0, 0.7, 0.7),  # light red
+    'po2': (1.0, 1.0, 0.7),  # light yellow
+    'po3': (0.7, 0.7, 1.0),  # light blue
+    'po4': (0.7, 1.0, 0.7),  # light green
+    'po5': (0.9, 0.7, 0.9)   # light purple
+}
 
 # Function to draw a cuboid
 def draw_cuboid(ax, position, size, color='blue', alpha=0.3):
@@ -63,8 +78,8 @@ def init():
     ax.set_zlim([0, container_size[2]])
     
     # Create a legend
-    handles = [plt.Line2D([0], [0], color=random_colors[loc], lw=4) for loc in locations]
-    ax.legend(handles, locations)
+    handles = [plt.Line2D([0], [0], color=colors[loc], lw=4) for loc in colors.keys()]
+    ax.legend(handles, colors.keys())
     
     return ax,
 
@@ -77,22 +92,21 @@ def update(frame):
         position = item['position']
         size = item['orientation']
         location = item['location']
-        color = random_colors[location]
+        color = colors.get(location, (0.5, 0.5, 0.5))  # Default to gray if location not found
         draw_cuboid(ax, position, size, color=color, alpha=0.7)
-        ax.text(position[0], position[1], position[2], f"{item['id']}", color='black')
+        # Adjust the text position slightly to avoid overlap with the cuboid
+        text_position = (position[0] + size[0] / 2, position[1] + size[1] / 2, position[2] + size[2] / 2)
+        ax.text(*text_position, f"{item['id']}", color='black')
     
-    ax.set_title(f"Loading Step: {frame+1}")
-    return ax, 
+    ax.set_title(f"{packing_method.capitalize()} Packing - Loading Step: {frame+1}")
+    return ax,
 
 # Create the figure and 3D axis
 fig = plt.figure(figsize=(10, 8))
 ax = fig.add_subplot(111, projection='3d')
 
-# Create the animation with a 1-second interval between frames
-anim = animation.FuncAnimation(fig, update, frames=len(packed_items), init_func=init, blit=False, repeat=False, interval=100)
-
-# Save the animation as a GIF file 
-anim.save('packing_animation.gif', writer='pillow', fps=1)
+# Create the animation with a shorter interval between frames
+anim = animation.FuncAnimation(fig, update, frames=len(packed_items), init_func=init, blit=False, repeat=False, interval=200)
 
 # Display the animation
 plt.show()

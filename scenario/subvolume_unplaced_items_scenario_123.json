@@ -1,0 +1,42 @@
+[
+    {
+        "id": 38,
+        "width": 48,
+        "length": 38,
+        "height": 34,
+        "weight": 5.2,
+        "location": "po2"
+    },
+    {
+        "id": 39,
+        "width": 52,
+        "length": 48,
+        "height": 40,
+        "weight": 7.53,
+        "location": "po1"
+    },
+    {
+        "id": 29,
+        "width": 41,
+        "length": 31,
+        "height": 28,
+        "weight": 2.64,
+        "location": "po1"
+    },
+    {
+        "id": 31,
+        "width": 41,
+        "length": 31,
+        "height": 28,
+        "weight": 9.36,
+        "location": "po1"
+    },
+    {
+        "id": 33,
+        "width": 41,
+        "length": 31,
+        "height": 28,
+        "weight": 5.86,
+        "location": "po1"
+    }
+]

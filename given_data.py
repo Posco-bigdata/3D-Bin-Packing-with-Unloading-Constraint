@@ -4,9 +4,9 @@ import numpy as np
 
 # 컨테이너 크기 설정
 container_size = [170, 275, 160]
-container_size = np.array(container_size) * 0.8
+container_size = np.array(container_size) * 0.6
 container_size = container_size.tolist()  # JSON 직렬화를 위해 리스트로 변환
-
+print(container_size)
 # 컨테이너 부피 계산5
 container_volume = container_size[0] * container_size[1] * container_size[2]
 

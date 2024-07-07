@@ -2,11 +2,11 @@ import json
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.animation as animation
-from given_data import container_size
+from main_data import container_size
 
 # Load the packed items
 scenario_number = int(input("Enter the scenario number: "))
-with open(f'./scenario/packed_items_scenario_{scenario_number}.json', 'r') as f:
+with open(f'./scenario/rearranged_items_scenario_{scenario_number}.json', 'r') as f:
     packed_items = json.load(f)
 
 # Load the unloading operations
@@ -72,12 +72,14 @@ def update(frame):
         
         ax.set_title(f"Unloading at {current_location}: {current_item['action']} item {current_item['item_id']}")
         
-        if current_item['action'] == 'Unload':
+        if current_item['action'] in ['Unload', 'Unload blocking item']:
             if current_item['item_id'] in item_positions:
                 del item_positions[current_item['item_id']]
-            temporarily_removed.clear()  # Clear the set when a new item is unloaded
-        elif current_item['action'] == 'Blocked by':
+        elif current_item['action'] == 'Temporarily unload blocking item':
             temporarily_removed.add(current_item['item_id'])
+        elif current_item['action'] == 'Reload temporarily unloaded item':
+            if current_item['item_id'] in temporarily_removed:
+                temporarily_removed.remove(current_item['item_id'])
         
         for item_id, item in item_positions.items():
             if item_id not in temporarily_removed:
@@ -85,6 +87,12 @@ def update(frame):
                 ax.bar3d(item['position'][0], item['position'][1], item['position'][2],
                          item['orientation'][0], item['orientation'][1], item['orientation'][2],
                          color=color, alpha=0.8)
+            else:
+                # Visualize temporarily removed items above the container
+                temp_z = container_size[2] + 50  # Place them above the container
+                ax.bar3d(item['position'][0], item['position'][1], temp_z,
+                         item['orientation'][0], item['orientation'][1], item['orientation'][2],
+                         color='orange', alpha=0.5)  # Use a distinct color for temporarily removed items
     
     return ax
 

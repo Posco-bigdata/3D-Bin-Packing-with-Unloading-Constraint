@@ -1,5 +1,5 @@
-from given_data import container_size, data
 import json 
+from main_data import create_scenario
 
 class Item:
     def __init__(self, id, width, length, height, weight, location):
@@ -18,9 +18,6 @@ class Item:
             (self.length, self.width, self.height)
         ]
 
-# Convert data to a list of Item objects
-items = [Item(int(key), value['width'], value['length'], value['height'], value['weight'], value['location'])
-         for key, value in data.items()]
 
 class PackingAlgorithm:
     def __init__(self, width, length, height):
@@ -90,7 +87,6 @@ class PackingAlgorithm:
                 unplaced_items.append(item)
 
         return packed_items, unplaced_items
-
     def find_position(self, orientation, packed_items):
         item_width, item_length, item_height = orientation
         
@@ -110,33 +106,30 @@ class PackingAlgorithm:
     def find_position_in_section(self, orientation, packed_items, start_x, end_x):
         item_width, item_length, item_height = orientation
         best_position = None
-        max_contact_area = -1
 
-        for z in range(self.height):
-            for y in range(self.length - item_length, -1, -1):
-                for x in range(start_x, min(end_x, self.width) - item_width + 1):
+        for y in range(self.length - item_length, -1, -1):  # Start from the back
+            for x in range(start_x, min(end_x, self.width) - item_width + 1):
+                for z in range(self.height):  # Start from the bottom
                     if self.can_place_item(x, y, z, orientation, packed_items):
-                        contact_area = self.calculate_contact_area(x, y, z, orientation, packed_items)
-                        if contact_area > max_contact_area:
-                            max_contact_area = contact_area
-                            best_position = (x, y, z)
+                        position = (x, y, z)
+                        if not best_position or self.is_better_position(position, best_position):
+                            best_position = position
 
         return best_position
-
-
     def is_better_position(self, new_pos, current_best):
         if not current_best:
             return True
-        # Prioritize: 1. Back (higher y), 2. Left (lower x), 3. Bottom (lower z)
+        # Prioritize: 1. Back (higher y), 2. Bottom (lower z), 3. Left (lower x)
         if new_pos[1] > current_best[1]:
             return True
         elif new_pos[1] == current_best[1]:
-            if new_pos[0] < current_best[0]:
+            if new_pos[2] < current_best[2]:
                 return True
-            elif new_pos[0] == current_best[0]:
-                return new_pos[2] < current_best[2]
+            elif new_pos[2] == current_best[2]:
+                return new_pos[0] < current_best[0]
         return False
-
+    
+    
     def can_place_item(self, x, y, z, orientation, packed_items):
         item_width, item_length, item_height = orientation
 
@@ -160,7 +153,7 @@ class PackingAlgorithm:
             return True
         else:
             supported_area = self.calculate_support_area(x, y, z, orientation, packed_items)
-            return supported_area / (item_width * item_length) >= 0.7
+            return supported_area / (item_width * item_length) >= 0.8
 
         return True
 
@@ -230,8 +223,14 @@ class PackingAlgorithm:
         container_volume = self.width * self.length * self.height
         return total_volume / container_volume
 
-def main():
-    scenario_number = int(input("Enter the scenario number: "))
+def pack_items(scenario_number):
+    # create_scenario 함수를 사용하여 컨테이너 크기와 아이템 데이터를 가져옵니다
+    container_size, items_data = create_scenario(scenario_number)
+
+    # 아이템 데이터를 Item 객체로 변환합니다
+    items = [Item(int(key), value['width'], value['length'], value['height'], value['weight'], value['location'])
+             for key, value in items_data.items()]
+
     container = PackingAlgorithm(container_size[0], container_size[1], container_size[2])
     container.pack_items_with_permutations(items)
     
@@ -261,6 +260,16 @@ def main():
 
     # Print the best capacity utilization
     print(f"Best Capacity Utilization: {container.best_utilization:.2%}")
+
+    return container.best_packed_items, container.best_unplaced_items, container.best_utilization
+
+def main():
+    scenario_number = int(input("Enter the scenario number: "))
+    best_packed_items, best_unplaced_items, best_utilization = pack_items(scenario_number)
+    
+    print(f"패킹된 아이템 수: {len(best_packed_items)}")
+    print(f"패킹되지 않은 아이템 수: {len(best_unplaced_items)}")
+    print(f"최종 공간 활용도: {best_utilization:.2%}")
 
 if __name__ == "__main__":
     main()
