@@ -1,0 +1,610 @@
+[
+    {
+        "id": 24,
+        "position": [
+            0,
+            137,
+            0
+        ],
+        "orientation": [
+            41,
+            28,
+            31
+        ],
+        "location": "po5",
+        "load_order": 1,
+        "weight": 5.09
+    },
+    {
+        "id": 27,
+        "position": [
+            0,
+            137,
+            31
+        ],
+        "orientation": [
+            41,
+            28,
+            31
+        ],
+        "location": "po5",
+        "load_order": 2,
+        "weight": 2.86
+    },
+    {
+        "id": 28,
+        "position": [
+            0,
+            137,
+            62
+        ],
+        "orientation": [
+            41,
+            28,
+            31
+        ],
+        "location": "po5",
+        "load_order": 3,
+        "weight": 6.25
+    },
+    {
+        "id": 29,
+        "position": [
+            0,
+            109,
+            0
+        ],
+        "orientation": [
+            41,
+            28,
+            31
+        ],
+        "location": "po5",
+        "load_order": 4,
+        "weight": 1.21
+    },
+    {
+        "id": 30,
+        "position": [
+            0,
+            109,
+            31
+        ],
+        "orientation": [
+            41,
+            28,
+            31
+        ],
+        "location": "po5",
+        "load_order": 5,
+        "weight": 3.75
+    },
+    {
+        "id": 31,
+        "position": [
+            0,
+            109,
+            62
+        ],
+        "orientation": [
+            41,
+            28,
+            31
+        ],
+        "location": "po5",
+        "load_order": 6,
+        "weight": 9.63
+    },
+    {
+        "id": 35,
+        "position": [
+            0,
+            81,
+            0
+        ],
+        "orientation": [
+            41,
+            28,
+            31
+        ],
+        "location": "po5",
+        "load_order": 7,
+        "weight": 5.95
+    },
+    {
+        "id": 36,
+        "position": [
+            71,
+            124,
+            0
+        ],
+        "orientation": [
+            31,
+            41,
+            28
+        ],
+        "location": "po5",
+        "load_order": 8,
+        "weight": 6.02
+    },
+    {
+        "id": 18,
+        "position": [
+            41,
+            131,
+            0
+        ],
+        "orientation": [
+            25,
+            34,
+            21
+        ],
+        "location": "po5",
+        "load_order": 9,
+        "weight": 9.55
+    },
+    {
+        "id": 23,
+        "position": [
+            41,
+            131,
+            21
+        ],
+        "orientation": [
+            25,
+            34,
+            21
+        ],
+        "location": "po5",
+        "load_order": 10,
+        "weight": 2.76
+    },
+    {
+        "id": 4,
+        "position": [
+            0,
+            99,
+            31
+        ],
+        "orientation": [
+            35,
+            10,
+            25
+        ],
+        "location": "po5",
+        "load_order": 11,
+        "weight": 7.93
+    },
+    {
+        "id": 7,
+        "position": [
+            0,
+            99,
+            56
+        ],
+        "orientation": [
+            35,
+            10,
+            25
+        ],
+        "location": "po5",
+        "load_order": 12,
+        "weight": 3.36
+    },
+    {
+        "id": 40,
+        "position": [
+            0,
+            41,
+            0
+        ],
+        "orientation": [
+            52,
+            40,
+            48
+        ],
+        "location": "po4",
+        "load_order": 13,
+        "weight": 6.44
+    },
+    {
+        "id": 37,
+        "position": [
+            0,
+            47,
+            48
+        ],
+        "orientation": [
+            48,
+            34,
+            38
+        ],
+        "location": "po4",
+        "load_order": 14,
+        "weight": 8.45
+    },
+    {
+        "id": 32,
+        "position": [
+            71,
+            124,
+            28
+        ],
+        "orientation": [
+            31,
+            41,
+            28
+        ],
+        "location": "po4",
+        "load_order": 15,
+        "weight": 5.47
+    },
+    {
+        "id": 3,
+        "position": [
+            41,
+            133,
+            42
+        ],
+        "orientation": [
+            24,
+            32,
+            20
+        ],
+        "location": "po4",
+        "load_order": 16,
+        "weight": 1.86
+    },
+    {
+        "id": 12,
+        "position": [
+            41,
+            96,
+            0
+        ],
+        "orientation": [
+            25,
+            35,
+            10
+        ],
+        "location": "po4",
+        "load_order": 17,
+        "weight": 8.19
+    },
+    {
+        "id": 13,
+        "position": [
+            41,
+            138,
+            62
+        ],
+        "orientation": [
+            18,
+            27,
+            15
+        ],
+        "location": "po4",
+        "load_order": 18,
+        "weight": 2.71
+    },
+    {
+        "id": 26,
+        "position": [
+            71,
+            124,
+            56
+        ],
+        "orientation": [
+            31,
+            41,
+            28
+        ],
+        "location": "po3",
+        "load_order": 19,
+        "weight": 6.16
+    },
+    {
+        "id": 33,
+        "position": [
+            71,
+            83,
+            0
+        ],
+        "orientation": [
+            31,
+            41,
+            28
+        ],
+        "location": "po3",
+        "load_order": 20,
+        "weight": 9.44
+    },
+    {
+        "id": 14,
+        "position": [
+            41,
+            97,
+            10
+        ],
+        "orientation": [
+            25,
+            34,
+            21
+        ],
+        "location": "po3",
+        "load_order": 21,
+        "weight": 7.81
+    },
+    {
+        "id": 17,
+        "position": [
+            41,
+            97,
+            31
+        ],
+        "orientation": [
+            25,
+            34,
+            21
+        ],
+        "location": "po3",
+        "load_order": 22,
+        "weight": 9.71
+    },
+    {
+        "id": 10,
+        "position": [
+            71,
+            130,
+            84
+        ],
+        "orientation": [
+            25,
+            35,
+            10
+        ],
+        "location": "po3",
+        "load_order": 23,
+        "weight": 5.27
+    },
+    {
+        "id": 2,
+        "position": [
+            41,
+            139,
+            77
+        ],
+        "orientation": [
+            18,
+            26,
+            15
+        ],
+        "location": "po3",
+        "load_order": 24,
+        "weight": 8.92
+    },
+    {
+        "id": 25,
+        "position": [
+            71,
+            83,
+            28
+        ],
+        "orientation": [
+            31,
+            41,
+            28
+        ],
+        "location": "po2",
+        "load_order": 25,
+        "weight": 7.07
+    },
+    {
+        "id": 15,
+        "position": [
+            41,
+            97,
+            52
+        ],
+        "orientation": [
+            25,
+            34,
+            21
+        ],
+        "location": "po2",
+        "load_order": 26,
+        "weight": 5.71
+    },
+    {
+        "id": 16,
+        "position": [
+            41,
+            97,
+            73
+        ],
+        "orientation": [
+            25,
+            34,
+            21
+        ],
+        "location": "po2",
+        "load_order": 27,
+        "weight": 8.28
+    },
+    {
+        "id": 20,
+        "position": [
+            71,
+            90,
+            56
+        ],
+        "orientation": [
+            25,
+            34,
+            21
+        ],
+        "location": "po2",
+        "load_order": 28,
+        "weight": 5.01
+    },
+    {
+        "id": 8,
+        "position": [
+            0,
+            89,
+            31
+        ],
+        "orientation": [
+            35,
+            10,
+            25
+        ],
+        "location": "po2",
+        "load_order": 29,
+        "weight": 6.55
+    },
+    {
+        "id": 34,
+        "position": [
+            71,
+            42,
+            0
+        ],
+        "orientation": [
+            31,
+            41,
+            28
+        ],
+        "location": "po1",
+        "load_order": 30,
+        "weight": 9.51
+    },
+    {
+        "id": 19,
+        "position": [
+            71,
+            49,
+            28
+        ],
+        "orientation": [
+            25,
+            34,
+            21
+        ],
+        "location": "po1",
+        "load_order": 31,
+        "weight": 2.9
+    },
+    {
+        "id": 21,
+        "position": [
+            71,
+            49,
+            49
+        ],
+        "orientation": [
+            25,
+            34,
+            21
+        ],
+        "location": "po1",
+        "load_order": 32,
+        "weight": 5.03
+    },
+    {
+        "id": 22,
+        "position": [
+            71,
+            49,
+            70
+        ],
+        "orientation": [
+            25,
+            34,
+            21
+        ],
+        "location": "po1",
+        "load_order": 33,
+        "weight": 8.63
+    },
+    {
+        "id": 5,
+        "position": [
+            0,
+            89,
+            56
+        ],
+        "orientation": [
+            35,
+            10,
+            25
+        ],
+        "location": "po1",
+        "load_order": 34,
+        "weight": 2.16
+    },
+    {
+        "id": 6,
+        "position": [
+            0,
+            56,
+            86
+        ],
+        "orientation": [
+            35,
+            25,
+            10
+        ],
+        "location": "po1",
+        "load_order": 35,
+        "weight": 5.17
+    },
+    {
+        "id": 9,
+        "position": [
+            0,
+            31,
+            0
+        ],
+        "orientation": [
+            35,
+            10,
+            25
+        ],
+        "location": "po1",
+        "load_order": 36,
+        "weight": 1.26
+    },
+    {
+        "id": 11,
+        "position": [
+            0,
+            31,
+            25
+        ],
+        "orientation": [
+            35,
+            10,
+            25
+        ],
+        "location": "po1",
+        "load_order": 37,
+        "weight": 4.57
+    },
+    {
+        "id": 1,
+        "position": [
+            0,
+            91,
+            81
+        ],
+        "orientation": [
+            26,
+            18,
+            15
+        ],
+        "location": "po1",
+        "load_order": 38,
+        "weight": 3.94
+    }
+]
