@@ -28,21 +28,11 @@ def read_barcode(timeout=5):
     
     return barcode_input.strip()
 
-def load_json(filename):
-    with open(filename, 'r') as f:
-        return json.load(f)
-
-def update_json(data, filename):
-    with open(filename, 'w') as f:
-        json.dump(data, f, indent=2)
-
 def get_next_mapping_id(data):
     existing_mapping_ids = [box.get('mapping_id', -1) for box in data.values()]
     return max(existing_mapping_ids + [-1]) + 1
 
-def main():
-    json_filename = 'main_box_scenario_777.json'
-    data = load_json(json_filename)
+def process_barcodes(data, timeout=10):
     last_activity_time = time.time()
 
     while True:
@@ -50,9 +40,8 @@ def main():
         barcode = read_barcode()
         
         current_time = time.time()
-        if current_time - last_activity_time > 10:
-            print("No activity for 10 seconds. Saving and exiting.")
-            update_json(data, json_filename)
+        if current_time - last_activity_time > timeout:
+            print(f"No activity for {timeout} seconds. Saving and exiting.")
             break
 
         if not barcode:
@@ -73,7 +62,4 @@ def main():
         else:
             print("Box ID not found in data.")
 
-        update_json(data, json_filename)
-
-if __name__ == "__main__":
-    main()
+    return data

@@ -1,7 +1,6 @@
 import json
 import os
 import sys
-from main_scenario_box import generate_box_scenario
 from main_data import create_scenario
 from rearrange_order import rearrange_order
 from unload import process_unloading
@@ -9,13 +8,33 @@ import generate_barcodes as gb
 from heuristics import PackingAlgorithm as OriginalPackingAlgorithm, Item as OriginalItem
 from subvolume import PackingAlgorithm as SubvolumePackingAlgorithm, Item as SubvolumeItem
 
+def add_mapping_id_to_rearranged_items(scenario_number, packing_method):
+    # Load the original data with mapping_id
+    with open(f'./main_box_scenario_{scenario_number}.json', 'r') as f:
+        original_data = json.load(f)
+
+    # Load the rearranged items data
+    rearranged_items_file = f'./scenario/rearranged_items_scenario_{scenario_number}_{packing_method}.json'
+    with open(rearranged_items_file, 'r') as f:
+        rearranged_items = json.load(f)
+
+    # Add mapping_id to rearranged items
+    for item in rearranged_items:
+        item_id = str(item['id'])
+        if item_id in original_data and 'mapping_id' in original_data[item_id]:
+            item['mapping_id'] = original_data[item_id]['mapping_id']
+
+    # Save the updated rearranged items data
+    with open(rearranged_items_file, 'w') as f:
+        json.dump(rearranged_items, f, indent=4)
+
+    print(f"매핑 ID가 {rearranged_items_file}에 추가되었습니다.")
+
+
 def main():
     scenario_number = input("시나리오 번호를 입력하세요: ")
 
-    # 1. 박스 시나리오 생성
-    generate_box_scenario(scenario_number)
-
-    # 2. 메인 시나리오 생성
+    # . 메인 시나리오 생성
     container_size, items = create_scenario(scenario_number)
 
     # 3. 기존 heuristic을 사용한 아이템 패킹
@@ -35,6 +54,8 @@ def main():
     original_rearranged_items_file = f'./scenario/rearranged_items_scenario_{scenario_number}_original.json'
     with open(original_rearranged_items_file, 'w') as f:
         json.dump(original_rearranged_items, f, indent=4)
+
+    add_mapping_id_to_rearranged_items(scenario_number, "original")
 
     # 기존 heuristic 언로딩 시뮬레이션
     original_unloading_result = process_unloading(scenario_number, "original")
@@ -76,6 +97,8 @@ def main():
     with open(subvolume_rearranged_items_file, 'w') as f:
         json.dump(subvolume_rearranged_items, f, indent=4)
 
+    add_mapping_id_to_rearranged_items(scenario_number, "subvolume")
+
     # Subvolume 언로딩 시뮬레이션
     subvolume_unloading_result = process_unloading(scenario_number, "subvolume")
     if subvolume_unloading_result:
@@ -84,8 +107,6 @@ def main():
         print(f"Unloading cost: {subvolume_unloading_result['unloading_cost']}")
         print(f"Reloading count: {subvolume_unloading_result['reloading_count']}")
 
-    # 7. 바코드 생성
-    gb.generate_barcodes(scenario_number)
 
     print("모든 프로세스가 완료되었습니다.")
 
