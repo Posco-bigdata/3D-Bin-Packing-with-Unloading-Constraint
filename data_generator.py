@@ -12,22 +12,33 @@ def main():
     with open(scenario_file, 'r') as f:
         scenario_data = json.load(f)
 
-    # Step 3: Generate barcodes
-    generate_barcodes(scenario_number, scenario_data)
+    # Step 3: Generate barcodes (commented out as per your code)
+    # generate_barcodes(scenario_number, scenario_data)
 
-    # Step 4: Wait for user to start barcode reading
+    # Step 4: Ask user if they want to perform barcode reading
     while True:
-        user_input = input("바코드 생성이 완료되었습니다. 바코드 읽기를 시작하려면 'start'를 입력하세요: ")
-        if user_input.lower() == 'start':
+        user_input = input("바코드 읽기를 수행하시겠습니까? (yes/no): ").lower().strip()
+        if user_input in ['yes', 'y', 'no', 'n']:
             break
-    # Step 5: Process barcodes
-    updated_data = process_barcodes(scenario_data)
+        print("잘못된 입력입니다. 'yes' 또는 'no'로 답해주세요.")
 
-    # Step 6: Save updated data back to the scenario file
-    with open(scenario_file, 'w') as f:
-        json.dump(updated_data, f, ensure_ascii=False, indent=4)
+    if user_input in ['yes', 'y']:
+        # Wait for user to start barcode reading
+        while True:
+            start_input = input("바코드 읽기를 시작하려면 'start'를 입력하세요: ")
+            if start_input.lower() == 'start':
+                break
 
-    print(f"업데이트된 데이터가 {scenario_file}에 저장되었습니다.")
+        # Step 5: Process barcodes
+        updated_data = process_barcodes(scenario_data)
+
+        # Step 6: Save updated data back to the scenario file
+        with open(scenario_file, 'w') as f:
+            json.dump(updated_data, f, ensure_ascii=False, indent=4)
+
+        print(f"업데이트된 데이터가 {scenario_file}에 저장되었습니다.")
+    else:
+        print("바코드 읽기를 수행하지 않았습니다.")
 
 if __name__ == "__main__":
     main()

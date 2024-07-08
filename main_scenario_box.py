@@ -4,16 +4,16 @@ import random
 def generate_box_scenario(scenario_number):
     # Define the box specifications based on the given format
     box_specs = {
-        "구 1호": (180, 160, 70, 0),
-        "구 2호": (260, 180, 151, 2),
-        "구 3호": (320, 240, 200, 1),
-        "1호": (220, 190, 90, 0),
-        "2-1호": (350, 250, 100, 9),
-        "2호": (270, 180, 150, 1),
-        "3호": (340, 250, 210, 10),
-        "4호": (410, 310, 280, 13),
-        "5호": (480, 380, 340, 2),
-        "6호": (520, 480, 400, 2)
+        "구 1호": (180, 160, 70, 2), #2
+        "구 2호": (260, 180, 151, 2), #2
+        "구 3호": (320, 240, 200, 2), #2
+        "1호": (220, 190, 90, 12), #12
+        "2-1호": (350, 250, 100, 10), # 10
+        "2호": (270, 180, 150, 12), # 12
+        "3호": (340, 250, 210, 12), #12 
+        "4호": (410, 310, 280, 16), # 16
+        "5호": (480, 380, 340, 10), #10
+        "6호": (520, 480, 400, 10) #10
     }
 
     # Map the spec_id to each box type
@@ -57,3 +57,31 @@ def generate_box_scenario(scenario_number):
 if __name__ == "__main__":
     scenario_number = input("시나리오 번호를 입력하세요: ")
     generate_box_scenario(scenario_number)
+
+# import json
+
+# def generate_box_scenario(scenario_number):
+#     filename = f'./main_box_scenario_777.json'
+
+#     # Load the existing data from the JSON file
+#     try:
+#         with open(filename, 'r') as f:
+#             boxes_data = json.load(f)
+#     except FileNotFoundError:
+#         print(f"Error: File {filename} not found.")
+#         return None
+#     except json.JSONDecodeError:
+#         print(f"Error: File {filename} is not a valid JSON file.")
+#         return None
+
+#     # Save the loaded data back to the same JSON file
+#     with open(filename, 'w') as f:
+#         json.dump(boxes_data, f, ensure_ascii=False, indent=4)
+
+#     print(f"데이터가 {filename}에서 읽어와 같은 위치에 저장되었습니다.")
+#     return filename
+
+# # This allows the script to be run standalone or imported as a module
+# if __name__ == "__main__":
+#     scenario_number = input("시나리오 번호를 입력하세요: ")
+#     generate_box_scenario(scenario_number)

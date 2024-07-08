@@ -4,7 +4,7 @@ import numpy as np
 def create_scenario(scenario_number):
     # 컨테이너 크기 설정
     container_size = [170, 275, 160]
-    container_size = np.array(container_size) * 0.6
+    container_size = np.array(container_size) * 0.8
     container_size = container_size.tolist()  # JSON 직렬화를 위해 리스트로 변환
     print(f"컨테이너 크기: {container_size}")
 

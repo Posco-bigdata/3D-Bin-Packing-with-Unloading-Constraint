@@ -14,7 +14,7 @@ def on_release(key):
     if key == keyboard.Key.enter:
         return False
 
-def read_barcode(timeout=5):
+def read_barcode(timeout=30):
     global barcode_input, last_input_time
     barcode_input = ""
     last_input_time = time.time()
@@ -32,11 +32,11 @@ def get_next_mapping_id(data):
     existing_mapping_ids = [box.get('mapping_id', -1) for box in data.values()]
     return max(existing_mapping_ids + [-1]) + 1
 
-def process_barcodes(data, timeout=10):
+def process_barcodes(data, timeout=30):
     last_activity_time = time.time()
 
     while True:
-        print("Scan box ID (5 second timeout):")
+        print("Scan box ID (30 second timeout):")
         barcode = read_barcode()
         
         current_time = time.time()

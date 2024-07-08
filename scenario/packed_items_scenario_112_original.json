@@ -1,0 +1,1394 @@
+[
+    {
+        "id": 79,
+        "position": [
+            0,
+            180,
+            0
+        ],
+        "orientation": [
+            52,
+            40,
+            48
+        ],
+        "location": "po5",
+        "load_order": 1,
+        "weight": 4.99
+    },
+    {
+        "id": 80,
+        "position": [
+            0,
+            180,
+            48
+        ],
+        "orientation": [
+            52,
+            40,
+            48
+        ],
+        "location": "po5",
+        "load_order": 2,
+        "weight": 3.41
+    },
+    {
+        "id": 84,
+        "position": [
+            0,
+            140,
+            0
+        ],
+        "orientation": [
+            52,
+            40,
+            48
+        ],
+        "location": "po5",
+        "load_order": 3,
+        "weight": 8.15
+    },
+    {
+        "id": 72,
+        "position": [
+            52,
+            172,
+            0
+        ],
+        "orientation": [
+            38,
+            48,
+            34
+        ],
+        "location": "po5",
+        "load_order": 4,
+        "weight": 4.76
+    },
+    {
+        "id": 76,
+        "position": [
+            52,
+            172,
+            34
+        ],
+        "orientation": [
+            38,
+            48,
+            34
+        ],
+        "location": "po5",
+        "load_order": 5,
+        "weight": 2.51
+    },
+    {
+        "id": 54,
+        "position": [
+            52,
+            192,
+            68
+        ],
+        "orientation": [
+            41,
+            28,
+            31
+        ],
+        "location": "po5",
+        "load_order": 6,
+        "weight": 6.5
+    },
+    {
+        "id": 59,
+        "position": [
+            0,
+            192,
+            96
+        ],
+        "orientation": [
+            41,
+            28,
+            31
+        ],
+        "location": "po5",
+        "load_order": 7,
+        "weight": 7.63
+    },
+    {
+        "id": 41,
+        "position": [
+            46,
+            199,
+            99
+        ],
+        "orientation": [
+            34,
+            21,
+            25
+        ],
+        "location": "po5",
+        "load_order": 8,
+        "weight": 3.09
+    },
+    {
+        "id": 45,
+        "position": [
+            52,
+            171,
+            68
+        ],
+        "orientation": [
+            34,
+            21,
+            25
+        ],
+        "location": "po5",
+        "load_order": 9,
+        "weight": 7.93
+    },
+    {
+        "id": 52,
+        "position": [
+            52,
+            171,
+            93
+        ],
+        "orientation": [
+            34,
+            21,
+            25
+        ],
+        "location": "po5",
+        "load_order": 10,
+        "weight": 5.62
+    },
+    {
+        "id": 24,
+        "position": [
+            0,
+            182,
+            96
+        ],
+        "orientation": [
+            35,
+            10,
+            25
+        ],
+        "location": "po5",
+        "load_order": 11,
+        "weight": 6.48
+    },
+    {
+        "id": 26,
+        "position": [
+            51,
+            171,
+            118
+        ],
+        "orientation": [
+            35,
+            25,
+            10
+        ],
+        "location": "po5",
+        "load_order": 12,
+        "weight": 4.84
+    },
+    {
+        "id": 7,
+        "position": [
+            0,
+            171,
+            48
+        ],
+        "orientation": [
+            22,
+            9,
+            19
+        ],
+        "location": "po5",
+        "load_order": 13,
+        "weight": 1.61
+    },
+    {
+        "id": 9,
+        "position": [
+            22,
+            171,
+            48
+        ],
+        "orientation": [
+            22,
+            9,
+            19
+        ],
+        "location": "po5",
+        "load_order": 14,
+        "weight": 3.31
+    },
+    {
+        "id": 13,
+        "position": [
+            0,
+            171,
+            67
+        ],
+        "orientation": [
+            22,
+            9,
+            19
+        ],
+        "location": "po5",
+        "load_order": 15,
+        "weight": 1.9
+    },
+    {
+        "id": 1,
+        "position": [
+            49,
+            192,
+            99
+        ],
+        "orientation": [
+            18,
+            7,
+            16
+        ],
+        "location": "po5",
+        "load_order": 16,
+        "weight": 7.37
+    },
+    {
+        "id": 82,
+        "position": [
+            0,
+            100,
+            0
+        ],
+        "orientation": [
+            52,
+            40,
+            48
+        ],
+        "location": "po4",
+        "load_order": 17,
+        "weight": 5.03
+    },
+    {
+        "id": 56,
+        "position": [
+            52,
+            144,
+            0
+        ],
+        "orientation": [
+            41,
+            28,
+            31
+        ],
+        "location": "po4",
+        "load_order": 18,
+        "weight": 6.07
+    },
+    {
+        "id": 57,
+        "position": [
+            52,
+            144,
+            31
+        ],
+        "orientation": [
+            41,
+            28,
+            31
+        ],
+        "location": "po4",
+        "load_order": 19,
+        "weight": 2.8
+    },
+    {
+        "id": 61,
+        "position": [
+            0,
+            143,
+            48
+        ],
+        "orientation": [
+            41,
+            28,
+            31
+        ],
+        "location": "po4",
+        "load_order": 20,
+        "weight": 7.85
+    },
+    {
+        "id": 62,
+        "position": [
+            46,
+            143,
+            62
+        ],
+        "orientation": [
+            41,
+            28,
+            31
+        ],
+        "location": "po4",
+        "load_order": 21,
+        "weight": 1.84
+    },
+    {
+        "id": 64,
+        "position": [
+            0,
+            143,
+            79
+        ],
+        "orientation": [
+            41,
+            28,
+            31
+        ],
+        "location": "po4",
+        "load_order": 22,
+        "weight": 7.46
+    },
+    {
+        "id": 42,
+        "position": [
+            41,
+            150,
+            93
+        ],
+        "orientation": [
+            34,
+            21,
+            25
+        ],
+        "location": "po4",
+        "load_order": 23,
+        "weight": 6.15
+    },
+    {
+        "id": 43,
+        "position": [
+            52,
+            123,
+            0
+        ],
+        "orientation": [
+            34,
+            21,
+            25
+        ],
+        "location": "po4",
+        "load_order": 24,
+        "weight": 9.23
+    },
+    {
+        "id": 46,
+        "position": [
+            52,
+            123,
+            25
+        ],
+        "orientation": [
+            34,
+            21,
+            25
+        ],
+        "location": "po4",
+        "load_order": 25,
+        "weight": 3.36
+    },
+    {
+        "id": 6,
+        "position": [
+            0,
+            123,
+            48
+        ],
+        "orientation": [
+            32,
+            20,
+            24
+        ],
+        "location": "po4",
+        "load_order": 26,
+        "weight": 4.07
+    },
+    {
+        "id": 29,
+        "position": [
+            0,
+            159,
+            110
+        ],
+        "orientation": [
+            27,
+            15,
+            18
+        ],
+        "location": "po4",
+        "load_order": 27,
+        "weight": 7.89
+    },
+    {
+        "id": 30,
+        "position": [
+            0,
+            144,
+            110
+        ],
+        "orientation": [
+            27,
+            15,
+            18
+        ],
+        "location": "po4",
+        "load_order": 28,
+        "weight": 9.02
+    },
+    {
+        "id": 31,
+        "position": [
+            47,
+            128,
+            50
+        ],
+        "orientation": [
+            27,
+            15,
+            18
+        ],
+        "location": "po4",
+        "load_order": 29,
+        "weight": 2.51
+    },
+    {
+        "id": 35,
+        "position": [
+            42,
+            128,
+            68
+        ],
+        "orientation": [
+            27,
+            15,
+            18
+        ],
+        "location": "po4",
+        "load_order": 30,
+        "weight": 7.11
+    },
+    {
+        "id": 40,
+        "position": [
+            0,
+            128,
+            72
+        ],
+        "orientation": [
+            27,
+            15,
+            18
+        ],
+        "location": "po4",
+        "load_order": 31,
+        "weight": 9.11
+    },
+    {
+        "id": 16,
+        "position": [
+            22,
+            171,
+            67
+        ],
+        "orientation": [
+            22,
+            9,
+            19
+        ],
+        "location": "po4",
+        "load_order": 32,
+        "weight": 8.48
+    },
+    {
+        "id": 85,
+        "position": [
+            0,
+            60,
+            0
+        ],
+        "orientation": [
+            52,
+            40,
+            48
+        ],
+        "location": "po3",
+        "load_order": 33,
+        "weight": 2.09
+    },
+    {
+        "id": 73,
+        "position": [
+            0,
+            89,
+            48
+        ],
+        "orientation": [
+            48,
+            34,
+            38
+        ],
+        "location": "po3",
+        "load_order": 34,
+        "weight": 2.29
+    },
+    {
+        "id": 77,
+        "position": [
+            0,
+            94,
+            86
+        ],
+        "orientation": [
+            48,
+            34,
+            38
+        ],
+        "location": "po3",
+        "load_order": 35,
+        "weight": 7.07
+    },
+    {
+        "id": 78,
+        "position": [
+            52,
+            75,
+            0
+        ],
+        "orientation": [
+            38,
+            48,
+            34
+        ],
+        "location": "po3",
+        "load_order": 36,
+        "weight": 4.03
+    },
+    {
+        "id": 58,
+        "position": [
+            52,
+            95,
+            34
+        ],
+        "orientation": [
+            41,
+            28,
+            31
+        ],
+        "location": "po3",
+        "load_order": 37,
+        "weight": 9.89
+    },
+    {
+        "id": 63,
+        "position": [
+            51,
+            100,
+            65
+        ],
+        "orientation": [
+            41,
+            28,
+            31
+        ],
+        "location": "po3",
+        "load_order": 38,
+        "weight": 8.78
+    },
+    {
+        "id": 47,
+        "position": [
+            51,
+            111,
+            96
+        ],
+        "orientation": [
+            34,
+            21,
+            25
+        ],
+        "location": "po3",
+        "load_order": 39,
+        "weight": 5.7
+    },
+    {
+        "id": 5,
+        "position": [
+            52,
+            75,
+            34
+        ],
+        "orientation": [
+            32,
+            20,
+            24
+        ],
+        "location": "po3",
+        "load_order": 40,
+        "weight": 4.79
+    },
+    {
+        "id": 19,
+        "position": [
+            40,
+            146,
+            118
+        ],
+        "orientation": [
+            35,
+            25,
+            10
+        ],
+        "location": "po3",
+        "load_order": 41,
+        "weight": 4.07
+    },
+    {
+        "id": 23,
+        "position": [
+            48,
+            101,
+            96
+        ],
+        "orientation": [
+            35,
+            10,
+            25
+        ],
+        "location": "po3",
+        "load_order": 42,
+        "weight": 5.51
+    },
+    {
+        "id": 25,
+        "position": [
+            48,
+            85,
+            58
+        ],
+        "orientation": [
+            35,
+            10,
+            25
+        ],
+        "location": "po3",
+        "load_order": 43,
+        "weight": 1.99
+    },
+    {
+        "id": 28,
+        "position": [
+            48,
+            87,
+            83
+        ],
+        "orientation": [
+            35,
+            10,
+            25
+        ],
+        "location": "po3",
+        "load_order": 44,
+        "weight": 2.47
+    },
+    {
+        "id": 37,
+        "position": [
+            0,
+            128,
+            90
+        ],
+        "orientation": [
+            27,
+            15,
+            18
+        ],
+        "location": "po3",
+        "load_order": 45,
+        "weight": 6.27
+    },
+    {
+        "id": 3,
+        "position": [
+            0,
+            128,
+            108
+        ],
+        "orientation": [
+            26,
+            15,
+            18
+        ],
+        "location": "po3",
+        "load_order": 46,
+        "weight": 3.61
+    },
+    {
+        "id": 14,
+        "position": [
+            0,
+            171,
+            86
+        ],
+        "orientation": [
+            22,
+            9,
+            19
+        ],
+        "location": "po3",
+        "load_order": 47,
+        "weight": 5.65
+    },
+    {
+        "id": 17,
+        "position": [
+            22,
+            171,
+            86
+        ],
+        "orientation": [
+            22,
+            9,
+            19
+        ],
+        "location": "po3",
+        "load_order": 48,
+        "weight": 9.94
+    },
+    {
+        "id": 18,
+        "position": [
+            38,
+            134,
+            86
+        ],
+        "orientation": [
+            22,
+            9,
+            19
+        ],
+        "location": "po3",
+        "load_order": 49,
+        "weight": 5.27
+    },
+    {
+        "id": 81,
+        "position": [
+            0,
+            20,
+            0
+        ],
+        "orientation": [
+            52,
+            40,
+            48
+        ],
+        "location": "po2",
+        "load_order": 50,
+        "weight": 5.75
+    },
+    {
+        "id": 88,
+        "position": [
+            0,
+            45,
+            48
+        ],
+        "orientation": [
+            52,
+            40,
+            48
+        ],
+        "location": "po2",
+        "load_order": 51,
+        "weight": 8.35
+    },
+    {
+        "id": 71,
+        "position": [
+            52,
+            41,
+            0
+        ],
+        "orientation": [
+            48,
+            34,
+            38
+        ],
+        "location": "po2",
+        "load_order": 52,
+        "weight": 5.02
+    },
+    {
+        "id": 75,
+        "position": [
+            90,
+            172,
+            0
+        ],
+        "orientation": [
+            38,
+            48,
+            34
+        ],
+        "location": "po2",
+        "load_order": 53,
+        "weight": 5.94
+    },
+    {
+        "id": 55,
+        "position": [
+            0,
+            62,
+            96
+        ],
+        "orientation": [
+            41,
+            28,
+            31
+        ],
+        "location": "po2",
+        "load_order": 54,
+        "weight": 6.51
+    },
+    {
+        "id": 66,
+        "position": [
+            52,
+            47,
+            38
+        ],
+        "orientation": [
+            41,
+            28,
+            31
+        ],
+        "location": "po2",
+        "load_order": 55,
+        "weight": 8.15
+    },
+    {
+        "id": 67,
+        "position": [
+            52,
+            52,
+            69
+        ],
+        "orientation": [
+            41,
+            28,
+            31
+        ],
+        "location": "po2",
+        "load_order": 56,
+        "weight": 8.96
+    },
+    {
+        "id": 68,
+        "position": [
+            52,
+            55,
+            100
+        ],
+        "orientation": [
+            41,
+            31,
+            28
+        ],
+        "location": "po2",
+        "load_order": 57,
+        "weight": 4.86
+    },
+    {
+        "id": 50,
+        "position": [
+            0,
+            41,
+            96
+        ],
+        "orientation": [
+            34,
+            21,
+            25
+        ],
+        "location": "po2",
+        "load_order": 58,
+        "weight": 9.43
+    },
+    {
+        "id": 27,
+        "position": [
+            0,
+            35,
+            48
+        ],
+        "orientation": [
+            35,
+            10,
+            25
+        ],
+        "location": "po2",
+        "load_order": 59,
+        "weight": 6.3
+    },
+    {
+        "id": 33,
+        "position": [
+            52,
+            26,
+            0
+        ],
+        "orientation": [
+            27,
+            15,
+            18
+        ],
+        "location": "po2",
+        "load_order": 60,
+        "weight": 8.89
+    },
+    {
+        "id": 39,
+        "position": [
+            52,
+            26,
+            18
+        ],
+        "orientation": [
+            27,
+            15,
+            18
+        ],
+        "location": "po2",
+        "load_order": 61,
+        "weight": 9.52
+    },
+    {
+        "id": 4,
+        "position": [
+            52,
+            26,
+            36
+        ],
+        "orientation": [
+            26,
+            15,
+            18
+        ],
+        "location": "po2",
+        "load_order": 62,
+        "weight": 7.62
+    },
+    {
+        "id": 10,
+        "position": [
+            34,
+            134,
+            105
+        ],
+        "orientation": [
+            22,
+            9,
+            19
+        ],
+        "location": "po2",
+        "load_order": 63,
+        "weight": 3.96
+    },
+    {
+        "id": 83,
+        "position": [
+            79,
+            1,
+            0
+        ],
+        "orientation": [
+            52,
+            40,
+            48
+        ],
+        "location": "po1",
+        "load_order": 64,
+        "weight": 6.61
+    },
+    {
+        "id": 86,
+        "position": [
+            78,
+            7,
+            48
+        ],
+        "orientation": [
+            52,
+            40,
+            48
+        ],
+        "location": "po1",
+        "load_order": 65,
+        "weight": 2.86
+    },
+    {
+        "id": 69,
+        "position": [
+            90,
+            172,
+            34
+        ],
+        "orientation": [
+            38,
+            48,
+            34
+        ],
+        "location": "po1",
+        "load_order": 66,
+        "weight": 1.81
+    },
+    {
+        "id": 70,
+        "position": [
+            93,
+            172,
+            68
+        ],
+        "orientation": [
+            38,
+            48,
+            34
+        ],
+        "location": "po1",
+        "load_order": 67,
+        "weight": 8.11
+    },
+    {
+        "id": 74,
+        "position": [
+            93,
+            124,
+            0
+        ],
+        "orientation": [
+            38,
+            48,
+            34
+        ],
+        "location": "po1",
+        "load_order": 68,
+        "weight": 6.07
+    },
+    {
+        "id": 53,
+        "position": [
+            93,
+            144,
+            34
+        ],
+        "orientation": [
+            41,
+            28,
+            31
+        ],
+        "location": "po1",
+        "load_order": 69,
+        "weight": 4.71
+    },
+    {
+        "id": 60,
+        "position": [
+            87,
+            144,
+            65
+        ],
+        "orientation": [
+            41,
+            28,
+            31
+        ],
+        "location": "po1",
+        "load_order": 70,
+        "weight": 5.29
+    },
+    {
+        "id": 65,
+        "position": [
+            86,
+            144,
+            96
+        ],
+        "orientation": [
+            41,
+            28,
+            31
+        ],
+        "location": "po1",
+        "load_order": 71,
+        "weight": 1.4
+    },
+    {
+        "id": 44,
+        "position": [
+            87,
+            199,
+            102
+        ],
+        "orientation": [
+            34,
+            21,
+            25
+        ],
+        "location": "po1",
+        "load_order": 72,
+        "weight": 4.54
+    },
+    {
+        "id": 48,
+        "position": [
+            87,
+            178,
+            102
+        ],
+        "orientation": [
+            34,
+            21,
+            25
+        ],
+        "location": "po1",
+        "load_order": 73,
+        "weight": 4.56
+    },
+    {
+        "id": 49,
+        "position": [
+            88,
+            123,
+            34
+        ],
+        "orientation": [
+            34,
+            21,
+            25
+        ],
+        "location": "po1",
+        "load_order": 74,
+        "weight": 7.92
+    },
+    {
+        "id": 51,
+        "position": [
+            92,
+            123,
+            59
+        ],
+        "orientation": [
+            34,
+            21,
+            25
+        ],
+        "location": "po1",
+        "load_order": 75,
+        "weight": 3.26
+    },
+    {
+        "id": 20,
+        "position": [
+            92,
+            119,
+            84
+        ],
+        "orientation": [
+            35,
+            25,
+            10
+        ],
+        "location": "po1",
+        "load_order": 76,
+        "weight": 8.49
+    },
+    {
+        "id": 21,
+        "position": [
+            92,
+            119,
+            94
+        ],
+        "orientation": [
+            35,
+            25,
+            10
+        ],
+        "location": "po1",
+        "load_order": 77,
+        "weight": 2.54
+    },
+    {
+        "id": 22,
+        "position": [
+            85,
+            119,
+            104
+        ],
+        "orientation": [
+            35,
+            25,
+            10
+        ],
+        "location": "po1",
+        "load_order": 78,
+        "weight": 5.99
+    },
+    {
+        "id": 32,
+        "position": [
+            50,
+            28,
+            54
+        ],
+        "orientation": [
+            27,
+            15,
+            18
+        ],
+        "location": "po1",
+        "load_order": 79,
+        "weight": 7.99
+    },
+    {
+        "id": 34,
+        "position": [
+            48,
+            30,
+            72
+        ],
+        "orientation": [
+            27,
+            15,
+            18
+        ],
+        "location": "po1",
+        "load_order": 80,
+        "weight": 6.59
+    },
+    {
+        "id": 36,
+        "position": [
+            43,
+            30,
+            90
+        ],
+        "orientation": [
+            27,
+            15,
+            18
+        ],
+        "location": "po1",
+        "load_order": 81,
+        "weight": 3.87
+    },
+    {
+        "id": 38,
+        "position": [
+            43,
+            33,
+            108
+        ],
+        "orientation": [
+            27,
+            15,
+            18
+        ],
+        "location": "po1",
+        "load_order": 82,
+        "weight": 7.28
+    },
+    {
+        "id": 8,
+        "position": [
+            48,
+            89,
+            108
+        ],
+        "orientation": [
+            22,
+            9,
+            19
+        ],
+        "location": "po1",
+        "load_order": 83,
+        "weight": 4.28
+    },
+    {
+        "id": 11,
+        "position": [
+            0,
+            36,
+            73
+        ],
+        "orientation": [
+            22,
+            9,
+            19
+        ],
+        "location": "po1",
+        "load_order": 84,
+        "weight": 3.38
+    },
+    {
+        "id": 12,
+        "position": [
+            76,
+            27,
+            96
+        ],
+        "orientation": [
+            19,
+            22,
+            9
+        ],
+        "location": "po1",
+        "load_order": 85,
+        "weight": 5.59
+    },
+    {
+        "id": 15,
+        "position": [
+            72,
+            40,
+            105
+        ],
+        "orientation": [
+            22,
+            9,
+            19
+        ],
+        "location": "po1",
+        "load_order": 86,
+        "weight": 2.92
+    },
+    {
+        "id": 2,
+        "position": [
+            67,
+            192,
+            99
+        ],
+        "orientation": [
+            18,
+            7,
+            16
+        ],
+        "location": "po1",
+        "load_order": 87,
+        "weight": 1.2
+    }
+]

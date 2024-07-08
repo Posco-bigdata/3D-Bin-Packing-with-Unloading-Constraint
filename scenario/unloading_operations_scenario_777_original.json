@@ -4,123 +4,73 @@
         "items": [
             {
                 "action": "Unload blocking item",
-                "item_id": 34,
-                "location": "po1",
-                "position": [
-                    52,
-                    45,
-                    40
-                ],
-                "unload_order": 1,
-                "unloading_time": 0.0040623000000000005
-            },
-            {
-                "action": "Unload blocking item",
-                "item_id": 11,
-                "location": "po1",
-                "position": [
-                    52,
-                    53,
-                    71
-                ],
-                "unload_order": 2,
-                "unloading_time": 0.0025111
-            },
-            {
-                "action": "Unload blocking item",
-                "item_id": 1,
-                "location": "po1",
-                "position": [
-                    48,
-                    56,
-                    81
-                ],
-                "unload_order": 3,
-                "unloading_time": 0.0023232
-            },
-            {
-                "action": "Unload",
-                "item_id": 39,
-                "location": "po1",
-                "position": [
-                    52,
-                    16,
-                    0
-                ],
-                "unload_order": 4,
-                "unloading_time": 0.0015005
-            },
-            {
-                "action": "Unload",
-                "item_id": 9,
-                "location": "po1",
-                "position": [
-                    48,
-                    74,
-                    84
-                ],
-                "unload_order": 5,
-                "unloading_time": 0.0017078000000000002
-            },
-            {
-                "action": "Unload blocking item",
-                "item_id": 22,
-                "location": "po1",
-                "position": [
-                    48,
-                    78,
-                    59
-                ],
-                "unload_order": 6,
-                "unloading_time": 0.004234900000000001
-            },
-            {
-                "action": "Unload",
-                "item_id": 21,
-                "location": "po1",
-                "position": [
-                    52,
-                    74,
-                    34
-                ],
-                "unload_order": 7,
-                "unloading_time": 0.0030369000000000004
-            },
-            {
-                "action": "Unload",
-                "item_id": 6,
-                "location": "po1",
-                "position": [
-                    45,
-                    99,
-                    84
-                ],
-                "unload_order": 8,
-                "unloading_time": 0.0033730999999999995
-            },
-            {
-                "action": "Unload",
-                "item_id": 19,
-                "location": "po1",
-                "position": [
-                    46,
-                    99,
-                    59
-                ],
-                "unload_order": 9,
-                "unloading_time": 0.002659
-            },
-            {
-                "action": "Unload",
-                "item_id": 5,
+                "item_id": 16,
                 "location": "po1",
                 "position": [
                     66,
-                    140,
-                    81
+                    90,
+                    28
                 ],
-                "unload_order": 10,
-                "unloading_time": 0.0030007999999999996
+                "unload_order": 1,
+                "unloading_time": 0.0037054
+            },
+            {
+                "action": "Unload blocking item",
+                "item_id": 3,
+                "location": "po1",
+                "position": [
+                    66,
+                    92,
+                    49
+                ],
+                "unload_order": 2,
+                "unloading_time": 0.0027605
+            },
+            {
+                "action": "Unload blocking item",
+                "item_id": 8,
+                "location": "po1",
+                "position": [
+                    66,
+                    89,
+                    69
+                ],
+                "unload_order": 3,
+                "unloading_time": 0.004022
+            },
+            {
+                "action": "Temporarily unload blocking item",
+                "item_id": 40,
+                "location": "po2",
+                "position": [
+                    41,
+                    22,
+                    48
+                ],
+                "unloading_cost": 1
+            },
+            {
+                "action": "Unload",
+                "item_id": 29,
+                "location": "po1",
+                "position": [
+                    66,
+                    83,
+                    0
+                ],
+                "unload_order": 4,
+                "unloading_time": 0.0029432
+            },
+            {
+                "action": "Reload temporarily unloaded item",
+                "item_id": 40,
+                "location": "po2",
+                "position": [
+                    41,
+                    22,
+                    48
+                ],
+                "unloading_cost": 1
             }
         ]
     },
@@ -129,63 +79,211 @@
         "items": [
             {
                 "action": "Unload",
-                "item_id": 8,
+                "item_id": 40,
                 "location": "po2",
                 "position": [
-                    0,
+                    41,
                     22,
-                    81
+                    48
                 ],
-                "unload_order": 11,
-                "unloading_time": 0.0026794999999999996
+                "unload_order": 5,
+                "unloading_time": 0.0027834
             },
             {
                 "action": "Unload",
-                "item_id": 20,
+                "item_id": 39,
                 "location": "po2",
                 "position": [
-                    46,
-                    95,
-                    34
+                    41,
+                    22,
+                    0
                 ],
-                "unload_order": 12,
-                "unloading_time": 0.0033453
-            },
-            {
-                "action": "Unload",
-                "item_id": 16,
-                "location": "po2",
-                "position": [
-                    66,
-                    123,
-                    56
-                ],
-                "unload_order": 13,
-                "unloading_time": 0.0048004
+                "unload_order": 6,
+                "unloading_time": 0.0036417000000000003
             },
             {
                 "action": "Unload blocking item",
-                "item_id": 15,
+                "item_id": 21,
                 "location": "po2",
                 "position": [
-                    66,
-                    144,
-                    56
+                    41,
+                    63,
+                    73
                 ],
-                "unload_order": 14,
-                "unloading_time": 0.0042673
+                "unload_order": 7,
+                "unloading_time": 0.0022138
             },
             {
                 "action": "Unload",
-                "item_id": 25,
+                "item_id": 18,
                 "location": "po2",
                 "position": [
-                    67,
+                    41,
+                    62,
+                    52
+                ],
+                "unload_order": 8,
+                "unloading_time": 0.0025609
+            },
+            {
+                "action": "Unload blocking item",
+                "item_id": 4,
+                "location": "po2",
+                "position": [
+                    66,
+                    130,
+                    84
+                ],
+                "unload_order": 9,
+                "unloading_time": 0.0032243000000000003
+            },
+            {
+                "action": "Unload",
+                "item_id": 36,
+                "location": "po2",
+                "position": [
+                    66,
+                    124,
+                    56
+                ],
+                "unload_order": 10,
+                "unloading_time": 0.0024760000000000003
+            },
+            {
+                "action": "Unload",
+                "item_id": 33,
+                "location": "po2",
+                "position": [
+                    66,
                     124,
                     28
                 ],
-                "unload_order": 15,
-                "unloading_time": 0.0044691
+                "unload_order": 11,
+                "unloading_time": 0.005330400000000001
+            },
+            {
+                "action": "Unload",
+                "item_id": 31,
+                "location": "po2",
+                "position": [
+                    66,
+                    124,
+                    0
+                ],
+                "unload_order": 12,
+                "unloading_time": 0.0034492999999999998
+            },
+            {
+                "action": "Temporarily unload blocking item",
+                "item_id": 23,
+                "location": "po5",
+                "position": [
+                    41,
+                    97,
+                    42
+                ],
+                "unloading_cost": 1
+            },
+            {
+                "action": "Temporarily unload blocking item",
+                "item_id": 11,
+                "location": "po5",
+                "position": [
+                    41,
+                    96,
+                    63
+                ],
+                "unloading_cost": 1
+            },
+            {
+                "action": "Temporarily unload blocking item",
+                "item_id": 17,
+                "location": "po4",
+                "position": [
+                    41,
+                    97,
+                    73
+                ],
+                "unloading_cost": 1
+            },
+            {
+                "action": "Temporarily unload blocking item",
+                "item_id": 5,
+                "location": "po3",
+                "position": [
+                    41,
+                    62,
+                    42
+                ],
+                "unloading_cost": 1
+            },
+            {
+                "action": "Unload blocking item",
+                "item_id": 1,
+                "location": "po2",
+                "position": [
+                    48,
+                    139,
+                    30
+                ],
+                "unload_order": 13,
+                "unloading_time": 0.004580999999999999
+            },
+            {
+                "action": "Unload",
+                "item_id": 13,
+                "location": "po2",
+                "position": [
+                    48,
+                    138,
+                    15
+                ],
+                "unload_order": 14,
+                "unloading_time": 0.0039954
+            },
+            {
+                "action": "Reload temporarily unloaded item",
+                "item_id": 23,
+                "location": "po5",
+                "position": [
+                    41,
+                    97,
+                    42
+                ],
+                "unloading_cost": 1
+            },
+            {
+                "action": "Reload temporarily unloaded item",
+                "item_id": 17,
+                "location": "po4",
+                "position": [
+                    41,
+                    97,
+                    73
+                ],
+                "unloading_cost": 1
+            },
+            {
+                "action": "Reload temporarily unloaded item",
+                "item_id": 11,
+                "location": "po5",
+                "position": [
+                    41,
+                    96,
+                    63
+                ],
+                "unloading_cost": 1
+            },
+            {
+                "action": "Reload temporarily unloaded item",
+                "item_id": 5,
+                "location": "po3",
+                "position": [
+                    41,
+                    62,
+                    42
+                ],
+                "unloading_cost": 1
             }
         ]
     },
@@ -194,173 +292,119 @@
         "items": [
             {
                 "action": "Unload blocking item",
-                "item_id": 14,
+                "item_id": 35,
                 "location": "po3",
                 "position": [
                     0,
-                    20,
+                    26,
                     31
                 ],
-                "unload_order": 16,
-                "unloading_time": 0.0031503
-            },
-            {
-                "action": "Unload blocking item",
-                "item_id": 17,
-                "location": "po3",
-                "position": [
-                    0,
-                    24,
-                    56
-                ],
-                "unload_order": 17,
-                "unloading_time": 0.0037873000000000004
+                "unload_order": 15,
+                "unloading_time": 0.0030957
             },
             {
                 "action": "Unload",
+                "item_id": 28,
+                "location": "po3",
+                "position": [
+                    0,
+                    19,
+                    0
+                ],
+                "unload_order": 16,
+                "unloading_time": 0.0023729
+            },
+            {
+                "action": "Unload blocking item",
+                "item_id": 25,
+                "location": "po3",
+                "position": [
+                    0,
+                    54,
+                    31
+                ],
+                "unload_order": 17,
+                "unloading_time": 0.0032912999999999996
+            },
+            {
+                "action": "Unload blocking item",
                 "item_id": 26,
                 "location": "po3",
                 "position": [
                     0,
-                    13,
-                    0
+                    50,
+                    62
                 ],
                 "unload_order": 18,
-                "unloading_time": 0.0025567999999999997
+                "unloading_time": 0.0014038000000000002
             },
             {
                 "action": "Unload",
-                "item_id": 10,
+                "item_id": 24,
                 "location": "po3",
-                "position": [
-                    0,
-                    56,
-                    86
-                ],
-                "unload_order": 19,
-                "unloading_time": 0.0027571
-            },
-            {
-                "action": "Unload",
-                "item_id": 38,
-                "location": "po3",
-                "position": [
-                    52,
-                    68,
-                    0
-                ],
-                "unload_order": 20,
-                "unloading_time": 0.0018674000000000002
-            },
-            {
-                "action": "Temporarily unload blocking item",
-                "item_id": 4,
-                "location": "po5",
-                "position": [
-                    41,
-                    130,
-                    42
-                ],
-                "unloading_cost": 1
-            },
-            {
-                "action": "Temporarily unload blocking item",
-                "item_id": 7,
-                "location": "po5",
-                "position": [
-                    41,
-                    130,
-                    52
-                ],
-                "unloading_cost": 1
-            },
-            {
-                "action": "Temporarily unload blocking item",
-                "item_id": 37,
-                "location": "po4",
                 "position": [
                     0,
                     47,
-                    48
+                    0
                 ],
-                "unloading_cost": 1
+                "unload_order": 19,
+                "unloading_time": 0.002123
             },
             {
                 "action": "Temporarily unload blocking item",
-                "item_id": 12,
-                "location": "po4",
+                "item_id": 11,
+                "location": "po5",
                 "position": [
                     41,
-                    130,
-                    82
+                    96,
+                    63
                 ],
                 "unloading_cost": 1
             },
             {
                 "action": "Unload",
-                "item_id": 2,
+                "item_id": 5,
                 "location": "po3",
                 "position": [
                     41,
-                    116,
-                    18
+                    62,
+                    42
                 ],
-                "unload_order": 21,
-                "unloading_time": 0.004989599999999999
+                "unload_order": 20,
+                "unloading_time": 0.0024038
             },
             {
                 "action": "Unload",
-                "item_id": 33,
+                "item_id": 15,
                 "location": "po3",
                 "position": [
-                    68,
-                    124,
+                    41,
+                    63,
+                    21
+                ],
+                "unload_order": 21,
+                "unloading_time": 0.0018294
+            },
+            {
+                "action": "Unload",
+                "item_id": 14,
+                "location": "po3",
+                "position": [
+                    41,
+                    63,
                     0
                 ],
                 "unload_order": 22,
-                "unloading_time": 0.0053072
+                "unloading_time": 0.0024159
             },
             {
                 "action": "Reload temporarily unloaded item",
-                "item_id": 4,
+                "item_id": 11,
                 "location": "po5",
                 "position": [
                     41,
-                    130,
-                    42
-                ],
-                "unloading_cost": 1
-            },
-            {
-                "action": "Reload temporarily unloaded item",
-                "item_id": 7,
-                "location": "po5",
-                "position": [
-                    41,
-                    130,
-                    52
-                ],
-                "unloading_cost": 1
-            },
-            {
-                "action": "Reload temporarily unloaded item",
-                "item_id": 12,
-                "location": "po4",
-                "position": [
-                    41,
-                    130,
-                    82
-                ],
-                "unloading_cost": 1
-            },
-            {
-                "action": "Reload temporarily unloaded item",
-                "item_id": 37,
-                "location": "po4",
-                "position": [
-                    0,
-                    47,
-                    48
+                    96,
+                    63
                 ],
                 "unloading_cost": 1
             }
@@ -371,119 +415,75 @@
         "items": [
             {
                 "action": "Unload blocking item",
-                "item_id": 37,
+                "item_id": 20,
                 "location": "po4",
                 "position": [
                     0,
-                    47,
-                    48
+                    82,
+                    31
                 ],
                 "unload_order": 23,
-                "unloading_time": 0.0037194999999999997
+                "unloading_time": 0.0036381
             },
             {
-                "action": "Unload",
-                "item_id": 40,
+                "action": "Unload blocking item",
+                "item_id": 9,
                 "location": "po4",
                 "position": [
                     0,
-                    41,
-                    0
+                    93,
+                    56
                 ],
                 "unload_order": 24,
-                "unloading_time": 0.0030522000000000006
+                "unloading_time": 0.0024034000000000004
             },
             {
-                "action": "Unload",
-                "item_id": 32,
+                "action": "Unload blocking item",
+                "item_id": 10,
                 "location": "po4",
                 "position": [
                     0,
-                    81,
-                    62
+                    83,
+                    56
                 ],
                 "unload_order": 25,
-                "unloading_time": 0.0032251
-            },
-            {
-                "action": "Temporarily unload blocking item",
-                "item_id": 4,
-                "location": "po5",
-                "position": [
-                    41,
-                    130,
-                    42
-                ],
-                "unloading_cost": 1
-            },
-            {
-                "action": "Temporarily unload blocking item",
-                "item_id": 7,
-                "location": "po5",
-                "position": [
-                    41,
-                    130,
-                    52
-                ],
-                "unloading_cost": 1
+                "unloading_time": 0.003085
             },
             {
                 "action": "Unload blocking item",
                 "item_id": 12,
                 "location": "po4",
                 "position": [
-                    41,
-                    130,
-                    82
+                    0,
+                    78,
+                    81
                 ],
                 "unload_order": 26,
-                "unloading_time": 0.0048387000000000005
+                "unloading_time": 0.0042686
             },
             {
                 "action": "Unload",
-                "item_id": 13,
+                "item_id": 27,
                 "location": "po4",
                 "position": [
-                    41,
-                    116,
+                    0,
+                    75,
                     0
                 ],
                 "unload_order": 27,
-                "unloading_time": 0.0029763
+                "unloading_time": 0.003467
             },
             {
                 "action": "Unload",
-                "item_id": 3,
+                "item_id": 17,
                 "location": "po4",
                 "position": [
                     41,
-                    133,
-                    62
+                    97,
+                    73
                 ],
                 "unload_order": 28,
-                "unloading_time": 0.0028248000000000006
-            },
-            {
-                "action": "Reload temporarily unloaded item",
-                "item_id": 4,
-                "location": "po5",
-                "position": [
-                    41,
-                    130,
-                    42
-                ],
-                "unloading_cost": 1
-            },
-            {
-                "action": "Reload temporarily unloaded item",
-                "item_id": 7,
-                "location": "po5",
-                "position": [
-                    41,
-                    130,
-                    52
-                ],
-                "unloading_cost": 1
+                "unloading_time": 0.0042682
             }
         ]
     },
@@ -492,87 +492,15 @@
         "items": [
             {
                 "action": "Unload",
-                "item_id": 36,
+                "item_id": 11,
                 "location": "po5",
                 "position": [
-                    0,
-                    81,
-                    31
+                    41,
+                    96,
+                    63
                 ],
                 "unload_order": 29,
-                "unloading_time": 0.0034685999999999996
-            },
-            {
-                "action": "Unload",
-                "item_id": 35,
-                "location": "po5",
-                "position": [
-                    0,
-                    81,
-                    0
-                ],
-                "unload_order": 30,
-                "unloading_time": 0.0035074999999999998
-            },
-            {
-                "action": "Unload",
-                "item_id": 31,
-                "location": "po5",
-                "position": [
-                    0,
-                    109,
-                    62
-                ],
-                "unload_order": 31,
-                "unloading_time": 0.0050179000000000005
-            },
-            {
-                "action": "Unload",
-                "item_id": 30,
-                "location": "po5",
-                "position": [
-                    0,
-                    109,
-                    31
-                ],
-                "unload_order": 32,
-                "unloading_time": 0.0031395
-            },
-            {
-                "action": "Unload",
-                "item_id": 29,
-                "location": "po5",
-                "position": [
-                    0,
-                    109,
-                    0
-                ],
-                "unload_order": 33,
-                "unloading_time": 0.0023633
-            },
-            {
-                "action": "Unload",
-                "item_id": 7,
-                "location": "po5",
-                "position": [
-                    41,
-                    130,
-                    52
-                ],
-                "unload_order": 34,
-                "unloading_time": 0.0033048
-            },
-            {
-                "action": "Unload",
-                "item_id": 4,
-                "location": "po5",
-                "position": [
-                    41,
-                    130,
-                    42
-                ],
-                "unload_order": 35,
-                "unloading_time": 0.004832899999999999
+                "unloading_time": 0.0038320999999999997
             },
             {
                 "action": "Unload",
@@ -580,59 +508,131 @@
                 "location": "po5",
                 "position": [
                     41,
-                    131,
-                    21
+                    97,
+                    42
                 ],
-                "unload_order": 36,
-                "unloading_time": 0.0031728
+                "unload_order": 30,
+                "unloading_time": 0.0024723
             },
             {
                 "action": "Unload",
-                "item_id": 18,
+                "item_id": 22,
                 "location": "po5",
                 "position": [
                     41,
+                    97,
+                    21
+                ],
+                "unload_order": 31,
+                "unloading_time": 0.0043425
+            },
+            {
+                "action": "Unload",
+                "item_id": 19,
+                "location": "po5",
+                "position": [
+                    41,
+                    97,
+                    0
+                ],
+                "unload_order": 32,
+                "unloading_time": 0.0048167999999999996
+            },
+            {
+                "action": "Unload",
+                "item_id": 34,
+                "location": "po5",
+                "position": [
+                    0,
+                    103,
+                    62
+                ],
+                "unload_order": 33,
+                "unloading_time": 0.0022911999999999997
+            },
+            {
+                "action": "Unload",
+                "item_id": 32,
+                "location": "po5",
+                "position": [
+                    0,
+                    103,
+                    31
+                ],
+                "unload_order": 34,
+                "unloading_time": 0.0039966
+            },
+            {
+                "action": "Unload",
+                "item_id": 30,
+                "location": "po5",
+                "position": [
+                    0,
+                    103,
+                    0
+                ],
+                "unload_order": 35,
+                "unloading_time": 0.0037946
+            },
+            {
+                "action": "Unload blocking item",
+                "item_id": 6,
+                "location": "po5",
+                "position": [
+                    0,
+                    140,
+                    76
+                ],
+                "unload_order": 36,
+                "unloading_time": 0.0046014
+            },
+            {
+                "action": "Unload blocking item",
+                "item_id": 7,
+                "location": "po5",
+                "position": [
+                    0,
+                    140,
+                    86
+                ],
+                "unload_order": 37,
+                "unloading_time": 0.0053173000000000005
+            },
+            {
+                "action": "Unload",
+                "item_id": 38,
+                "location": "po5",
+                "position": [
+                    0,
+                    131,
+                    38
+                ],
+                "unload_order": 38,
+                "unloading_time": 0.0038082000000000003
+            },
+            {
+                "action": "Unload",
+                "item_id": 37,
+                "location": "po5",
+                "position": [
+                    0,
                     131,
                     0
                 ],
-                "unload_order": 37,
-                "unloading_time": 0.0054555
-            },
-            {
-                "action": "Unload",
-                "item_id": 28,
-                "location": "po5",
-                "position": [
-                    0,
-                    137,
-                    62
-                ],
-                "unload_order": 38,
-                "unloading_time": 0.004322500000000001
-            },
-            {
-                "action": "Unload",
-                "item_id": 27,
-                "location": "po5",
-                "position": [
-                    0,
-                    137,
-                    31
-                ],
                 "unload_order": 39,
-                "unloading_time": 0.0032658
+                "unloading_time": 0.004597
             },
             {
                 "action": "Unload",
-                "item_id": 24,
+                "item_id": 2,
                 "location": "po5",
                 "position": [
-                    0,
-                    137,
+                    48,
+                    139,
                     0
                 ],
                 "unload_order": 40,
-                "unloading_time": 0.004063700000000001
+                "unloading_time": 0.0044066999999999995
             }
         ]
     }
