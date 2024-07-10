@@ -6,7 +6,7 @@ import numpy as np
 import random
 
 # Load packed items from the JSON file
-with open('packed_items.json', 'r') as f:
+with open('./scenario/packed_items_scenario_14_original', 'r') as f:
     packed_items = json.load(f)
 
 # Sort items by load order in descending order (reverse of loading order)

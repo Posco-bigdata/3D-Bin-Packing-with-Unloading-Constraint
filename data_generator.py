@@ -13,7 +13,7 @@ def main():
         scenario_data = json.load(f)
 
     # Step 3: Generate barcodes (commented out as per your code)
-    # generate_barcodes(scenario_number, scenario_data)
+    generate_barcodes(scenario_number, scenario_data)
 
     # Step 4: Ask user if they want to perform barcode reading
     while True:

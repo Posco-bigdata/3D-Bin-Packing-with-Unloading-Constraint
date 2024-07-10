@@ -1,5 +1,5 @@
+import json
 from main_data import create_scenario
-import json 
 
 class Item:
     def __init__(self, id, width, length, height, weight, location):
@@ -18,181 +18,104 @@ class Item:
             (self.length, self.width, self.height)
         ]
 
-
-class PackingAlgorithm:
+class Container:
     def __init__(self, width, length, height):
         self.width = int(width)
         self.length = int(length)
         self.height = int(height)
         self.large_section_width = int(self.width * 0.7)
-        self.small_section_width = self.width - self.large_section_width
-        self.best_packed_items = []
-        self.best_unplaced_items = []
-        self.left_items = []
-        self.best_utilization = 0
+        self.packed_items = []
+        self.space = [[[False for _ in range(self.height)] for _ in range(self.length)] for _ in range(self.width)]
 
-    def pack_items_with_permutations(self, items, num_iterations=1):
-        for i in range(num_iterations):
-            # Sort items by PO number (descending) and then by volume (descending)
-            items_sorted = sorted(items, key=lambda item: (-int(item.location[2:]), -item.volume))
-            
-            packed_items, unpacked_items = self.pack_items_by_po(items_sorted)
-            utilization = self.calculate_capacity_utilization(packed_items)
+    def pack_items(self, items):
+        large_section_items = []
+        small_section_items = []
+        for item in items:
+            if item.width <= self.large_section_width:
+                large_section_items.append(item)
+            else:
+                small_section_items.append(item)
 
-            print(f"Iteration {i+1}/{num_iterations}, Utilization: {utilization:.2%}")
+        self.pack_large_section(large_section_items)
+        self.pack_small_section(small_section_items)
 
-            if utilization > self.best_utilization:
-                self.best_packed_items = packed_items
-                self.best_unplaced_items = unpacked_items  # Store the best unplaced items
-                self.best_utilization = utilization
-
-    def pack_items_by_po(self, sorted_items):
-        packed_items = []
-        unplaced_items = []
-        load_order = 0
-        current_po = None
-
-        for item in sorted_items:
-            if item.location != current_po:
-                current_po = item.location
-                print(f"Packing items for {current_po}")
-            
-            placed = False
-            best_position = None
-            best_orientation = None
-
-            for orientation in item.possible_orientations():
-                position = self.find_position(orientation, packed_items)
-                if position:
-                    if not best_position or self.is_better_position(position, best_position):
-                        best_position = position
-                        best_orientation = orientation
-
-            if best_position:
-                load_order += 1
-                packed_items.append({
-                    "id": item.id,
-                    "position": best_position,
-                    "orientation": best_orientation,
-                    "location": item.location,
-                    "load_order": load_order,
-                    "weight": item.weight
-                })
-                placed = True
-            
+    def pack_large_section(self, items):
+        items.sort(key=lambda x: int(x.location[2:]))  # Sort by PO number
+        for item in items:
+            placed = self.place_item(item, 0, self.large_section_width)
             if not placed:
-                print(f"Unable to place item {item.id} from {item.location}")
-                unplaced_items.append(item)
+                print(f"Cannot place item {item.id} in large section")
 
-        return packed_items, unplaced_items
+    def pack_small_section(self, items):
+        for item in items:
+            placed = self.place_item(item, self.large_section_width, self.width)
+            if not placed:
+                print(f"Cannot place item {item.id} in small section")
 
-    def find_position(self, orientation, packed_items):
-        item_width, item_length, item_height = orientation
-        
-        # Try placing in the larger section first
-        position = self.find_position_in_section(orientation, packed_items, 0, self.large_section_width)
-        if position:
-            return position
-        
-        # If it doesn't fit in the larger section, try the smaller section
-        return self.find_position_in_section(orientation, packed_items, self.large_section_width, self.width)
-
-    def find_position_in_section(self, orientation, packed_items, start_x, end_x):
-        item_width, item_length, item_height = orientation
-        for y in range(self.length - item_length, item_length - 1, -1):  # Start from back
-            for x in range(start_x, end_x - item_width + 1):  # Start from left of the section
-                for z in range(self.height):  # Start from bottom
-                    if self.can_place_item(x, y, z, orientation, packed_items):
-                        return (x, y, z)
-        return None
-
-    def is_better_position(self, new_pos, current_best):
-        if not current_best:
-            return True
-        # Prioritize: 1. Back (higher y), 2. Left (lower x), 3. Bottom (lower z)
-        if new_pos[1] > current_best[1]:
-            return True
-        elif new_pos[1] == current_best[1]:
-            if new_pos[0] < current_best[0]:
-                return True
-            elif new_pos[0] == current_best[0]:
-                return new_pos[2] < current_best[2]
+    def place_item(self, item, start_x, end_x):
+        for orientation in item.possible_orientations():
+            for x in range(start_x, end_x - orientation[0] + 1):
+                for y in range(self.length - orientation[1] + 1):
+                    for z in range(self.height):
+                        if self.can_place_item(x, y, z, orientation):
+                            self.packed_items.append({
+                                "id": item.id,
+                                "position": (x, y, z),
+                                "orientation": orientation,
+                                "location": item.location,
+                                "weight": item.weight,
+                                "load_order": len(self.packed_items) + 1
+                            })
+                            self.update_space(x, y, z, orientation)
+                            return True
         return False
 
-    def can_place_item(self, x, y, z, orientation, packed_items):
-        item_width, item_length, item_height = orientation
-
-        # Check if the item fits within the container dimensions
-        if (x + item_width > self.width or
-            y + item_length > self.length or
-            z + item_height > self.height):
+    def can_place_item(self, x, y, z, orientation):
+        if x + orientation[0] > self.width or y + orientation[1] > self.length or z + orientation[2] > self.height:
             return False
         
-        # Check for overlap with other packed items
-        for packed_item in packed_items:
-            px, py, pz = packed_item['position']
-            po = packed_item['orientation']
-            if not (x + item_width <= px or x >= px + po[0] or
-                    y + item_length <= py or y >= py + po[1] or
-                    z + item_height <= pz or z >= pz + po[2]):
-                return False
-
-        # Ensure the item's bottom is fully supported
+        # Check if the space is empty
+        for i in range(x, x + orientation[0]):
+            for j in range(y, y + orientation[1]):
+                for k in range(z, z + orientation[2]):
+                    if self.space[i][j][k]:
+                        return False
+        
+        # Check if the item is supported
         if z == 0:
-            return True
+            return True  # Item is on the floor
         else:
             supported_area = 0
-            item_base_area = item_width * item_length
-            for packed_item in packed_items:
-                px, py, pz = packed_item['position']
-                po = packed_item['orientation']
-                if z == pz + po[2]:  # If the item is right above this packed item
-                    overlap_x = max(0, min(x + item_width, px + po[0]) - max(x, px))
-                    overlap_y = max(0, min(y + item_length, py + po[1]) - max(y, py))
-                    supported_area += overlap_x * overlap_y
-            return supported_area == item_base_area
+            total_area = orientation[0] * orientation[1]
+            for i in range(x, x + orientation[0]):
+                for j in range(y, y + orientation[1]):
+                    if self.space[i][j][z-1]:
+                        supported_area += 1
+            
+            return supported_area / total_area >= 0.8  # At least 80% support
 
-    def calculate_capacity_utilization(self, packed_items):
-        total_volume = sum(item['orientation'][0] * item['orientation'][1] * item['orientation'][2] for item in packed_items)
-        container_volume = self.width * self.length * self.height
-        return total_volume / container_volume
-
-
+    def update_space(self, x, y, z, orientation):
+        for i in range(x, x + orientation[0]):
+            for j in range(y, y + orientation[1]):
+                for k in range(z, z + orientation[2]):
+                    self.space[i][j][k] = True
 def main():
     scenario_number = int(input("Enter the scenario number: "))
     container_size, items = create_scenario(scenario_number)
     
-    container = PackingAlgorithm(container_size[0], container_size[1], container_size[2])
+    container = Container(container_size[0], container_size[1], container_size[2])
     item_objects = [Item(int(key), value['width'], value['length'], value['height'], value['weight'], value['location'])
                     for key, value in items.items()]
-    container.pack_items_with_permutations(item_objects)
+    
+    container.pack_items(item_objects)
 
-    print("Best Packed Items:")
-    for packed_item in container.best_packed_items:
-        print(f"Item ID: {packed_item['id']}, Position: {packed_item['position']}, "
-              f"Orientation: {packed_item['orientation']}, Location: {packed_item['location']}, "
-              f"Load Order: {packed_item['load_order']}, Weight: {packed_item['weight']}")
- 
     # Save packed items to a JSON file
-    with open(f'./scenario/subvolume_packed_items_scenario_{scenario_number}.json', 'w') as f:
-        json.dump(container.best_packed_items, f, indent=4)
+    output_file = f'./scenario/subvolume_packed_items_scenario_{scenario_number}.json'
+    with open(output_file, 'w') as f:
+        json.dump(container.packed_items, f, indent=4)
 
-    unplaced_items_data = [
-        {
-            "id": item.id,
-            "width": item.width,
-            "length": item.length,
-            "height": item.height,
-            "weight": item.weight,
-            "location": item.location
-        }
-        for item in container.best_unplaced_items
-    ]
-    with open(f'./scenario/subvolume_unplaced_items_scenario_{scenario_number}.json', 'w') as f:
-        json.dump(unplaced_items_data, f, indent=4)
-
-    # Print the best capacity utilization
-    print(f"Best Capacity Utilization: {container.best_utilization:.2%}")
+    print(f"Packed {len(container.packed_items)} items.")
+    print(f"Packed items have been saved to {output_file}")
 
 if __name__ == "__main__":
     main()

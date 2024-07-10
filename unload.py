@@ -40,7 +40,7 @@ def calculate_unloading_time(item, human_height=180):
     moving_distance = y/100
     
     # Apply the formula
-    T = 0.00033 * weight + 0.0015 * moving_distance + 0.0002 * lifting_height
+    T = 0.000001 + 0.0015 * moving_distance + 0.0002 * lifting_height
     return T  # Time in minutes
 
 def unload_items(packed_items, container_size):
@@ -145,8 +145,10 @@ def process_unloading(scenario_number, method):
         scenario_file = f'./scenario/rearranged_items_scenario_{scenario_number}_original.json'
     elif method == "subvolume":
         scenario_file = f'./scenario/rearranged_items_scenario_{scenario_number}_subvolume.json'
+    elif method == "bl_ffhdc":
+        scenario_file = f'./scenario/rearranged_items_scenario_{scenario_number}_bl_ffhdc.json'
     else:
-        print(f"Error: 잘못된 방법입니다. 'original' 또는 'subvolume'을 선택하세요.")
+        print(f"Error: 잘못된 방법입니다. 'original', 'subvolume' 또는 'bl_ffhdc'를 선택하세요.")
         return None
     
     if not os.path.exists(scenario_file):
@@ -173,25 +175,17 @@ def process_unloading(scenario_number, method):
 def main():
     scenario_number = input("시나리오 번호를 입력하세요: ")
     
-    # Original heuristic 언로딩
-    original_result = process_unloading(scenario_number, "original")
-    if original_result:
-        print("Original Heuristic 결과:")
-        print(f"총 적재 횟수: {original_result['total_operations']}")
-        print(f"하차 비용: {original_result['unloading_cost']}")
-        print(f"재적재 횟수: {original_result['reloading_count']}")
-    else:
-        print("Original heuristic 언로딩 프로세스를 완료할 수 없습니다.")
+    methods = ["original", "subvolume", "bl_ffhdc"]
     
-    # Subvolume 언로딩
-    subvolume_result = process_unloading(scenario_number, "subvolume")
-    if subvolume_result:
-        print("\nSubvolume 결과:")
-        print(f"총 적재 횟수: {subvolume_result['total_operations']}")
-        print(f"하차 비용: {subvolume_result['unloading_cost']}")
-        print(f"재적재 횟수: {subvolume_result['reloading_count']}")
-    else:
-        print("Subvolume 언로딩 프로세스를 완료할 수 없습니다.")
+    for method in methods:
+        result = process_unloading(scenario_number, method)
+        if result:
+            print(f"\n{method.capitalize()} 결과:")
+            print(f"총 적재 횟수: {result['total_operations']}")
+            print(f"하차 비용: {result['unloading_cost']}")
+            print(f"재적재 횟수: {result['reloading_count']}")
+        else:
+            print(f"{method.capitalize()} 언로딩 프로세스를 완료할 수 없습니다.")
 
 if __name__ == "__main__":
     main()

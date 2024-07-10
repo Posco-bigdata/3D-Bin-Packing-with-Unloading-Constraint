@@ -84,8 +84,10 @@ def process_rearrangement(scenario_number, method):
         input_file = f'./scenario/packed_items_scenario_{scenario_number}_original.json'
     elif method == "subvolume":
         input_file = f'./scenario/subvolume_packed_items_scenario_{scenario_number}.json'
+    elif method == "bl_ffhdc":
+        input_file = f'./scenario/packed_items_scenario_{scenario_number}_blfh.json'
     else:
-        raise ValueError("Invalid method. Choose 'original' or 'subvolume'.")
+        raise ValueError("Invalid method. Choose 'original', 'subvolume', or 'bl_ffhdc'.")
 
     with open(input_file, 'r') as f:
         packed_items = json.load(f)
@@ -111,6 +113,10 @@ def main():
     # Process rearrangement for subvolume method
     subvolume_rearranged_items = process_rearrangement(scenario_number, "subvolume")
     print(f"Number of rearranged items (subvolume method): {len(subvolume_rearranged_items)}")
+
+    # Process rearrangement for bl_ffhdc method
+    bl_ffhdc_rearranged_items = process_rearrangement(scenario_number, "bl_ffhdc")
+    print(f"Number of rearranged items (bl_ffhdc method): {len(bl_ffhdc_rearranged_items)}")
 
 if __name__ == "__main__":
     main()

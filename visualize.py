@@ -13,8 +13,10 @@ def create_packing_animation(scenario_number, packing_method, save_gif=False):
         file_path = f"./scenario/rearranged_items_scenario_{scenario_number}_original.json"
     elif packing_method == 'subvolume':
         file_path = f"./scenario/rearranged_items_scenario_{scenario_number}_subvolume.json"
+    elif packing_method == 'bl_ffhdc':
+        file_path = f"./scenario/rearranged_items_scenario_{scenario_number}_bl_ffhdc.json"
     else:
-        raise ValueError("Invalid packing method. Choose 'heuristic' or 'subvolume'.")
+        raise ValueError("Invalid packing method. Choose 'heuristic', 'subvolume', or 'bl_ffhdc'.")
 
     with open(file_path, 'r') as f:
         packed_items = json.load(f)
@@ -31,7 +33,6 @@ def create_packing_animation(scenario_number, packing_method, save_gif=False):
         'po5': (0.9, 0.7, 0.9)   # light purple
     }
 
-    # Function to draw a cuboid
     def draw_cuboid(ax, position, size, color='blue', alpha=0.3):
         x, y, z = position
         dx, dy, dz = size
@@ -120,6 +121,7 @@ scenario_number = int(input("Enter the scenario number: "))
 save_option = input("Do you want to save the animations as GIFs? (yes/no): ").lower().strip()
 save_gif = save_option in ['yes', 'y', 'true', '1']
 
-# Create animations for both packing methods
+# Create animations for all three packing methods
 create_packing_animation(scenario_number, 'heuristic', save_gif)
 create_packing_animation(scenario_number, 'subvolume', save_gif)
+create_packing_animation(scenario_number, 'bl_ffhdc', save_gif)

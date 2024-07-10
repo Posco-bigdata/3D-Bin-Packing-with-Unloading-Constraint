@@ -34,11 +34,14 @@ class PackingAlgorithm:
         # Sort items by height (decreasing)
         sorted_items = sorted(items, key=lambda item: -max(item.width, item.length, item.height))
         
+        total_items = len(sorted_items)
         load_order = 0
-        for item in sorted_items:
+        for index, item in enumerate(sorted_items, 1):
             placed = False
             best_position = None
             best_orientation = None
+            
+            print(f"Attempting to pack item {item.id} ({index}/{total_items}) from location {item.location}")
             
             for orientation in item.possible_orientations():
                 position = self.find_bottom_left_position(orientation)
@@ -58,13 +61,22 @@ class PackingAlgorithm:
                     "weight": item.weight
                 })
                 placed = True
+                print(f"Successfully packed item {item.id} at position {best_position}")
             
             if not placed:
                 print(f"Unable to place item {item.id} from {item.location}")
                 self.unplaced_items.append(item)
 
+            current_utilization = self.calculate_current_utilization()
+            print(f"Current utilization: {current_utilization:.2%}")
+            print("--------------------")
+
         self.utilization = self.calculate_capacity_utilization()
 
+    def calculate_current_utilization(self):
+        total_volume = sum(item['orientation'][0] * item['orientation'][1] * item['orientation'][2] for item in self.packed_items)
+        container_volume = self.width * self.length * self.height
+        return total_volume / container_volume
     def find_bottom_left_position(self, orientation):
         item_width, item_length, item_height = orientation
         for z in range(self.height):
@@ -123,17 +135,20 @@ def main():
     scenario_number = int(input("Enter the scenario number: "))
     container_size, items = create_scenario(scenario_number)
     
+    print(f"Container size: {container_size}")
+    print(f"Total items to pack: {len(items)}")
+    print("--------------------")
+    
     container = PackingAlgorithm(container_size[0], container_size[1], container_size[2])
     item_objects = [Item(int(key), value['width'], value['length'], value['height'], value['weight'], value['location'])
                     for key, value in items.items()]
     container.pack_items(item_objects)
 
-    print("Packed Items:")
-    for packed_item in container.packed_items:
-        print(f"Item ID: {packed_item['id']}, Position: {packed_item['position']}, "
-              f"Orientation: {packed_item['orientation']}, Location: {packed_item['location']}, "
-              f"Load Order: {packed_item['load_order']}, Weight: {packed_item['weight']}")
- 
+    print("\nPacking completed")
+    print(f"Total packed items: {len(container.packed_items)}")
+    print(f"Total unplaced items: {len(container.unplaced_items)}")
+    print(f"Final Capacity Utilization: {container.utilization:.2%}")
+
     # Save packed items to a JSON file
     with open(f'./scenario/packed_items_scenario_{scenario_number}_blfh.json', 'w') as f:
         json.dump(container.packed_items, f, indent=4)
@@ -152,8 +167,7 @@ def main():
     with open(f'./scenario/unplaced_items_scenario_{scenario_number}_blfh.json', 'w') as f:
         json.dump(unplaced_items_data, f, indent=4)
 
-    # Print the capacity utilization
-    print(f"Capacity Utilization: {container.utilization:.2%}")
+    print(f"Results saved to packed_items_scenario_{scenario_number}_blfh.json and unplaced_items_scenario_{scenario_number}_blfh.json")
 
 if __name__ == "__main__":
     main()

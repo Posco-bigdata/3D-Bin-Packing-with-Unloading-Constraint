@@ -7,6 +7,7 @@ from unload import process_unloading
 import generate_barcodes as gb
 from heuristics import PackingAlgorithm as OriginalPackingAlgorithm, Item as OriginalItem
 from subvolume import PackingAlgorithm as SubvolumePackingAlgorithm, Item as SubvolumeItem
+from bl_ffhdc import PackingAlgorithm as BLFFHDCPackingAlgorithm, Item as BLFFHDCItem
 
 def add_mapping_id_to_rearranged_items(scenario_number, packing_method):
     # Load the original data with mapping_id
@@ -107,6 +108,47 @@ def main():
         print(f"Unloading cost: {subvolume_unloading_result['unloading_cost']}")
         print(f"Reloading count: {subvolume_unloading_result['reloading_count']}")
 
+    # 5. BL-FFHDC 기법을 사용한 아이템 패킹
+    bl_ffhdc_container = BLFFHDCPackingAlgorithm(container_size[0], container_size[1], container_size[2])
+    bl_ffhdc_item_objects = [BLFFHDCItem(int(key), value['width'], value['length'], value['height'], value['weight'], value['location'])
+                    for key, value in items.items()]
+    bl_ffhdc_container.pack_items(bl_ffhdc_item_objects)
+
+    # BL-FFHDC 결과 저장
+    with open(f'./scenario/bl_ffhdc_packed_items_scenario_{scenario_number}.json', 'w') as f:
+        json.dump(bl_ffhdc_container.packed_items, f, indent=4)
+
+    bl_ffhdc_unplaced_items_data = [
+        {
+            "id": item.id,
+            "width": item.width,
+            "length": item.length,
+            "height": item.height,
+            "weight": item.weight,
+            "location": item.location
+        }
+        for item in bl_ffhdc_container.unplaced_items
+    ]
+    with open(f'./scenario/bl_ffhdc_unplaced_items_scenario_{scenario_number}.json', 'w') as f:
+        json.dump(bl_ffhdc_unplaced_items_data, f, indent=4)
+
+    print(f"BL-FFHDC Heuristic - Capacity Utilization: {bl_ffhdc_container.utilization:.2%}")
+
+    # BL-FFHDC 적재 순서 재배열
+    bl_ffhdc_rearranged_items = rearrange_order(bl_ffhdc_container.packed_items, container_size[0], container_size[1], container_size[2])
+    bl_ffhdc_rearranged_items_file = f'./scenario/rearranged_items_scenario_{scenario_number}_bl_ffhdc.json'
+    with open(bl_ffhdc_rearranged_items_file, 'w') as f:
+        json.dump(bl_ffhdc_rearranged_items, f, indent=4)
+
+    add_mapping_id_to_rearranged_items(scenario_number, "bl_ffhdc")
+
+    # BL-FFHDC 언로딩 시뮬레이션
+    bl_ffhdc_unloading_result = process_unloading(scenario_number, "bl_ffhdc")
+    if bl_ffhdc_unloading_result:
+        print("BL-FFHDC Heuristic Unloading Results:")
+        print(f"Total operations: {bl_ffhdc_unloading_result['total_operations']}")
+        print(f"Unloading cost: {bl_ffhdc_unloading_result['unloading_cost']}")
+        print(f"Reloading count: {bl_ffhdc_unloading_result['reloading_count']}")
 
     print("모든 프로세스가 완료되었습니다.")
 
